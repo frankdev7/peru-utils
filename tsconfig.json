@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/esm",
+    "types": ["node", "@types/jest"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

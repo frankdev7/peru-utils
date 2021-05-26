@@ -9,7 +9,6 @@
   ],
   "types": "lib/esm/index.d.ts",
   "scripts": {
-    "postinstall": "git config core.hooksPath .git-hooks",
     "prepublish": "npm run build",
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",

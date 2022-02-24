@@ -1,18 +1,18 @@
 {
   "name": "peruuse",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Library Peru utils",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
   "files": [
     "lib/"
   ],
-  "types": "lib/esm/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "build": "tsup",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
-    "test": "jest"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -30,18 +30,33 @@
   },
   "homepage": "https://github.com/diaz268/peruuse#readme",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@types/jest": "^26.0.23",
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
-    "eslint": "^7.27.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "jest": "^27.0.1",
-    "prettier": "^2.3.0",
-    "ts-jest": "^27.0.1",
-    "typescript": "^4.3.2"
+    "prettier": "^2.5.1",
+    "tsup": "^5.11.13",
+    "typescript": "^4.5.5",
+    "vitest": "^0.5.4"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "splitting": false,
+    "sourcemap": false,
+    "minify": true,
+    "clean": true,
+    "dts": true,
+    "outDir": "lib"
   }
 }

@@ -23,8 +23,6 @@ const { ubigeo } = require('peruuse');
 
 ### API
 
-It's easy to use Day.js APIs to parse, validate, manipulate, and display dates and times.
-
 ```js
 /**----------------------
  * Array of departments
@@ -33,16 +31,16 @@ It's easy to use Day.js APIs to parse, validate, manipulate, and display dates a
 ubigeo.getDepartments();
 
 /**----------------------
- * Array of provinces of a department
- *@param code string // code department
+ * Array of provinces by code.department
+ *@param code string
  *@return [{ code: '0101', name: 'Chachapoyas' } ...]
  *------------------------**/
 
 ubigeo.getProvince(code);
 
 /**----------------------
- * Array of districts of a province
- *@param code string // code province
+ * Array of districts by code.province
+ *@param code string
  *@return [{ code: '010101', name: 'Chachapoyas' } ...]
  *------------------------**/
 ubigeo.getDistrict(code);
@@ -50,5 +48,5 @@ ubigeo.getDistrict(code);
 
 ### ROADMAP
 
-- [ ] List departments and include their provinces and districtslocation
+- [ ] List departments and include provinces
 - [ ] List provinces and include their districts

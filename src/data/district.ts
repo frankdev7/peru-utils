@@ -1,4 +1,4 @@
-import { IUbigeo } from '../types';
+import type { IUbigeo } from '../@types';
 
 const district: Map<string, IUbigeo> = new Map();
 

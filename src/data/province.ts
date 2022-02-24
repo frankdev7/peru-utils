@@ -1,4 +1,4 @@
-import { IUbigeo } from '../types';
+import type { IUbigeo } from '../@types';
 
 const province: Map<string, IUbigeo> = new Map();
 // 01 - Amazonas

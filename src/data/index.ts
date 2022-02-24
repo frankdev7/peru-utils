@@ -1,5 +1,3 @@
-import { departments } from './departments';
-import { district } from './district';
-import { province } from './province';
-
-export { departments, district, province };
+export * from './departments';
+export * from './district';
+export * from './province';

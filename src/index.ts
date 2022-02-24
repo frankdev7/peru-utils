@@ -1,5 +1,5 @@
+import type { IUbigeo } from './@types';
 import { departments, district, province } from './data';
-import { IUbigeo } from './types';
 import { findByCode } from './utils';
 
 class Ubigeo {

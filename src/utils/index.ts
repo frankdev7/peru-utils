@@ -1,4 +1,4 @@
-import { IUbigeo } from '../types';
+import { IUbigeo } from '../@types';
 
 const findByCode = (
   code: string,

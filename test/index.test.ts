@@ -1,4 +1,6 @@
-import { ubigeo } from '../src';
+import { describe, expect, test } from 'vitest';
+
+import { ubigeo } from '../lib';
 
 describe('test add function', () => {
   test('should return 25 for ubigeo.getDepartments().length', () => {

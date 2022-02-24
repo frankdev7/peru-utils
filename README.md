@@ -11,6 +11,7 @@ npm install peruuse --save
 ### Use in **ESM-compatible**
 
 ```js
+import { ubigeo } from 'https://unpkg.com/peruuse@1.0.0/lib/index.mjs';
 import { ubigeo } from 'peruuse';
 ```
 

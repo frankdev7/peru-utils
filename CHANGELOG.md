@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ediaz2/peruuse/compare/v1.1.0...v1.2.0) (2022-07-24)
+
+
+### Features
+
+* support browser ([b438e8c](https://github.com/ediaz2/peruuse/commit/b438e8c3433665ccd9eb54fc25ba90f122ee611e))
+
 ## [1.1.0](https://github.com/ediaz2/peruuse/compare/v1.0.0...v1.1.0) (2022-02-24)
 
 ## [1.0.0](https://github.com/diaz268/peruuse/compare/v0.1.2...v1.0.0) (2022-02-24)

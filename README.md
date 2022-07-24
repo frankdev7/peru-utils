@@ -8,10 +8,21 @@
 npm install peruuse --save
 ```
 
+### Use in **Browser**
+
+```html
+<script src="https://unpkg.com/peruuse@1.2.0/dist/browser/index.min.js"></script>
+<script>
+  console.log(ubigeo.getDepartments());
+  console.log(ubigeo.getProvince('01'));
+  console.log(ubigeo.getDistrict('0101'));
+</script>
+```
+
 ### Use in **ESM-compatible**
 
 ```js
-import { ubigeo } from 'https://unpkg.com/peruuse@1.0.0/lib/index.mjs';
+import { ubigeo } from 'https://unpkg.com/peruuse@1.2.0/dist/index.mjs';
 import { ubigeo } from 'peruuse';
 ```
 

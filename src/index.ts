@@ -1,21 +1,16 @@
-import type { IUbigeo } from './@types';
 import { departments, district, province } from './data';
 import { findByCode } from './utils';
 
-class Ubigeo {
-  getDepartments(): Array<IUbigeo> {
+export const ubigeo = {
+  getDepartments() {
     return [...departments.values()];
-  }
+  },
 
-  getProvince(code: string): Array<IUbigeo | undefined> | undefined {
+  getProvince(code: string) {
     return findByCode(code, province);
-  }
+  },
 
-  getDistrict(code: string): Array<IUbigeo | undefined> | undefined {
+  getDistrict(code: string) {
     return findByCode(code, district);
-  }
-}
-
-const ubigeo = new Ubigeo();
-
-export { ubigeo };
+  },
+};

@@ -10,7 +10,9 @@ test/
 .npmignore
 .prettierrc
 commitlint.config.js
-jest.config.js
 pnpm-lock.yaml
-tsconfig-cjs.json
 tsconfig.json
+README.md
+LICENSE
+index.html
+CHANGELOG.md

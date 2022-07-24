@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import { ubigeo } from '../lib';
+import { ubigeo } from '../dist';
 
 describe('test add function', () => {
   test('should return 25 for ubigeo.getDepartments().length', () => {

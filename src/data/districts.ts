@@ -767,8 +767,1321 @@ districts.set('061308', { code: '061308', name: 'Saucepampa' });
 districts.set('061309', { code: '061309', name: 'Sexi' });
 districts.set('061310', { code: '061310', name: 'Uticyacu' });
 districts.set('061311', { code: '061311', name: 'Yauyucan' });
-// 07 - Callao
-// 0701 - Prov. Const. del Callao
+// 07 - Cusco
+// 0701 - Cusco
+districts.set('070101', { code: '070101', name: 'Cusco' });
+districts.set('070102', { code: '070102', name: 'Ccorca' });
+districts.set('070103', { code: '070103', name: 'Poroy' });
+districts.set('070104', { code: '070104', name: 'San Jeronimo' });
+districts.set('070105', { code: '070105', name: 'San Sebastian' });
+districts.set('070106', { code: '070106', name: 'Santiago' });
+districts.set('070107', { code: '070107', name: 'Saylla' });
+districts.set('070108', { code: '070108', name: 'Wanchaq' });
+// 0702 - Acomayo
+districts.set('070201', { code: '070201', name: 'Acomayo' });
+districts.set('070202', { code: '070202', name: 'Acopia' });
+districts.set('070203', { code: '070203', name: 'Acos' });
+districts.set('070204', { code: '070204', name: 'Mosoc Llacta' });
+districts.set('070205', { code: '070205', name: 'Pomacanchi' });
+districts.set('070206', { code: '070206', name: 'Rondocan' });
+districts.set('070207', { code: '070207', name: 'Sangarara' });
+// 0703 - Anta
+districts.set('070301', { code: '070301', name: 'Anta' });
+districts.set('070302', { code: '070302', name: 'Ancahuasi' });
+districts.set('070303', { code: '070303', name: 'Cachimayo' });
+districts.set('070304', { code: '070304', name: 'Chinchaypujio' });
+districts.set('070305', { code: '070305', name: 'Huarocondo' });
+districts.set('070306', { code: '070306', name: 'Limatambo' });
+districts.set('070307', { code: '070307', name: 'Mollepata' });
+districts.set('070308', { code: '070308', name: 'Pucyura' });
+districts.set('070309', { code: '070309', name: 'Zurite' });
+// 0704 - Calca
+districts.set('070401', { code: '070401', name: 'Calca' });
+districts.set('070402', { code: '070402', name: 'Coya' });
+districts.set('070403', { code: '070403', name: 'Lamay' });
+districts.set('070404', { code: '070404', name: 'Lares' });
+districts.set('070405', { code: '070405', name: 'Pisac' });
+districts.set('070406', { code: '070406', name: 'San Salvador' });
+districts.set('070407', { code: '070407', name: 'Taray' });
+districts.set('070408', { code: '070408', name: 'Yanatile' });
+// 0705 - Canas
+districts.set('070501', { code: '070501', name: 'Yanaoca' });
+districts.set('070502', { code: '070502', name: 'Checca' });
+districts.set('070503', { code: '070503', name: 'Kunturkanki' });
+districts.set('070504', { code: '070504', name: 'Langui' });
+districts.set('070505', { code: '070505', name: 'Layo' });
+districts.set('070506', { code: '070506', name: 'Pampamarca' });
+districts.set('070507', { code: '070507', name: 'Quehue' });
+districts.set('070508', { code: '070508', name: 'Tupac Amaru' });
+// 0706 - Canchis
+districts.set('070601', { code: '070601', name: 'Sicuani' });
+districts.set('070602', { code: '070602', name: 'Checacupe' });
+districts.set('070603', { code: '070603', name: 'Combapata' });
+districts.set('070604', { code: '070604', name: 'Marangani' });
+districts.set('070605', { code: '070605', name: 'Pitumarca' });
+districts.set('070606', { code: '070606', name: 'San Pablo' });
+districts.set('070607', { code: '070607', name: 'San Pedro' });
+districts.set('070608', { code: '070608', name: 'Tinta' });
+// 0707 - Chumbivilcas
+districts.set('070701', { code: '070701', name: 'Santo Tomas' });
+districts.set('070702', { code: '070702', name: 'Capacmarca' });
+districts.set('070703', { code: '070703', name: 'Chamaca' });
+districts.set('070704', { code: '070704', name: 'Colquemarca' });
+districts.set('070705', { code: '070705', name: 'Livitaca' });
+districts.set('070706', { code: '070706', name: 'Llusco' });
+districts.set('070707', { code: '070707', name: 'Quiñota' });
+districts.set('070708', { code: '070708', name: 'Velille' });
+// 0707 - Espinar
+districts.set('070801', { code: '070801', name: 'Espinar' });
+districts.set('070802', { code: '070802', name: 'Condoroma' });
+districts.set('070803', { code: '070803', name: 'Coporaque' });
+districts.set('070804', { code: '070804', name: 'Ocoruro' });
+districts.set('070805', { code: '070805', name: 'Pallpata' });
+districts.set('070806', { code: '070806', name: 'Pichigua' });
+districts.set('070807', { code: '070807', name: 'Suyckutambo' });
+districts.set('070808', { code: '070808', name: 'Alto Pichigua' });
+// 0709 - La Convencion
+districts.set('070901', { code: '070901', name: 'Santa Ana' });
+districts.set('070902', { code: '070902', name: 'Echarate' });
+districts.set('070903', { code: '070903', name: 'Huayopata' });
+districts.set('070904', { code: '070904', name: 'Maranura' });
+districts.set('070905', { code: '070905', name: 'Ocobamba' });
+districts.set('070906', { code: '070906', name: 'Quellouno' });
+districts.set('070907', { code: '070907', name: 'Kimbiri' });
+districts.set('070908', { code: '070908', name: 'Santa Teresa' });
+districts.set('070909', { code: '070909', name: 'Vilcabamba' });
+districts.set('070910', { code: '070910', name: 'Pichari' });
+districts.set('070911', { code: '070911', name: 'Inkawasi' });
+districts.set('070912', { code: '070912', name: 'Villa Virgen' });
+districts.set('070913', { code: '070913', name: 'Villa Kintiarina' });
+// 0710 - Paruro
+districts.set('071001', { code: '071001', name: 'Paruro' });
+districts.set('071002', { code: '071002', name: 'Accha' });
+districts.set('071003', { code: '071003', name: 'Ccapi' });
+districts.set('071004', { code: '071004', name: 'Colcha' });
+districts.set('071005', { code: '071005', name: 'Huanoquite' });
+districts.set('071006', { code: '071006', name: 'Omacha' });
+districts.set('071007', { code: '071007', name: 'Paccaritambo' });
+districts.set('071008', { code: '071008', name: 'Pillpinto' });
+districts.set('071009', { code: '071009', name: 'Yaurisque' });
+// 0711 - Paucartambo
+districts.set('071101', { code: '071101', name: 'Paucartambo' });
+districts.set('071102', { code: '071102', name: 'Caicay' });
+districts.set('071103', { code: '071103', name: 'Challabamba' });
+districts.set('071104', { code: '071104', name: 'Colquepata' });
+districts.set('071105', { code: '071105', name: 'Huancarani' });
+districts.set('071106', { code: '071106', name: 'Kosñipata' });
+// 0712 - Quispicanchi
+districts.set('071201', { code: '071201', name: 'Urcos' });
+districts.set('071202', { code: '071202', name: 'Andahuaylillas' });
+districts.set('071203', { code: '071203', name: 'Camanti' });
+districts.set('071204', { code: '071204', name: 'Ccarhuayo' });
+districts.set('071205', { code: '071205', name: 'Ccatca' });
+districts.set('071206', { code: '071206', name: 'Cusipata' });
+districts.set('071207', { code: '071207', name: 'Huaro' });
+districts.set('071208', { code: '071208', name: 'Lucre' });
+districts.set('071209', { code: '071209', name: 'Marcapata' });
+districts.set('071210', { code: '071210', name: 'Ocongate' });
+districts.set('071211', { code: '071211', name: 'Oropesa' });
+districts.set('071212', { code: '071212', name: 'Quiquijana' });
+// 0713 - Urubamba
+districts.set('071301', { code: '071301', name: 'Urubamba' });
+districts.set('071302', { code: '071302', name: 'Chinchero' });
+districts.set('071303', { code: '071303', name: 'Huayllabamba' });
+districts.set('071304', { code: '071304', name: 'Machupicchu' });
+districts.set('071305', { code: '071305', name: 'Maras' });
+districts.set('071306', { code: '071306', name: 'Ollantaytambo' });
+districts.set('071307', { code: '071307', name: 'Yucay' });
+// 08 - Huancavelica
+// 0801 - Huancavelica
+districts.set('080101', { code: '080101', name: 'Huancavelica' });
+districts.set('080102', { code: '080102', name: 'Acobambilla' });
+districts.set('080103', { code: '080103', name: 'Acoria' });
+districts.set('080104', { code: '080104', name: 'Conayca' });
+districts.set('080105', { code: '080105', name: 'Cuenca' });
+districts.set('080106', { code: '080106', name: 'Huachocolpa' });
+districts.set('080107', { code: '080107', name: 'Huayllahuara' });
+districts.set('080108', { code: '080108', name: 'Izcuchaca' });
+districts.set('080109', { code: '080109', name: 'Laria' });
+districts.set('080110', { code: '080110', name: 'Manta' });
+districts.set('080111', { code: '080111', name: 'Mariscal Caceres' });
+districts.set('080112', { code: '080112', name: 'Moya' });
+districts.set('080113', { code: '080113', name: 'Nuevo Occoro' });
+districts.set('080114', { code: '080114', name: 'Palca' });
+districts.set('080115', { code: '080115', name: 'Pilchaca' });
+districts.set('080116', { code: '080116', name: 'Vilca' });
+districts.set('080117', { code: '080117', name: 'Yauli' });
+districts.set('080118', { code: '080118', name: 'Ascension' });
+districts.set('080119', { code: '080119', name: 'Huando' });
+// 0802 - Acobamba
+districts.set('080201', { code: '080201', name: 'Acobamba' });
+districts.set('080202', { code: '080202', name: 'Andabamba' });
+districts.set('080203', { code: '080203', name: 'Anta' });
+districts.set('080204', { code: '080204', name: 'Caja' });
+districts.set('080205', { code: '080205', name: 'Marcas' });
+districts.set('080206', { code: '080206', name: 'Paucara' });
+districts.set('080207', { code: '080207', name: 'Pomacocha' });
+districts.set('080208', { code: '080208', name: 'Rosario' });
+// 0803 - Angaraes
+districts.set('080301', { code: '080301', name: 'Lircay' });
+districts.set('080302', { code: '080302', name: 'Anchonga' });
+districts.set('080303', { code: '080303', name: 'Callanmarca' });
+districts.set('080304', { code: '080304', name: 'Ccochaccasa' });
+districts.set('080305', { code: '080305', name: 'Chincho' });
+districts.set('080306', { code: '080306', name: 'Congalla' });
+districts.set('080307', { code: '080307', name: 'Huanca-Huanca' });
+districts.set('080308', { code: '080308', name: 'Huayllay Grande' });
+districts.set('080309', { code: '080309', name: 'Julcamarca' });
+districts.set('080310', { code: '080310', name: 'San Antonio de Antaparco' });
+districts.set('080311', { code: '080311', name: 'Santo Tomas de Pata' });
+districts.set('080312', { code: '080312', name: 'Secclla' });
+// 0804 - Castrovirreyna
+districts.set('080401', { code: '080401', name: 'Castrovirreyna' });
+districts.set('080402', { code: '080402', name: 'Arma' });
+districts.set('080403', { code: '080403', name: 'Aurahua' });
+districts.set('080404', { code: '080404', name: 'Capillas' });
+districts.set('080405', { code: '080405', name: 'Chupamarca' });
+districts.set('080406', { code: '080406', name: 'Cocas' });
+districts.set('080407', { code: '080407', name: 'Huachos' });
+districts.set('080408', { code: '080408', name: 'Huamatambo' });
+districts.set('080409', { code: '080409', name: 'Mollepampa' });
+districts.set('080410', { code: '080410', name: 'San Juan' });
+districts.set('080411', { code: '080411', name: 'Santa Ana' });
+districts.set('080412', { code: '080412', name: 'Tantara' });
+districts.set('080413', { code: '080413', name: 'Ticrapo' });
+// 0805 - Churcampa
+districts.set('080501', { code: '080501', name: 'Churcampa' });
+districts.set('080502', { code: '080502', name: 'Anco' });
+districts.set('080503', { code: '080503', name: 'Chinchihuasi' });
+districts.set('080504', { code: '080504', name: 'El Carmen' });
+districts.set('080505', { code: '080505', name: 'La Merced' });
+districts.set('080506', { code: '080506', name: 'Locroja' });
+districts.set('080507', { code: '080507', name: 'Paucarbamba' });
+districts.set('080508', { code: '080508', name: 'San Miguel de Mayocc' });
+districts.set('080509', { code: '080509', name: 'San Pedro de Coris' });
+districts.set('080510', { code: '080510', name: 'Pachamarca' });
+districts.set('080511', { code: '080511', name: 'Cosme' });
+// 0806 - Huaytara
+districts.set('080601', { code: '080601', name: 'Huaytara' });
+districts.set('080602', { code: '080602', name: 'Ayavi' });
+districts.set('080603', { code: '080603', name: 'Cordova' });
+districts.set('080604', { code: '080604', name: 'Huayacundo Arma' });
+districts.set('080605', { code: '080605', name: 'Laramarca' });
+districts.set('080606', { code: '080606', name: 'Ocoyo' });
+districts.set('080607', { code: '080607', name: 'Pilpichaca' });
+districts.set('080608', { code: '080608', name: 'Querco' });
+districts.set('080609', { code: '080609', name: 'Quito-Arma' });
+districts.set('080610', { code: '080610', name: 'San Antonio de Cusicancha' });
+districts.set('080611', { code: '080611', name: 'San Francisco de Sangayaico' });
+districts.set('080612', { code: '080612', name: 'San Isidro' });
+districts.set('080613', { code: '080613', name: 'Santiago de Chocorvos' });
+districts.set('080614', { code: '080614', name: 'Santiago de Quirahuara' });
+districts.set('080615', { code: '080615', name: 'Santo Domingo de Capillas' });
+districts.set('080616', { code: '080616', name: 'Tambo' });
+// 0807 - Tayacaja
+districts.set('080701', { code: '080701', name: 'Pampas' });
+districts.set('080702', { code: '080702', name: 'Acostambo' });
+districts.set('080703', { code: '080703', name: 'Acraquia' });
+districts.set('080704', { code: '080704', name: 'Ahuaycha' });
+districts.set('080705', { code: '080705', name: 'Colcabamba' });
+districts.set('080706', { code: '080706', name: 'Daniel Hernandez' });
+districts.set('080707', { code: '080707', name: 'Huachocolpa' });
+districts.set('080709', { code: '080709', name: 'Huaribamba' });
+districts.set('080710', { code: '080710', name: 'Ñahuimpuquio' });
+districts.set('080711', { code: '080711', name: 'Pazos' });
+districts.set('080713', { code: '080713', name: 'Quishuar' });
+districts.set('080714', { code: '080714', name: 'Salcabamba' });
+districts.set('080715', { code: '080715', name: 'Salcahuasi' });
+districts.set('080716', { code: '080716', name: 'San Marcos de Rocchac' });
+districts.set('080717', { code: '080717', name: 'Surcubamba' });
+districts.set('080718', { code: '080718', name: 'Tintay Puncu' });
+districts.set('080719', { code: '080719', name: 'Quichuas' });
+districts.set('080720', { code: '080720', name: 'Andaymarca' });
+districts.set('080721', { code: '080721', name: 'Roble' });
+districts.set('080722', { code: '080722', name: 'Pichos' });
+// 09 - Huanuco
+// 0901 - Huanuco
+districts.set('090101', { code: '090101', name: 'Huanuco' });
+districts.set('090102', { code: '090102', name: 'Amarilis' });
+districts.set('090103', { code: '090103', name: 'Chinchao' });
+districts.set('090104', { code: '090104', name: 'Churubamba' });
+districts.set('090105', { code: '090105', name: 'Margos' });
+districts.set('090106', { code: '090106', name: 'Quisqui (Kichki)' });
+districts.set('090107', { code: '090107', name: 'San Francisco de Cayran' });
+districts.set('090108', { code: '090108', name: 'San Pedro de Chaulan' });
+districts.set('090109', { code: '090109', name: 'Santa Maria del Valle' });
+districts.set('090110', { code: '090110', name: 'Yarumayo' });
+districts.set('090111', { code: '090111', name: 'Pillco Marca' });
+districts.set('090112', { code: '090112', name: 'Yacus' });
+districts.set('090113', { code: '090113', name: 'San Pablo de Pillao' });
+// 0902 - Ambo
+districts.set('090201', { code: '090201', name: 'Ambo' });
+districts.set('090202', { code: '090202', name: 'Cayna' });
+districts.set('090203', { code: '090203', name: 'Colpas' });
+districts.set('090204', { code: '090204', name: 'Conchamarca' });
+districts.set('090205', { code: '090205', name: 'Huacar' });
+districts.set('090206', { code: '090206', name: 'San Francisco' });
+districts.set('090207', { code: '090207', name: 'San Rafael' });
+districts.set('090208', { code: '090208', name: 'Tomay Kichwa' });
+// 0903 - Dos de Mayo
+districts.set('090301', { code: '090301', name: 'La Union' });
+districts.set('090307', { code: '090307', name: 'Chuquis' });
+districts.set('090311', { code: '090311', name: 'Marias' });
+districts.set('090313', { code: '090313', name: 'Pachas' });
+districts.set('090316', { code: '090316', name: 'Quivilla' });
+districts.set('090317', { code: '090317', name: 'Ripan' });
+districts.set('090321', { code: '090321', name: 'Shunqui' });
+districts.set('090322', { code: '090322', name: 'Sillapata' });
+districts.set('090323', { code: '090323', name: 'Yanas' });
+// 0904 - Huacaybamba
+districts.set('090401', { code: '090401', name: 'Huacaybamba' });
+districts.set('090402', { code: '090402', name: 'Canchabamba' });
+districts.set('090403', { code: '090403', name: 'Cochabamba' });
+districts.set('090404', { code: '090404', name: 'Pinra' });
+// 0905 - Huamalies
+districts.set('090501', { code: '090501', name: 'Llata' });
+districts.set('090502', { code: '090502', name: 'Arancay' });
+districts.set('090503', { code: '090503', name: 'Chavin de Pariarca' });
+districts.set('090504', { code: '090504', name: 'Jacas Grande' });
+districts.set('090505', { code: '090505', name: 'Jircan' });
+districts.set('090506', { code: '090506', name: 'Miraflores' });
+districts.set('090507', { code: '090507', name: 'Monzon' });
+districts.set('090508', { code: '090508', name: 'Punchao' });
+districts.set('090509', { code: '090509', name: 'Puños' });
+districts.set('090510', { code: '090510', name: 'Singa' });
+districts.set('090511', { code: '090511', name: 'Tantamayo' });
+// 0906 - Leoncio Prado
+districts.set('090601', { code: '090601', name: 'Rupa-Rupa' });
+districts.set('090602', { code: '090602', name: 'Daniel Alomia Robles' });
+districts.set('090603', { code: '090603', name: 'Hermilio Valdizan' });
+districts.set('090604', { code: '090604', name: 'Jose Crespo y Castillo' });
+districts.set('090605', { code: '090605', name: 'Luyando' });
+districts.set('090606', { code: '090606', name: 'Mariano Damaso Beraun' });
+districts.set('090607', { code: '090607', name: 'Pucayacu' });
+districts.set('090608', { code: '090608', name: 'Castillo Grande' });
+// 0907 - Marañon
+districts.set('090701', { code: '090701', name: 'Huacrachuco' });
+districts.set('090702', { code: '090702', name: 'Cholon' });
+districts.set('090703', { code: '090703', name: 'San Buenaventura' });
+districts.set('090704', { code: '090704', name: 'La Morada' });
+districts.set('090705', {
+  code: '090705',
+  name: 'Santa Rosa de Alto Yanajanca',
+});
+// 0908 - Pachitea
+districts.set('090801', { code: '090801', name: 'Panao' });
+districts.set('090802', { code: '090802', name: 'Chaglla' });
+districts.set('090803', { code: '090803', name: 'Molino' });
+districts.set('090804', { code: '090804', name: 'Umari' });
+// 0909 - Puerto Inca
+districts.set('090901', { code: '090901', name: 'Puerto Inca' });
+districts.set('090902', { code: '090902', name: 'Codo del Pozuzo' });
+districts.set('090903', { code: '090903', name: 'Honoria' });
+districts.set('090904', { code: '090904', name: 'Tournavista' });
+districts.set('090905', { code: '090905', name: 'Yuyapichis' });
+// 09 - Lauricocha
+districts.set('091001', { code: '091001', name: 'Jesus' });
+districts.set('091002', { code: '091002', name: 'Baños' });
+districts.set('091003', { code: '091003', name: 'Jivia' });
+districts.set('091004', { code: '091004', name: 'Queropalca' });
+districts.set('091005', { code: '091005', name: 'Rondos' });
+districts.set('091006', { code: '091006', name: 'San Francisco de Asis' });
+districts.set('091007', { code: '091007', name: 'San Miguel de Cauri' });
+// 0911 - Yarowilca
+districts.set('091101', { code: '091101', name: 'Chavinillo' });
+districts.set('091102', { code: '091102', name: 'Cahuac' });
+districts.set('091103', { code: '091103', name: 'Chacabamba' });
+districts.set('091104', { code: '091104', name: 'Aparicio Pomares' });
+districts.set('091105', { code: '091105', name: 'Jacas Chico' });
+districts.set('091106', { code: '091106', name: 'Obas' });
+districts.set('091107', { code: '091107', name: 'Pampamarca' });
+districts.set('091108', { code: '091108', name: 'Choras' });
+// 10 - Ica
+// 1001 - Ica
+districts.set('100101', { code: '100101', name: 'Ica' });
+districts.set('100102', { code: '100102', name: 'La Tinguiña' });
+districts.set('100103', { code: '100103', name: 'Los Aquijes' });
+districts.set('100104', { code: '100104', name: 'Ocucaje' });
+districts.set('100105', { code: '100105', name: 'Pachacutec' });
+districts.set('100106', { code: '100106', name: 'Parcona' });
+districts.set('100107', { code: '100107', name: 'Pueblo Nuevo' });
+districts.set('100108', { code: '100108', name: 'Salas' });
+districts.set('100109', { code: '100109', name: 'San Jose de Los Molinos' });
+districts.set('100110', { code: '100110', name: 'San Juan Bautista' });
+districts.set('100111', { code: '100111', name: 'Santiago' });
+districts.set('100112', { code: '100112', name: 'Subtanjalla' });
+districts.set('100113', { code: '100113', name: 'Tate' });
+districts.set('100114', { code: '100114', name: 'Yauca del Rosario' });
+// 1002 - Chincha
+districts.set('100201', { code: '100201', name: 'Chincha Alta' });
+districts.set('100202', { code: '100202', name: 'Alto Laran' });
+districts.set('100203', { code: '100203', name: 'Chavin' });
+districts.set('100204', { code: '100204', name: 'Chincha Baja' });
+districts.set('100205', { code: '100205', name: 'El Carmen' });
+districts.set('100206', { code: '100206', name: 'Grocio Prado' });
+districts.set('100207', { code: '100207', name: 'Pueblo Nuevo' });
+districts.set('100208', { code: '100208', name: 'San Juan de Yanac' });
+districts.set('100209', { code: '100209', name: 'San Pedro de Huacarpana' });
+districts.set('100210', { code: '100210', name: 'Sunampe' });
+districts.set('100211', { code: '100211', name: 'Tambo de Mora' });
+// 1003 - Nasca
+districts.set('100301', { code: '100301', name: 'Nasca' });
+districts.set('100302', { code: '100302', name: 'Changuillo' });
+districts.set('100303', { code: '100303', name: 'El Ingenio' });
+districts.set('100304', { code: '100304', name: 'Marcona' });
+districts.set('100305', { code: '100305', name: 'Vista Alegre' });
+// 1004 - Palpa
+districts.set('100401', { code: '100401', name: 'Palpa' });
+districts.set('100402', { code: '100402', name: 'Llipata' });
+districts.set('100403', { code: '100403', name: 'Rio Grande' });
+districts.set('100404', { code: '100404', name: 'Santa Cruz' });
+districts.set('100405', { code: '100405', name: 'Tibillo' });
+// 1005 - Pisco
+districts.set('100501', { code: '100501', name: 'Pisco' });
+districts.set('100502', { code: '100502', name: 'Huancano' });
+districts.set('100503', { code: '100503', name: 'Humay' });
+districts.set('100504', { code: '100504', name: 'Independencia' });
+districts.set('100505', { code: '100505', name: 'Paracas' });
+districts.set('100506', { code: '100506', name: 'San Andres' });
+districts.set('100507', { code: '100507', name: 'San Clemente' });
+districts.set('100508', { code: '100508', name: 'Tupac Amaru Inca' });
+// 11 - Junin
+// 1101 - Huancayo
+districts.set('110101', { code: '110101', name: 'Huancayo' });
+districts.set('110104', { code: '110104', name: 'Carhuacallanga' });
+districts.set('110105', { code: '110105', name: 'Chacapampa' });
+districts.set('110106', { code: '110106', name: 'Chicche' });
+districts.set('110107', { code: '110107', name: 'Chilca' });
+districts.set('110108', { code: '110108', name: 'Chongos Alto' });
+districts.set('110111', { code: '110111', name: 'Chupuro' });
+districts.set('110112', { code: '110112', name: 'Colca' });
+districts.set('110113', { code: '110113', name: 'Cullhuas' });
+districts.set('110114', { code: '110114', name: 'El Tambo' });
+districts.set('110116', { code: '110116', name: 'Huacrapuquio' });
+districts.set('110117', { code: '110117', name: 'Hualhuas' });
+districts.set('110119', { code: '110119', name: 'Huancan' });
+districts.set('110120', { code: '110120', name: 'Huasicancha' });
+districts.set('110121', { code: '110121', name: 'Huayucachi' });
+districts.set('110122', { code: '110122', name: 'Ingenio' });
+districts.set('110124', { code: '110124', name: 'Pariahuanca' });
+districts.set('110115', { code: '110125', name: 'Pilcomayo' });
+districts.set('110126', { code: '110126', name: 'Pucara' });
+districts.set('110127', { code: '110127', name: 'Quichuay' });
+districts.set('110128', { code: '110128', name: 'Quilcas' });
+districts.set('110129', { code: '110129', name: 'San Agustin' });
+districts.set('110130', { code: '110130', name: 'San Jeronimo de Tunan' });
+districts.set('110132', { code: '110132', name: 'Saño' });
+districts.set('110133', { code: '110133', name: 'Sapallanga' });
+districts.set('110134', { code: '110134', name: 'Sicaya' });
+districts.set('110135', { code: '110135', name: 'Santo Domingo de Acobamba' });
+districts.set('110136', { code: '110136', name: 'Viques' });
+// 1102 - Concepcion
+districts.set('110201', { code: '110201', name: 'Concepcion' });
+districts.set('110202', { code: '110202', name: 'Aco' });
+districts.set('110203', { code: '110203', name: 'Andamarca' });
+districts.set('110204', { code: '110204', name: 'Chambara' });
+districts.set('110205', { code: '110205', name: 'Cochas' });
+districts.set('110206', { code: '110206', name: 'Comas' });
+districts.set('110207', { code: '110207', name: 'Heroinas Toledo' });
+districts.set('110208', { code: '110208', name: 'Manzanares' });
+districts.set('110209', { code: '110209', name: 'Mariscal Castilla' });
+districts.set('110210', { code: '110210', name: 'Matahuasi' });
+districts.set('110211', { code: '110211', name: 'Mito' });
+districts.set('110212', { code: '110212', name: 'Nueve de Julio' });
+districts.set('110213', { code: '110213', name: 'Orcotuna' });
+districts.set('110214', { code: '110214', name: 'San Jose de Quero' });
+districts.set('110215', { code: '110215', name: 'Santa Rosa de Ocopa' });
+// 1103 - Chanchamayo
+districts.set('110301', { code: '110301', name: 'Chanchamayo' });
+districts.set('110302', { code: '110302', name: 'Perene' });
+districts.set('110303', { code: '110303', name: 'Pichanaqui' });
+districts.set('110304', { code: '110304', name: 'San Luis de Shuaro' });
+districts.set('110305', { code: '110305', name: 'San Ramon' });
+districts.set('110306', { code: '110306', name: 'Vitoc' });
+// 1104 - Jauja
+districts.set('110401', { code: '110401', name: 'Jauja' });
+districts.set('110402', { code: '110402', name: 'Acolla' });
+districts.set('110403', { code: '110403', name: 'Apata' });
+districts.set('110404', { code: '110404', name: 'Ataura' });
+districts.set('110405', { code: '110405', name: 'Canchayllo' });
+districts.set('110406', { code: '110406', name: 'Curicaca' });
+districts.set('110407', { code: '110407', name: 'El Mantaro' });
+districts.set('110408', { code: '110408', name: 'Huamali' });
+districts.set('110409', { code: '110409', name: 'Huaripampa' });
+districts.set('110410', { code: '110410', name: 'Huertas' });
+districts.set('110411', { code: '110411', name: 'Janjaillo' });
+districts.set('110412', { code: '110412', name: 'Julcan' });
+districts.set('110413', { code: '110413', name: 'Leonor Ordoñez' });
+districts.set('110414', { code: '110414', name: 'Llocllapampa' });
+districts.set('110415', { code: '110415', name: 'Marco' });
+districts.set('110416', { code: '110416', name: 'Masma' });
+districts.set('110417', { code: '110417', name: 'Masma Chicche' });
+districts.set('110418', { code: '110418', name: 'Molinos' });
+districts.set('110419', { code: '110419', name: 'Monobamba' });
+districts.set('110420', { code: '110420', name: 'Muqui' });
+districts.set('110421', { code: '110421', name: 'Muquiyauyo' });
+districts.set('110422', { code: '110422', name: 'Paca' });
+districts.set('110423', { code: '110423', name: 'Paccha' });
+districts.set('110424', { code: '110424', name: 'Pancan' });
+districts.set('110425', { code: '110425', name: 'Parco' });
+districts.set('110426', { code: '110426', name: 'Pomacancha' });
+districts.set('110427', { code: '110427', name: 'Ricran' });
+districts.set('110428', { code: '110428', name: 'San Lorenzo' });
+districts.set('110429', { code: '110429', name: 'San Pedro de Chunan' });
+districts.set('110430', { code: '110430', name: 'Sausa' });
+districts.set('110431', { code: '110431', name: 'Sincos' });
+districts.set('110432', { code: '110432', name: 'Tunan Marca' });
+districts.set('110433', { code: '110433', name: 'Yauli' });
+districts.set('110434', { code: '110434', name: 'Yauyos' });
+// 1105 - Junin
+districts.set('110501', { code: '110501', name: 'Junin' });
+districts.set('110502', { code: '110502', name: 'Carhuamayo' });
+districts.set('110503', { code: '110503', name: 'Ondores' });
+districts.set('110504', { code: '110504', name: 'Ulcumayo' });
+// 1106 - Satipo
+districts.set('110601', { code: '110601', name: 'Satipo' });
+districts.set('110602', { code: '110602', name: 'Coviriali' });
+districts.set('110603', { code: '110603', name: 'Llaylla' });
+districts.set('110604', { code: '110604', name: 'Mazamari' });
+districts.set('110605', { code: '110605', name: 'Pampa Hermosa' });
+districts.set('110606', { code: '110606', name: 'Pangoa' });
+districts.set('110607', { code: '110607', name: 'Rio Negro' });
+districts.set('110608', { code: '110608', name: 'Rio Tambo' });
+districts.set('110609', { code: '110609', name: 'Vizcatan del Ene' });
+// 1107 - Tarma
+districts.set('110701', { code: '110701', name: 'Tarma' });
+districts.set('110702', { code: '110702', name: 'Acobamba' });
+districts.set('110703', { code: '110703', name: 'Huaricolca' });
+districts.set('110704', { code: '110704', name: 'Huasahuasi' });
+districts.set('110705', { code: '110705', name: 'La Union' });
+districts.set('110706', { code: '110706', name: 'Palca' });
+districts.set('110707', { code: '110707', name: 'Palcamayo' });
+districts.set('110708', { code: '110708', name: 'San Pedro de Cajas' });
+districts.set('110709', { code: '110709', name: 'Tapo' });
+// 1108 - Yauli
+districts.set('110801', { code: '110801', name: 'La Oroya' });
+districts.set('110802', { code: '110802', name: 'Chacapalpa' });
+districts.set('110803', { code: '110803', name: 'Huay-Huay' });
+districts.set('110804', { code: '110804', name: 'Marcapomacocha' });
+districts.set('110805', { code: '110805', name: 'Morococha' });
+districts.set('110806', { code: '110806', name: 'Paccha' });
+districts.set('110807', {
+  code: '110807',
+  name: 'Santa Barbara de Carhuacayan',
+});
+districts.set('110808', { code: '110808', name: 'Santa Rosa de Sacco' });
+districts.set('110809', { code: '110809', name: 'Suitucancha' });
+districts.set('110810', { code: '110810', name: 'Yauli' });
+// 1109 - Chupaca
+districts.set('110901', { code: '110901', name: 'Chupaca' });
+districts.set('110902', { code: '110902', name: 'Ahuac' });
+districts.set('110903', { code: '110903', name: 'Chongos Bajo' });
+districts.set('110904', { code: '110904', name: 'Huachac' });
+districts.set('110905', { code: '110905', name: 'Huamancaca Chico' });
+districts.set('110906', { code: '110906', name: 'San Juan de Iscos' });
+districts.set('110907', { code: '110907', name: 'San Juan de Jarpa' });
+districts.set('110908', { code: '110908', name: 'Tres de Diciembre' });
+districts.set('110909', { code: '110909', name: 'Yanacancha' });
+// 12 - La Libertad
+// 1201 - Trujillo
+districts.set('120101', { code: '120101', name: 'Trujillo' });
+districts.set('120102', { code: '120102', name: 'El Porvenir' });
+districts.set('120103', { code: '120103', name: 'Florencia de Mora' });
+districts.set('120104', { code: '120104', name: 'Huanchaco' });
+districts.set('120105', { code: '120105', name: 'La Esperanza' });
+districts.set('120106', { code: '120106', name: 'Laredo' });
+districts.set('120107', { code: '120107', name: 'Moche' });
+districts.set('120108', { code: '120108', name: 'Poroto' });
+districts.set('120109', { code: '120109', name: 'Salaverry' });
+districts.set('120110', { code: '120110', name: 'Simbal' });
+districts.set('120111', { code: '120111', name: 'Victor Larco Herrera' });
+// 1202 - Ascope
+districts.set('120201', { code: '120201', name: 'Ascope' });
+districts.set('120202', { code: '120202', name: 'Chicama' });
+districts.set('120203', { code: '120203', name: 'Chocope' });
+districts.set('120204', { code: '120204', name: 'Magdalena de Cao' });
+districts.set('120205', { code: '120205', name: 'Paijan' });
+districts.set('120206', { code: '120206', name: 'Razuri' });
+districts.set('120207', { code: '120207', name: 'Santiago de Cao' });
+districts.set('120208', { code: '120208', name: 'Casa Grande' });
+// 1203 - Bolivar
+districts.set('120301', { code: '120301', name: 'Bolivar' });
+districts.set('120302', { code: '120302', name: 'Bambamarca' });
+districts.set('120303', { code: '120303', name: 'Condormarca' });
+districts.set('120304', { code: '120304', name: 'Longotea' });
+districts.set('120305', { code: '120305', name: 'Uchumarca' });
+districts.set('120306', { code: '120306', name: 'Ucuncha' });
+// 1204 - Chepen
+districts.set('120401', { code: '120401', name: 'Chepen' });
+districts.set('120402', { code: '120402', name: 'Pacanga' });
+districts.set('120403', { code: '120403', name: 'Pueblo Nuevo' });
+// 1205 - Julcan
+districts.set('120501', { code: '120501', name: 'Julcan' });
+districts.set('120502', { code: '120502', name: 'Calamarca' });
+districts.set('120503', { code: '120503', name: 'Carabamba' });
+districts.set('120504', { code: '120504', name: 'Huaso' });
+// 1206 - Otuzco
+districts.set('120601', { code: '120601', name: 'Otuzco' });
+districts.set('120602', { code: '120602', name: 'Agallpampa' });
+districts.set('120604', { code: '120604', name: 'Charat' });
+districts.set('120605', { code: '120605', name: 'Huaranchal' });
+districts.set('120606', { code: '120606', name: 'La Cuesta' });
+districts.set('120608', { code: '120608', name: 'Mache' });
+districts.set('120610', { code: '120610', name: 'Paranday' });
+districts.set('120611', { code: '120611', name: 'Salpo' });
+districts.set('120613', { code: '120613', name: 'Sinsicap' });
+districts.set('120614', { code: '120614', name: 'Usquil' });
+// 1207 - Pacasmayo
+districts.set('120701', { code: '120701', name: 'San Pedro de Lloc' });
+districts.set('120702', { code: '120702', name: 'Guadalupe' });
+districts.set('120703', { code: '120703', name: 'Jequetepeque' });
+districts.set('120704', { code: '120704', name: 'Pacasmayo' });
+districts.set('120705', { code: '120705', name: 'San Jose' });
+// 1208 - Pataz
+districts.set('120801', { code: '120801', name: 'Tayabamba' });
+districts.set('120802', { code: '120802', name: 'Buldibuyo' });
+districts.set('120803', { code: '120803', name: 'Chillia' });
+districts.set('120804', { code: '120804', name: 'Huancaspata' });
+districts.set('120805', { code: '120805', name: 'Huaylillas' });
+districts.set('120806', { code: '120806', name: 'Huayo' });
+districts.set('120807', { code: '120807', name: 'Ongon' });
+districts.set('120808', { code: '120808', name: 'Parcoy' });
+districts.set('120809', { code: '120809', name: 'Pataz' });
+districts.set('120810', { code: '120810', name: 'Pias' });
+districts.set('120811', { code: '120811', name: 'Santiago de Challas' });
+districts.set('120812', { code: '120812', name: 'Taurija' });
+districts.set('120813', { code: '120813', name: 'Urpay' });
+// 1209 - Sanchez Carr{code: chez Car, name:ion
+districts.set('120901', { code: '120901', name: 'Huamachuco' });
+districts.set('120902', { code: '120902', name: 'Chugay' });
+districts.set('120903', { code: '120903', name: 'Cochorco' });
+districts.set('120904', { code: '120904', name: 'Curgos' });
+districts.set('120905', { code: '120905', name: 'Marcabal' });
+districts.set('120906', { code: '120906', name: 'Sanagoran' });
+districts.set('120907', { code: '120907', name: 'Sarin' });
+districts.set('120908', { code: '120908', name: 'Sartimbamba' });
+// 1210 - Santiago de {code: tiago de, name:Chuco
+districts.set('121001', { code: '121001', name: 'Santiago de Chuco' });
+districts.set('121002', { code: '121002', name: 'Angasmarca' });
+districts.set('121003', { code: '121003', name: 'Cachicadan' });
+districts.set('121004', { code: '121004', name: 'Mollebamba' });
+districts.set('121005', { code: '121005', name: 'Mollepata' });
+districts.set('121006', { code: '121006', name: 'Quiruvilca' });
+districts.set('121007', { code: '121007', name: 'Santa Cruz de Chuca' });
+districts.set('121008', { code: '121008', name: 'Sitabamba' });
+// 1211 - Gran Chimu
+districts.set('121101', { code: '121101', name: 'Cascas' });
+districts.set('121102', { code: '121102', name: 'Lucma' });
+districts.set('121103', { code: '121103', name: 'Marmot' });
+districts.set('121104', { code: '121104', name: 'Sayapullo' });
+// 1212 - Viru
+districts.set('121201', { code: '121201', name: 'Viru' });
+districts.set('121202', { code: '121202', name: 'Chao' });
+districts.set('121203', { code: '121203', name: 'Guadalupito' });
+// 13 - Lambayeque
+// 1301 - Chiclayo
+districts.set('130101', { code: '130101', name: 'Chiclayo' });
+districts.set('130102', { code: '130102', name: 'Chongoyape' });
+districts.set('130103', { code: '130103', name: 'Eten' });
+districts.set('130104', { code: '130104', name: 'Eten Puerto' });
+districts.set('130105', { code: '130105', name: 'Jose Leonardo Ortiz' });
+districts.set('130106', { code: '130106', name: 'La Victoria' });
+districts.set('130107', { code: '130107', name: 'Lagunas' });
+districts.set('130108', { code: '130108', name: 'Monsefu' });
+districts.set('130109', { code: '130109', name: 'Nueva Arica' });
+districts.set('130110', { code: '130110', name: 'Oyotun' });
+districts.set('130111', { code: '130111', name: 'Picsi' });
+districts.set('130112', { code: '130112', name: 'Pimentel' });
+districts.set('130113', { code: '130113', name: 'Reque' });
+districts.set('130114', { code: '130114', name: 'Santa Rosa' });
+districts.set('130115', { code: '130115', name: 'Saña' });
+districts.set('130116', { code: '130116', name: 'Cayalti' });
+districts.set('130117', { code: '130117', name: 'Patapo' });
+districts.set('130118', { code: '130118', name: 'Pomalca' });
+districts.set('130119', { code: '130119', name: 'Pucala' });
+districts.set('130120', { code: '130120', name: 'Tuman' });
+// 1302 - Ferreñafe
+districts.set('130201', { code: '130201', name: 'Ferreñafe' });
+districts.set('130202', { code: '130202', name: 'Cañaris' });
+districts.set('130203', { code: '130203', name: 'Incahuasi' });
+districts.set('130204', { code: '130204', name: 'Manuel Antonio Mesones Muro' });
+districts.set('130205', { code: '130205', name: 'Pitipo' });
+districts.set('130206', { code: '130206', name: 'Pueblo Nuevo' });
+// 1303 - Lambayeque
+districts.set('130301', { code: '130301', name: 'Lambayeque' });
+districts.set('130302', { code: '130302', name: 'Chochope' });
+districts.set('130303', { code: '130303', name: 'Illimo' });
+districts.set('130304', { code: '130304', name: 'Jayanca' });
+districts.set('130305', { code: '130305', name: 'Mochumi' });
+districts.set('130306', { code: '130306', name: 'Morrope' });
+districts.set('130307', { code: '130307', name: 'Motupe' });
+districts.set('130308', { code: '130308', name: 'Olmos' });
+districts.set('130309', { code: '130309', name: 'Pacora' });
+districts.set('130310', { code: '130310', name: 'Salas' });
+districts.set('130311', { code: '130311', name: 'San Jose' });
+districts.set('130312', { code: '130312', name: 'Tucume' });
+// 14 - Lima
+// 1401 - Lima
+districts.set('140101', { code: '140101', name: 'Lima' });
+districts.set('140102', { code: '140102', name: 'Ancon' });
+districts.set('140103', { code: '140103', name: 'Ate' });
+districts.set('140104', { code: '140104', name: 'Barranco' });
+districts.set('140105', { code: '140105', name: 'Breña' });
+districts.set('140106', { code: '140106', name: 'Carabayllo' });
+districts.set('140107', { code: '140107', name: 'Chaclacayo' });
+districts.set('140108', { code: '140108', name: 'Chorrillos' });
+districts.set('140109', { code: '140109', name: 'Cieneguilla' });
+districts.set('140110', { code: '140110', name: 'Comas' });
+districts.set('140111', { code: '140111', name: 'El Agustino' });
+districts.set('140112', { code: '140112', name: 'Independencia' });
+districts.set('140113', { code: '140113', name: 'Jesus Maria' });
+districts.set('140114', { code: '140114', name: 'La Molina' });
+districts.set('140115', { code: '140115', name: 'La Victoria' });
+districts.set('140116', { code: '140116', name: 'Lince' });
+districts.set('140117', { code: '140117', name: 'Los Olivos' });
+districts.set('140118', { code: '140118', name: 'Lurigancho' });
+districts.set('140119', { code: '140119', name: 'Lurin' });
+districts.set('140120', { code: '140120', name: 'Magdalena del Mar' });
+districts.set('140121', { code: '140121', name: 'Pueblo Libre' });
+districts.set('140122', { code: '140122', name: 'Miraflores' });
+districts.set('140123', { code: '140123', name: 'Pachacamac' });
+districts.set('140124', { code: '140124', name: 'Pucusana' });
+districts.set('140125', { code: '140125', name: 'Puente Piedra' });
+districts.set('140126', { code: '140126', name: 'Punta Hermosa' });
+districts.set('140127', { code: '140127', name: 'Punta Negra' });
+districts.set('140128', { code: '140128', name: 'Rimac' });
+districts.set('140129', { code: '140129', name: 'San Bartolo' });
+districts.set('140130', { code: '140130', name: 'San Borja' });
+districts.set('140131', { code: '140131', name: 'San Isidro' });
+districts.set('140132', { code: '140132', name: 'San Juan de Lurigancho' });
+districts.set('140133', { code: '140133', name: 'San Juan de Miraflores' });
+districts.set('140134', { code: '140134', name: 'San Luis' });
+districts.set('140135', { code: '140135', name: 'San Martin de Porres' });
+districts.set('140136', { code: '140136', name: 'San Miguel' });
+districts.set('140137', { code: '140137', name: 'Santa Anita' });
+districts.set('140138', { code: '140138', name: 'Santa Maria del Mar' });
+districts.set('140139', { code: '140139', name: 'Santa Rosa' });
+districts.set('140140', { code: '140140', name: 'Santiago de Surco' });
+districts.set('140141', { code: '140141', name: 'Surquillo' });
+districts.set('140142', { code: '140142', name: 'Villa El Salvador' });
+districts.set('140143', { code: '140143', name: 'Villa Maria del Triunfo' });
+// 1402 - Barranca
+districts.set('140201', { code: '140201', name: 'Barranca' });
+districts.set('140202', { code: '140202', name: 'Paramonga' });
+districts.set('140203', { code: '140203', name: 'Pativilca' });
+districts.set('140204', { code: '140204', name: 'Supe' });
+districts.set('140205', { code: '140205', name: 'Supe Puerto' });
+// 1403 - Cajatambo
+districts.set('140301', { code: '140301', name: 'Cajatambo' });
+districts.set('140302', { code: '140302', name: 'Copa' });
+districts.set('140303', { code: '140303', name: 'Gorgor' });
+districts.set('140304', { code: '140304', name: 'Huancapon' });
+districts.set('140305', { code: '140305', name: 'Manas' });
+// 1404 - Canta
+districts.set('140401', { code: '140401', name: 'Canta' });
+districts.set('140402', { code: '140402', name: 'Arahuay' });
+districts.set('140403', { code: '140403', name: 'Huamantanga' });
+districts.set('140404', { code: '140404', name: 'Huaros' });
+districts.set('140405', { code: '140405', name: 'Lachaqui' });
+districts.set('140406', { code: '140406', name: 'San Buenaventura' });
+districts.set('140407', { code: '140407', name: 'Santa Rosa de Quives' });
+// 1405 - Cañete
+districts.set('140501', { code: '140501', name: 'San Vicente de Cañete' });
+districts.set('140502', { code: '140502', name: 'Asia' });
+districts.set('140503', { code: '140503', name: 'Calango' });
+districts.set('140504', { code: '140504', name: 'Cerro Azul' });
+districts.set('140505', { code: '140505', name: 'Chilca' });
+districts.set('140506', { code: '140506', name: 'Coayllo' });
+districts.set('140507', { code: '140507', name: 'Imperial' });
+districts.set('140508', { code: '140508', name: 'Lunahuana' });
+districts.set('140509', { code: '140509', name: 'Mala' });
+districts.set('140510', { code: '140510', name: 'Nuevo Imperial' });
+districts.set('140511', { code: '140511', name: 'Pacaran' });
+districts.set('140512', { code: '140512', name: 'Quilmana' });
+districts.set('140513', { code: '140513', name: 'San Antonio' });
+districts.set('140514', { code: '140514', name: 'San Luis' });
+districts.set('140515', { code: '140515', name: 'Santa Cruz de Flores' });
+districts.set('140516', { code: '140516', name: 'Zuñiga' });
+// 1406 - Huaral
+districts.set('140601', { code: '140601', name: 'Huaral' });
+districts.set('140602', { code: '140602', name: 'Atavillos Alto' });
+districts.set('140603', { code: '140603', name: 'Atavillos Bajo' });
+districts.set('140604', { code: '140604', name: 'Aucallama' });
+districts.set('140605', { code: '140605', name: 'Chancay' });
+districts.set('140606', { code: '140606', name: 'Ihuari' });
+districts.set('140607', { code: '140607', name: 'Lampian' });
+districts.set('140608', { code: '140608', name: 'Pacaraos' });
+districts.set('140609', { code: '140609', name: 'San Miguel de Acos' });
+districts.set('140610', { code: '140610', name: 'Santa Cruz de Andamarca' });
+districts.set('140611', { code: '140611', name: 'Sumbilca' });
+districts.set('140612', { code: '140612', name: 'Veintisiete de Noviembre' });
+// 1407 - Huarochiri
+districts.set('140701', { code: '140701', name: 'Matucana' });
+districts.set('140702', { code: '140702', name: 'Antioquia' });
+districts.set('140703', { code: '140703', name: 'Callahuanca' });
+districts.set('140704', { code: '140704', name: 'Carampoma' });
+districts.set('140705', { code: '140705', name: 'Chicla' });
+districts.set('140706', { code: '140706', name: 'Cuenca' });
+districts.set('140707', { code: '140707', name: 'Huachupampa' });
+districts.set('140708', { code: '140708', name: 'Huanza' });
+districts.set('140709', { code: '140709', name: 'Huarochiri' });
+districts.set('140710', { code: '140710', name: 'Lahuaytambo' });
+districts.set('140711', { code: '140711', name: 'Langa' });
+districts.set('140712', { code: '140712', name: 'Laraos' });
+districts.set('140713', { code: '140713', name: 'Mariatana' });
+districts.set('140714', { code: '140714', name: 'Ricardo Palma' });
+districts.set('140715', { code: '140715', name: 'San Andres de Tupicocha' });
+districts.set('140716', { code: '140716', name: 'San Antonio' });
+districts.set('140717', { code: '140717', name: 'San Bartolome' });
+districts.set('140718', { code: '140718', name: 'San Damian' });
+districts.set('140719', { code: '140719', name: 'San Juan de Iris' });
+districts.set('140720', { code: '140720', name: 'San Juan de Tantaranche' });
+districts.set('140721', { code: '140721', name: 'San Lorenzo de Quinti' });
+districts.set('140722', { code: '140722', name: 'San Mateo' });
+districts.set('140723', { code: '140723', name: 'San Mateo de Otao' });
+districts.set('140724', { code: '140724', name: 'San Pedro de Casta' });
+districts.set('140725', { code: '140725', name: 'San Pedro de Huancayre' });
+districts.set('140726', { code: '140726', name: 'Sangallaya' });
+districts.set('140727', { code: '140727', name: 'Santa Cruz de Cocachacra' });
+districts.set('140728', { code: '140728', name: 'Santa Eulalia' });
+districts.set('140729', { code: '140729', name: 'Santiago de Anchucaya' });
+districts.set('140730', { code: '140730', name: 'Santiago de Tuna' });
+districts.set('140731', {
+  code: '140731',
+  name: 'Santo Domingo de Los Olleros',
+});
+districts.set('140732', { code: '140732', name: 'Surco' });
+// 1408 - Huaura
+districts.set('140801', { code: '140801', name: 'Huacho' });
+districts.set('140802', { code: '140802', name: 'Ambar' });
+districts.set('140803', { code: '140803', name: 'Caleta de Carquin' });
+districts.set('140804', { code: '140804', name: 'Checras' });
+districts.set('140805', { code: '140805', name: 'Hualmay' });
+districts.set('140806', { code: '140806', name: 'Huaura' });
+districts.set('140807', { code: '140807', name: 'Leoncio Prado' });
+districts.set('140808', { code: '140808', name: 'Paccho' });
+districts.set('140809', { code: '140809', name: 'Santa Leonor' });
+districts.set('140810', { code: '140810', name: 'Santa Maria' });
+districts.set('140811', { code: '140811', name: 'Sayan' });
+districts.set('140812', { code: '140812', name: 'Vegueta' });
+// 1409 - Oyon
+districts.set('140901', { code: '140901', name: 'Oyon' });
+districts.set('140902', { code: '140902', name: 'Andajes' });
+districts.set('140903', { code: '140903', name: 'Caujul' });
+districts.set('140904', { code: '140904', name: 'Cochamarca' });
+districts.set('140905', { code: '140905', name: 'Navan' });
+districts.set('140906', { code: '140906', name: 'Pachangara' });
+// 1410 - Yauyos
+districts.set('141001', { code: '141001', name: 'Yauyos' });
+districts.set('141002', { code: '141002', name: 'Alis' });
+districts.set('141003', { code: '141003', name: 'Allauca' });
+districts.set('141004', { code: '141004', name: 'Ayaviri' });
+districts.set('141005', { code: '141005', name: 'Azangaro' });
+districts.set('141006', { code: '141006', name: 'Cacra' });
+districts.set('141007', { code: '141007', name: 'Carania' });
+districts.set('141008', { code: '141008', name: 'Catahuasi' });
+districts.set('141009', { code: '141009', name: 'Chocos' });
+districts.set('141010', { code: '141010', name: 'Cochas' });
+districts.set('141011', { code: '141011', name: 'Colonia' });
+districts.set('141012', { code: '141012', name: 'Hongos' });
+districts.set('141013', { code: '141013', name: 'Huampara' });
+districts.set('141014', { code: '141014', name: 'Huancaya' });
+districts.set('141015', { code: '141015', name: 'Huangascar' });
+districts.set('141016', { code: '141016', name: 'Huantan' });
+districts.set('141017', { code: '141017', name: 'Huañec' });
+districts.set('141018', { code: '141018', name: 'Laraos' });
+districts.set('141019', { code: '141019', name: 'Lincha' });
+districts.set('141020', { code: '141020', name: 'Madean' });
+districts.set('141021', { code: '141021', name: 'Miraflores' });
+districts.set('141022', { code: '141022', name: 'Omas' });
+districts.set('141023', { code: '141023', name: 'Putinza' });
+districts.set('141024', { code: '141024', name: 'Quinches' });
+districts.set('141025', { code: '141025', name: 'Quinocay' });
+districts.set('141026', { code: '141026', name: 'San Joaquin' });
+districts.set('141027', { code: '141027', name: 'San Pedro de Pilas' });
+districts.set('141028', { code: '141028', name: 'Tanta' });
+districts.set('141029', { code: '141029', name: 'Tauripampa' });
+districts.set('141030', { code: '141030', name: 'Tomas' });
+districts.set('141031', { code: '141031', name: 'Tupe' });
+districts.set('141032', { code: '141032', name: 'Viñac' });
+districts.set('141033', { code: '141033', name: 'Vitis' });
+// 15 - Loreto
+// 1501 - Maynas
+districts.set('150101', { code: '150101', name: 'Iquitos' });
+districts.set('150102', { code: '150102', name: 'Alto Nanay' });
+districts.set('150103', { code: '150103', name: 'Fernando Lores' });
+districts.set('150104', { code: '150104', name: 'Indiana' });
+districts.set('150105', { code: '150105', name: 'Las Amazonas' });
+districts.set('150106', { code: '150106', name: 'Mazan' });
+districts.set('150107', { code: '150107', name: 'Napo' });
+districts.set('150108', { code: '150108', name: 'Punchana' });
+districts.set('150110', { code: '150110', name: 'Torres Causana' });
+districts.set('150112', { code: '150112', name: 'Belen' });
+districts.set('150113', { code: '150113', name: 'San Juan Bautista' });
+// 1502 - Alto Amazonas
+districts.set('150201', { code: '150201', name: 'Yurimaguas' });
+districts.set('150202', { code: '150202', name: 'Balsapuerto' });
+districts.set('150205', { code: '150205', name: 'Jeberos' });
+districts.set('150206', { code: '150206', name: 'Lagunas' });
+districts.set('150210', { code: '150210', name: 'Santa Cruz' });
+districts.set('150211', { code: '150211', name: 'Teniente Cesar Lopez Rojas' });
+// 1503 - Loreto
+districts.set('150301', { code: '150301', name: 'Nauta' });
+districts.set('150302', { code: '150302', name: 'Parinari' });
+districts.set('150303', { code: '150303', name: 'Tigre' });
+districts.set('150304', { code: '150304', name: 'Trompeteros' });
+districts.set('150305', { code: '150305', name: 'Urarinas' });
+// 1504 - Mariscal Ramon Castilla
+districts.set('150401', { code: '150401', name: 'Ramon Castilla' });
+districts.set('150402', { code: '150402', name: 'Pebas' });
+districts.set('150403', { code: '150403', name: 'Yavari' });
+districts.set('150404', { code: '150404', name: 'San Pablo' });
+// 1505 - Requena
+districts.set('150501', { code: '150501', name: 'Requena' });
+districts.set('150502', { code: '150502', name: 'Alto Tapiche' });
+districts.set('150503', { code: '150503', name: 'Capelo' });
+districts.set('150504', { code: '150504', name: 'Emilio San Martin' });
+districts.set('150505', { code: '150505', name: 'Maquia' });
+districts.set('150506', { code: '150506', name: 'Puinahua' });
+districts.set('150507', { code: '150507', name: 'Saquena' });
+districts.set('150508', { code: '150508', name: 'Soplin' });
+districts.set('150509', { code: '150509', name: 'Tapiche' });
+districts.set('150510', { code: '150510', name: 'Jenaro Herrera' });
+districts.set('150511', { code: '150511', name: 'Yaquerana' });
+// 1506 - Ucayali
+districts.set('150601', { code: '150601', name: 'Contamana' });
+districts.set('150602', { code: '150602', name: 'Inahuaya' });
+districts.set('150603', { code: '150603', name: 'Padre Marquez' });
+districts.set('150604', { code: '150604', name: 'Pampa Hermosa' });
+districts.set('150605', { code: '150605', name: 'Sarayacu' });
+districts.set('150606', { code: '150606', name: 'Vargas Guerra' });
+// 1507 - Datem del Marañon
+districts.set('150701', { code: '150701', name: 'Barranca' });
+districts.set('150702', { code: '150702', name: 'Cahuapanas' });
+districts.set('150703', { code: '150703', name: 'Manseriche' });
+districts.set('150704', { code: '150704', name: 'Morona' });
+districts.set('150705', { code: '150705', name: 'Pastaza' });
+districts.set('150706', { code: '150706', name: 'Andoas' });
+// 1508 - Putumayo
+districts.set('150801', { code: '150801', name: 'Putumayo' });
+districts.set('150802', { code: '150802', name: 'Rosa Panduro' });
+districts.set('150803', { code: '150803', name: 'Teniente Manuel Clavero' });
+districts.set('150804', { code: '150804', name: 'Yaguas' });
+// 16 - Madre de Dios
+// 1601 - Tambopata
+districts.set('160101', { code: '160101', name: 'Tambopata' });
+districts.set('160102', { code: '160102', name: 'Inambari' });
+districts.set('160103', { code: '160103', name: 'Las Piedras' });
+districts.set('160104', { code: '160104', name: 'Laberinto' });
+// 1602 - Manu
+districts.set('160201', { code: '160201', name: 'Manu' });
+districts.set('160202', { code: '160202', name: 'Fitzcarrald' });
+districts.set('160203', { code: '160203', name: 'Madre de Dios' });
+districts.set('160204', { code: '160204', name: 'Huepetuhe' });
+// 1603 - Tahuamanu
+districts.set('160301', { code: '160301', name: 'Iñapari' });
+districts.set('160302', { code: '160302', name: 'Iberia' });
+districts.set('160303', { code: '160303', name: 'Tahuamanu' });
+// 17 - Moquegua
+// 1701 - Mariscal Nieto
+districts.set('170101', { code: '170101', name: 'Moquegua' });
+districts.set('170102', { code: '170102', name: 'Carumas' });
+districts.set('170103', { code: '170103', name: 'Cuchumbaya' });
+districts.set('170104', { code: '170104', name: 'Samegua' });
+districts.set('170105', { code: '170105', name: 'San Cristobal' });
+districts.set('170106', { code: '170106', name: 'Torata' });
+// 1702 - General Sanchez Cerro
+districts.set('170201', { code: '170201', name: 'Omate' });
+districts.set('170202', { code: '170202', name: 'Chojata' });
+districts.set('170203', { code: '170203', name: 'Coalaque' });
+districts.set('170204', { code: '170204', name: 'Ichuña' });
+districts.set('170205', { code: '170205', name: 'La Capilla' });
+districts.set('170206', { code: '170206', name: 'Lloque' });
+districts.set('170207', { code: '170207', name: 'Matalaque' });
+districts.set('170208', { code: '170208', name: 'Puquina' });
+districts.set('170209', { code: '170209', name: 'Quinistaquillas' });
+districts.set('170210', { code: '170210', name: 'Ubinas' });
+districts.set('170211', { code: '170211', name: 'Yunga' });
+// 1703 - Ilo
+districts.set('170301', { code: '170301', name: 'Ilo' });
+districts.set('170302', { code: '170302', name: 'El Algarrobal' });
+districts.set('170303', { code: '170303', name: 'Pacocha' });
+// 18 - Pasco
+// 1801 - Pasco
+districts.set('180101', { code: '180101', name: 'Chaupimarca' });
+districts.set('180102', { code: '180102', name: 'Huachon' });
+districts.set('180103', { code: '180103', name: 'Huariaca' });
+districts.set('180104', { code: '180104', name: 'Huayllay' });
+districts.set('180105', { code: '180105', name: 'Ninacaca' });
+districts.set('180106', { code: '180106', name: 'Pallanchacra' });
+districts.set('180107', { code: '180107', name: 'Paucartambo' });
+districts.set('180108', {
+  code: '180108',
+  name: 'San Francisco de Asis de Yarusyacan',
+});
+districts.set('180109', { code: '180109', name: 'Simon Bolivar' });
+districts.set('180110', { code: '180110', name: 'Ticlacayan' });
+districts.set('180111', { code: '180111', name: 'Tinyahuarco' });
+districts.set('180112', { code: '180112', name: 'Vicco' });
+districts.set('180113', { code: '180113', name: 'Yanacancha' });
+// 1802 - Daniel Alcides Carrion
+districts.set('180201', { code: '180201', name: 'Yanahuanca' });
+districts.set('180202', { code: '180202', name: 'Chacayan' });
+districts.set('180203', { code: '180203', name: 'Goyllarisquizga' });
+districts.set('180204', { code: '180204', name: 'Paucar' });
+districts.set('180205', { code: '180205', name: 'San Pedro de Pillao' });
+districts.set('180206', { code: '180206', name: 'Santa Ana de Tusi' });
+districts.set('180207', { code: '180207', name: 'Tapuc' });
+districts.set('180208', { code: '180208', name: 'Vilcabamba' });
+// 1803 - Oxapampa
+districts.set('180301', { code: '180301', name: 'Oxapampa' });
+districts.set('180302', { code: '180302', name: 'Chontabamba' });
+districts.set('180303', { code: '180303', name: 'Huancabamba' });
+districts.set('180304', { code: '180304', name: 'Palcazu' });
+districts.set('180305', { code: '180305', name: 'Pozuzo' });
+districts.set('180306', { code: '180306', name: 'Puerto Bermudez' });
+districts.set('180307', { code: '180307', name: 'Villa Rica' });
+districts.set('180308', { code: '180308', name: 'Constitucion' });
+// 19 - Piura
+// 1901 - Piura
+districts.set('190101', { code: '190101', name: 'Piura' });
+districts.set('190104', { code: '190104', name: 'Castilla' });
+districts.set('190105', { code: '190105', name: 'Catacaos' });
+districts.set('190107', { code: '190107', name: 'Cura Mori' });
+districts.set('190108', { code: '190108', name: 'El Tallan' });
+districts.set('190109', { code: '190109', name: 'La Arena' });
+districts.set('190110', { code: '190110', name: 'La Union' });
+districts.set('190111', { code: '190111', name: 'Las Lomas' });
+districts.set('190114', { code: '190114', name: 'Tambo Grande' });
+districts.set('190115', { code: '190115', name: 'Veintiseis de Octubre' });
+// 1902 - Ayabaca
+districts.set('190201', { code: '190201', name: 'Ayabaca' });
+districts.set('190202', { code: '190202', name: 'Frias' });
+districts.set('190203', { code: '190203', name: 'Jilili' });
+districts.set('190204', { code: '190204', name: 'Lagunas' });
+districts.set('190205', { code: '190205', name: 'Montero' });
+districts.set('190206', { code: '190206', name: 'Pacaipampa' });
+districts.set('190207', { code: '190207', name: 'Paimas' });
+districts.set('190208', { code: '190208', name: 'Sapillica' });
+districts.set('190209', { code: '190209', name: 'Sicchez' });
+districts.set('190210', { code: '190210', name: 'Suyo' });
+// 1903 - Huancabamba
+districts.set('190301', { code: '190301', name: 'Huancabamba' });
+districts.set('190302', { code: '190302', name: 'Canchaque' });
+districts.set('190303', { code: '190303', name: 'El Carmen de la Frontera' });
+districts.set('190304', { code: '190304', name: 'Huarmaca' });
+districts.set('190305', { code: '190305', name: 'Lalaquiz' });
+districts.set('190306', { code: '190306', name: 'San Miguel de El Faique' });
+districts.set('190307', { code: '190307', name: 'Sondor' });
+districts.set('190308', { code: '190308', name: 'Sondorillo' });
+// 1904 - Morropon
+districts.set('190401', { code: '190401', name: 'Chulucanas' });
+districts.set('190402', { code: '190402', name: 'Buenos Aires' });
+districts.set('190403', { code: '190403', name: 'Chalaco' });
+districts.set('190404', { code: '190404', name: 'La Matanza' });
+districts.set('190405', { code: '190405', name: 'Morropon' });
+districts.set('190406', { code: '190406', name: 'Salitral' });
+districts.set('190407', { code: '190407', name: 'San Juan de Bigote' });
+districts.set('190408', { code: '190408', name: 'Santa Catalina de Mossa' });
+districts.set('190409', { code: '190409', name: 'Santo Domingo' });
+districts.set('190410', { code: '190410', name: 'Yamango' });
+// 1905 - Paita
+districts.set('190501', { code: '190501', name: 'Paita' });
+districts.set('190502', { code: '190502', name: 'Amotape' });
+districts.set('190503', { code: '190503', name: 'Arenal' });
+districts.set('190504', { code: '190504', name: 'Colan' });
+districts.set('190505', { code: '190505', name: 'La Huaca' });
+districts.set('190506', { code: '190506', name: 'Tamarindo' });
+districts.set('190507', { code: '190507', name: 'Vichayal' });
+// 1906 - Sullana
+districts.set('190601', { code: '190601', name: 'Sullana' });
+districts.set('190602', { code: '190602', name: 'Bellavista' });
+districts.set('190603', { code: '190603', name: 'Ignacio Escudero' });
+districts.set('190604', { code: '190604', name: 'Lancones' });
+districts.set('190605', { code: '190605', name: 'Marcavelica' });
+districts.set('190606', { code: '190606', name: 'Miguel Checa' });
+districts.set('190607', { code: '190607', name: 'Querecotillo' });
+districts.set('190608', { code: '190608', name: 'Salitral' });
+// 1907 - Talara
+districts.set('190701', { code: '190701', name: 'Pariñas' });
+districts.set('190702', { code: '190702', name: 'El Alto' });
+districts.set('190703', { code: '190703', name: 'La Brea' });
+districts.set('190704', { code: '190704', name: 'Lobitos' });
+districts.set('190705', { code: '190705', name: 'Los Organos' });
+districts.set('190706', { code: '190706', name: 'Mancora' });
+// 1908 - Sechura
+districts.set('190801', { code: '190801', name: 'Sechura' });
+districts.set('190802', { code: '190802', name: 'Bellavista de la Union' });
+districts.set('190803', { code: '190803', name: 'Bernal' });
+districts.set('190804', { code: '190804', name: 'Cristo Nos Valga' });
+districts.set('190805', { code: '190805', name: 'Vice' });
+districts.set('190806', { code: '190806', name: 'Rinconada Llicuar' });
+// 20 - Puno
+// 2001 - Puno
+districts.set('200101', { code: '200101', name: 'Puno' });
+districts.set('200102', { code: '200102', name: 'Acora' });
+districts.set('200103', { code: '200103', name: 'Amantani' });
+districts.set('200104', { code: '200104', name: 'Atuncolla' });
+districts.set('200105', { code: '200105', name: 'Capachica' });
+districts.set('200106', { code: '200106', name: 'Chucuito' });
+districts.set('200107', { code: '200107', name: 'Coata' });
+districts.set('200108', { code: '200108', name: 'Huata' });
+districts.set('200109', { code: '200109', name: 'Mañazo' });
+districts.set('200110', { code: '200110', name: 'Paucarcolla' });
+districts.set('200111', { code: '200111', name: 'Pichacani' });
+districts.set('200112', { code: '200112', name: 'Plateria' });
+districts.set('200113', { code: '200113', name: 'San Antonio' });
+districts.set('200114', { code: '200114', name: 'Tiquillaca' });
+districts.set('200115', { code: '200115', name: 'Vilque' });
+// 2002 - Azangaro
+districts.set('200201', { code: '200201', name: 'Azangaro' });
+districts.set('200202', { code: '200202', name: 'Achaya' });
+districts.set('200203', { code: '200203', name: 'Arapa' });
+districts.set('200204', { code: '200204', name: 'Asillo' });
+districts.set('200205', { code: '200205', name: 'Caminaca' });
+districts.set('200206', { code: '200206', name: 'Chupa' });
+districts.set('200207', { code: '200207', name: 'Jose Domingo Choquehuanca' });
+districts.set('200208', { code: '200208', name: 'Muñani' });
+districts.set('200209', { code: '200209', name: 'Potoni' });
+districts.set('200210', { code: '200210', name: 'Saman' });
+districts.set('200211', { code: '200211', name: 'San Anton' });
+districts.set('200212', { code: '200212', name: 'San Jose' });
+districts.set('200213', { code: '200213', name: 'San Juan de Salinas' });
+districts.set('200214', { code: '200214', name: 'Santiago de Pupuja' });
+districts.set('200215', { code: '200215', name: 'Tirapata' });
+// 2003 - Carabaya
+districts.set('200301', { code: '200301', name: 'Macusani' });
+districts.set('200302', { code: '200302', name: 'Ajoyani' });
+districts.set('200303', { code: '200303', name: 'Ayapata' });
+districts.set('200304', { code: '200304', name: 'Coasa' });
+districts.set('200305', { code: '200305', name: 'Corani' });
+districts.set('200306', { code: '200306', name: 'Crucero' });
+districts.set('200307', { code: '200307', name: 'Ituata' });
+districts.set('200308', { code: '200308', name: 'Ollachea' });
+districts.set('200309', { code: '200309', name: 'San Gaban' });
+districts.set('200310', { code: '200310', name: 'Usicayos' });
+// 2004 - Chucuito
+districts.set('200401', { code: '200401', name: 'Juli' });
+districts.set('200402', { code: '200402', name: 'Desaguadero' });
+districts.set('200403', { code: '200403', name: 'Huacullani' });
+districts.set('200404', { code: '200404', name: 'Kelluyo' });
+districts.set('200405', { code: '200405', name: 'Pisacoma' });
+districts.set('200406', { code: '200406', name: 'Pomata' });
+districts.set('200407', { code: '200407', name: 'Zepita' });
+// 2005 - El Collao
+districts.set('200501', { code: '200501', name: 'Ilave' });
+districts.set('200502', { code: '200502', name: 'Capazo' });
+districts.set('200503', { code: '200503', name: 'Pilcuyo' });
+districts.set('200504', { code: '200504', name: 'Santa Rosa' });
+districts.set('200505', { code: '200505', name: 'Conduriri' });
+// 2006 - Huancane
+districts.set('200601', { code: '200601', name: 'Huancane' });
+districts.set('200602', { code: '200602', name: 'Cojata' });
+districts.set('200603', { code: '200603', name: 'Huatasani' });
+districts.set('200604', { code: '200604', name: 'Inchupalla' });
+districts.set('200605', { code: '200605', name: 'Pusi' });
+districts.set('200606', { code: '200606', name: 'Rosaspata' });
+districts.set('200607', { code: '200607', name: 'Taraco' });
+districts.set('200608', { code: '200608', name: 'Vilque Chico' });
+// 2007 - Lampa
+districts.set('200701', { code: '200701', name: 'Lampa' });
+districts.set('200702', { code: '200702', name: 'Cabanilla' });
+districts.set('200703', { code: '200703', name: 'Calapuja' });
+districts.set('200704', { code: '200704', name: 'Nicasio' });
+districts.set('200705', { code: '200705', name: 'Ocuviri' });
+districts.set('200706', { code: '200706', name: 'Palca' });
+districts.set('200707', { code: '200707', name: 'Paratia' });
+districts.set('200708', { code: '200708', name: 'Pucara' });
+districts.set('200709', { code: '200709', name: 'Santa Lucia' });
+districts.set('200710', { code: '200710', name: 'Vilavila' });
+// 2008 - Melgar
+districts.set('200801', { code: '200801', name: 'Ayaviri' });
+districts.set('200802', { code: '200802', name: 'Antauta' });
+districts.set('200803', { code: '200803', name: 'Cupi' });
+districts.set('200804', { code: '200804', name: 'Llalli' });
+districts.set('200805', { code: '200805', name: 'Macari' });
+districts.set('200806', { code: '200806', name: 'Nuñoa' });
+districts.set('200807', { code: '200807', name: 'Orurillo' });
+districts.set('200808', { code: '200808', name: 'Santa Rosa' });
+districts.set('200809', { code: '200809', name: 'Umachiri' });
+// 2009 - Moho
+districts.set('200901', { code: '200901', name: 'Moho' });
+districts.set('200902', { code: '200902', name: 'Conima' });
+districts.set('200903', { code: '200903', name: 'Huayrapata' });
+districts.set('200904', { code: '200904', name: 'Tilali' });
+// 2010 - San Antonio de Putina
+districts.set('201001', { code: '201001', name: 'Putina' });
+districts.set('201002', { code: '201002', name: 'Ananea' });
+districts.set('201003', { code: '201003', name: 'Pedro Vilca Apaza' });
+districts.set('201004', { code: '201004', name: 'Quilcapuncu' });
+districts.set('201005', { code: '201005', name: 'Sina' });
+// 2011 - San Roman
+districts.set('201101', { code: '201101', name: 'Juliaca' });
+districts.set('201102', { code: '201102', name: 'Cabana' });
+districts.set('201103', { code: '201103', name: 'Cabanillas' });
+districts.set('201104', { code: '201104', name: 'Caracoto' });
+// 2012 - Sandia
+districts.set('201201', { code: '201201', name: 'Sandia' });
+districts.set('201202', { code: '201202', name: 'Cuyocuyo' });
+districts.set('201203', { code: '201203', name: 'Limbani' });
+districts.set('201204', { code: '201204', name: 'Patambuco' });
+districts.set('201205', { code: '201205', name: 'Phara' });
+districts.set('201206', { code: '201206', name: 'Quiaca' });
+districts.set('201207', { code: '201207', name: 'San Juan del Oro' });
+districts.set('201208', { code: '201208', name: 'Yanahuaya' });
+districts.set('201209', { code: '201209', name: 'Alto Inambari' });
+districts.set('201210', { code: '201210', name: 'San Pedro de Putina Punco' });
+// 2013 - Yunguyo
+districts.set('201301', { code: '201301', name: 'Yunguyo' });
+districts.set('201302', { code: '201302', name: 'Anapia' });
+districts.set('201303', { code: '201303', name: 'Copani' });
+districts.set('201304', { code: '201304', name: 'Cuturapi' });
+districts.set('201305', { code: '201305', name: 'Ollaraya' });
+districts.set('201306', { code: '201306', name: 'Tinicachi' });
+districts.set('201307', { code: '201307', name: 'Unicachi' });
+// 21 - San Martin
+// 2101 - Moyobamba
+districts.set('210101', { code: '210101', name: 'Moyobamba' });
+districts.set('210102', { code: '210102', name: 'Calzada' });
+districts.set('210103', { code: '210103', name: 'Habana' });
+districts.set('210104', { code: '210104', name: 'Jepelacio' });
+districts.set('210105', { code: '210105', name: 'Soritor' });
+districts.set('210106', { code: '210106', name: 'Yantalo' });
+// 2102 - Bellavista
+districts.set('210201', { code: '210201', name: 'Bellavista' });
+districts.set('210202', { code: '210202', name: 'Alto Biavo' });
+districts.set('210203', { code: '210203', name: 'Bajo Biavo' });
+districts.set('210204', { code: '210204', name: 'Huallaga' });
+districts.set('210205', { code: '210205', name: 'San Pablo' });
+districts.set('210206', { code: '210206', name: 'San Rafael' });
+// 2103 - El Dorado
+districts.set('210301', { code: '210301', name: 'San Jose de Sisa' });
+districts.set('210302', { code: '210302', name: 'Agua Blanca' });
+districts.set('210303', { code: '210303', name: 'San Martin' });
+districts.set('210304', { code: '210304', name: 'Santa Rosa' });
+districts.set('210305', { code: '210305', name: 'Shatoja' });
+// 2104 - Huallaga
+districts.set('210401', { code: '210401', name: 'Saposoa' });
+districts.set('210402', { code: '210402', name: 'Alto Saposoa' });
+districts.set('210403', { code: '210403', name: 'El Eslabon' });
+districts.set('210404', { code: '210404', name: 'Piscoyacu' });
+districts.set('210405', { code: '210405', name: 'Sacanche' });
+districts.set('210406', { code: '210406', name: 'Tingo de Saposoa' });
+// 2105 - Lamas
+districts.set('210501', { code: '210501', name: 'Lamas' });
+districts.set('210502', { code: '210502', name: 'Alonso de Alvarado' });
+districts.set('210503', { code: '210503', name: 'Barranquita' });
+districts.set('210504', { code: '210504', name: 'Caynarachi' });
+districts.set('210505', { code: '210505', name: 'Cuñumbuqui' });
+districts.set('210506', { code: '210506', name: 'Pinto Recodo' });
+districts.set('210507', { code: '210507', name: 'Rumisapa' });
+districts.set('210508', { code: '210508', name: 'San Roque de Cumbaza' });
+districts.set('210509', { code: '210509', name: 'Shanao' });
+districts.set('210510', { code: '210510', name: 'Tabalosos' });
+districts.set('210511', { code: '210511', name: 'Zapatero' });
+// 2106 - Mariscal Caceres
+districts.set('210601', { code: '210601', name: 'Juanjui' });
+districts.set('210602', { code: '210602', name: 'Campanilla' });
+districts.set('210603', { code: '210603', name: 'Huicungo' });
+districts.set('210604', { code: '210604', name: 'Pachiza' });
+districts.set('210605', { code: '210605', name: 'Pajarillo' });
+// 2107 - Picota
+districts.set('210701', { code: '210701', name: 'Picota' });
+districts.set('210702', { code: '210702', name: 'Buenos Aires' });
+districts.set('210703', { code: '210703', name: 'Caspisapa' });
+districts.set('210704', { code: '210704', name: 'Pilluana' });
+districts.set('210705', { code: '210705', name: 'Pucacaca' });
+districts.set('210706', { code: '210706', name: 'San Cristobal' });
+districts.set('210707', { code: '210707', name: 'San Hilarion' });
+districts.set('210708', { code: '210708', name: 'Shamboyacu' });
+districts.set('210709', { code: '210709', name: 'Tingo de Ponasa' });
+districts.set('210710', { code: '210710', name: 'Tres Unidos' });
+// 2108 - Rioja
+districts.set('210801', { code: '210801', name: 'Rioja' });
+districts.set('210802', { code: '210802', name: 'Awajun' });
+districts.set('210803', { code: '210803', name: 'Elias Soplin Vargas' });
+districts.set('210804', { code: '210804', name: 'Nueva Cajamarca' });
+districts.set('210805', { code: '210805', name: 'Pardo Miguel' });
+districts.set('210806', { code: '210806', name: 'Posic' });
+districts.set('210807', { code: '210807', name: 'San Fernando' });
+districts.set('210808', { code: '210808', name: 'Yorongos' });
+districts.set('210809', { code: '210809', name: 'Yuracyacu' });
+// 2109 - San Martin
+districts.set('210901', { code: '210901', name: 'Tarapoto' });
+districts.set('210902', { code: '210902', name: 'Alberto Leveau' });
+districts.set('210903', { code: '210903', name: 'Cacatachi' });
+districts.set('210904', { code: '210904', name: 'Chazuta' });
+districts.set('210905', { code: '210905', name: 'Chipurana' });
+districts.set('210906', { code: '210906', name: 'El Porvenir' });
+districts.set('210907', { code: '210907', name: 'Huimbayoc' });
+districts.set('210908', { code: '210908', name: 'Juan Guerra' });
+districts.set('210909', { code: '210909', name: 'La Banda de Shilcayo' });
+districts.set('210910', { code: '210910', name: 'Morales' });
+districts.set('210911', { code: '210911', name: 'Papaplaya' });
+districts.set('210912', { code: '210912', name: 'San Antonio' });
+districts.set('210913', { code: '210913', name: 'Sauce' });
+districts.set('210914', { code: '210914', name: 'Shapaja' });
+// 2110 - Tocache
+districts.set('211001', { code: '211001', name: 'Tocache' });
+districts.set('211002', { code: '211002', name: 'Nuevo Progreso' });
+districts.set('211003', { code: '211003', name: 'Polvora' });
+districts.set('211004', { code: '211004', name: 'Shunte' });
+districts.set('211005', { code: '211005', name: 'Uchiza' });
+// 22 - Tacna
+// 2201 - Tacna
+districts.set('220101', { code: '220101', name: 'Tacna' });
+districts.set('220102', { code: '220102', name: 'Alto de la Alianza' });
+districts.set('220103', { code: '220103', name: 'Calana' });
+districts.set('220104', { code: '220104', name: 'Ciudad Nueva' });
+districts.set('220105', { code: '220105', name: 'Inclan' });
+districts.set('220106', { code: '220106', name: 'Pachia' });
+districts.set('220107', { code: '220107', name: 'Palca' });
+districts.set('220108', { code: '220108', name: 'Pocollay' });
+districts.set('220109', { code: '220109', name: 'Sama' });
+districts.set('220110', {
+  code: '220110',
+  name: 'Coronel Gregorio Albarracin Lanchipa',
+});
+districts.set('220111', { code: '220111', name: 'La Yarada los Palos' });
+// 2202 - Candarave
+districts.set('220201', { code: '220201', name: 'Candarave' });
+districts.set('220202', { code: '220202', name: 'Cairani' });
+districts.set('220203', { code: '220203', name: 'Camilaca' });
+districts.set('220204', { code: '220204', name: 'Curibaya' });
+districts.set('220205', { code: '220205', name: 'Huanuara' });
+districts.set('220206', { code: '220206', name: 'Quilahuani' });
+// 2203 - Jorge Basadre
+districts.set('220301', { code: '220301', name: 'Locumba' });
+districts.set('220302', { code: '220302', name: 'Ilabaya' });
+districts.set('220303', { code: '220303', name: 'Ite' });
+// 2204 - Tarata
+districts.set('220401', { code: '220401', name: 'Tarata' });
+districts.set('220402', { code: '220402', name: 'Heroes Albarracin' });
+districts.set('220403', { code: '220403', name: 'Estique' });
+districts.set('220404', { code: '220404', name: 'Estique-Pampa' });
+districts.set('220405', { code: '220405', name: 'Sitajara' });
+districts.set('220406', { code: '220406', name: 'Susapaya' });
+districts.set('220407', { code: '220407', name: 'Tarucachi' });
+districts.set('220408', { code: '220408', name: 'Ticaco' });
+// 23 - Tumbes
+// 2301 - Tumbes
+districts.set('230101', { code: '230101', name: 'Tumbes' });
+districts.set('230102', { code: '230102', name: 'Corrales' });
+districts.set('230103', { code: '230103', name: 'La Cruz' });
+districts.set('230104', { code: '230104', name: 'Pampas de Hospital' });
+districts.set('230105', { code: '230105', name: 'San Jacinto' });
+districts.set('230106', { code: '230106', name: 'San Juan de la Virgen' });
+// 2302 - Contralmirante Villar
+districts.set('230201', { code: '230201', name: 'Zorritos' });
+districts.set('230202', { code: '230202', name: 'Casitas' });
+districts.set('230203', { code: '230203', name: 'Canoas de Punta Sal' });
+// 2303 - Zarumilla
+districts.set('230301', { code: '230301', name: 'Zarumilla' });
+districts.set('230302', { code: '230302', name: 'Aguas Verdes' });
+districts.set('230303', { code: '230303', name: 'Matapalo' });
+districts.set('230304', { code: '230304', name: 'Papayal' });
+// 24 - Callao
+// 2401 - Prov. Const. del Callao
 districts.set('070101', { code: '070101', name: 'Callao' });
 districts.set('070102', { code: '070102', name: 'Bellavista' });
 districts.set('070103', { code: '070103', name: 'Carmen de la Legua Reynoso' });
@@ -776,1319 +2089,6 @@ districts.set('070104', { code: '070104', name: 'La Perla' });
 districts.set('070105', { code: '070105', name: 'La Punta' });
 districts.set('070106', { code: '070106', name: 'Ventanilla' });
 districts.set('070107', { code: '070107', name: 'Mi Peru' });
-// 08 - Cusco
-// 0801 - Cusco
-districts.set('080101', { code: '080101', name: 'Cusco' });
-districts.set('080102', { code: '080102', name: 'Ccorca' });
-districts.set('080103', { code: '080103', name: 'Poroy' });
-districts.set('080104', { code: '080104', name: 'San Jeronimo' });
-districts.set('080105', { code: '080105', name: 'San Sebastian' });
-districts.set('080106', { code: '080106', name: 'Santiago' });
-districts.set('080107', { code: '080107', name: 'Saylla' });
-districts.set('080108', { code: '080108', name: 'Wanchaq' });
-// 0802 - Acomayo
-districts.set('080201', { code: '080201', name: 'Acomayo' });
-districts.set('080202', { code: '080202', name: 'Acopia' });
-districts.set('080203', { code: '080203', name: 'Acos' });
-districts.set('080204', { code: '080204', name: 'Mosoc Llacta' });
-districts.set('080205', { code: '080205', name: 'Pomacanchi' });
-districts.set('080206', { code: '080206', name: 'Rondocan' });
-districts.set('080207', { code: '080207', name: 'Sangarara' });
-// 0803 - Anta
-districts.set('080301', { code: '080301', name: 'Anta' });
-districts.set('080302', { code: '080302', name: 'Ancahuasi' });
-districts.set('080303', { code: '080303', name: 'Cachimayo' });
-districts.set('080304', { code: '080304', name: 'Chinchaypujio' });
-districts.set('080305', { code: '080305', name: 'Huarocondo' });
-districts.set('080306', { code: '080306', name: 'Limatambo' });
-districts.set('080307', { code: '080307', name: 'Mollepata' });
-districts.set('080308', { code: '080308', name: 'Pucyura' });
-districts.set('080309', { code: '080309', name: 'Zurite' });
-// 0804 - Calca
-districts.set('080401', { code: '080401', name: 'Calca' });
-districts.set('080402', { code: '080402', name: 'Coya' });
-districts.set('080403', { code: '080403', name: 'Lamay' });
-districts.set('080404', { code: '080404', name: 'Lares' });
-districts.set('080405', { code: '080405', name: 'Pisac' });
-districts.set('080406', { code: '080406', name: 'San Salvador' });
-districts.set('080407', { code: '080407', name: 'Taray' });
-districts.set('080408', { code: '080408', name: 'Yanatile' });
-// 0805 - Canas
-districts.set('080501', { code: '080501', name: 'Yanaoca' });
-districts.set('080502', { code: '080502', name: 'Checca' });
-districts.set('080503', { code: '080503', name: 'Kunturkanki' });
-districts.set('080504', { code: '080504', name: 'Langui' });
-districts.set('080505', { code: '080505', name: 'Layo' });
-districts.set('080506', { code: '080506', name: 'Pampamarca' });
-districts.set('080507', { code: '080507', name: 'Quehue' });
-districts.set('080508', { code: '080508', name: 'Tupac Amaru' });
-// 0806 - Canchis
-districts.set('080601', { code: '080601', name: 'Sicuani' });
-districts.set('080602', { code: '080602', name: 'Checacupe' });
-districts.set('080603', { code: '080603', name: 'Combapata' });
-districts.set('080604', { code: '080604', name: 'Marangani' });
-districts.set('080605', { code: '080605', name: 'Pitumarca' });
-districts.set('080606', { code: '080606', name: 'San Pablo' });
-districts.set('080607', { code: '080607', name: 'San Pedro' });
-districts.set('080608', { code: '080608', name: 'Tinta' });
-// 0807 - Chumbivilcas
-districts.set('080701', { code: '080701', name: 'Santo Tomas' });
-districts.set('080702', { code: '080702', name: 'Capacmarca' });
-districts.set('080703', { code: '080703', name: 'Chamaca' });
-districts.set('080704', { code: '080704', name: 'Colquemarca' });
-districts.set('080705', { code: '080705', name: 'Livitaca' });
-districts.set('080706', { code: '080706', name: 'Llusco' });
-districts.set('080707', { code: '080707', name: 'Quiñota' });
-districts.set('080708', { code: '080708', name: 'Velille' });
-// 0808 - Espinar
-districts.set('080801', { code: '080801', name: 'Espinar' });
-districts.set('080802', { code: '080802', name: 'Condoroma' });
-districts.set('080803', { code: '080803', name: 'Coporaque' });
-districts.set('080804', { code: '080804', name: 'Ocoruro' });
-districts.set('080805', { code: '080805', name: 'Pallpata' });
-districts.set('080806', { code: '080806', name: 'Pichigua' });
-districts.set('080807', { code: '080807', name: 'Suyckutambo' });
-districts.set('080808', { code: '080808', name: 'Alto Pichigua' });
-// 0809 - La Convencion
-districts.set('080901', { code: '080901', name: 'Santa Ana' });
-districts.set('080902', { code: '080902', name: 'Echarate' });
-districts.set('080903', { code: '080903', name: 'Huayopata' });
-districts.set('080904', { code: '080904', name: 'Maranura' });
-districts.set('080905', { code: '080905', name: 'Ocobamba' });
-districts.set('080906', { code: '080906', name: 'Quellouno' });
-districts.set('080907', { code: '080907', name: 'Kimbiri' });
-districts.set('080908', { code: '080908', name: 'Santa Teresa' });
-districts.set('080909', { code: '080909', name: 'Vilcabamba' });
-districts.set('080910', { code: '080910', name: 'Pichari' });
-districts.set('080911', { code: '080911', name: 'Inkawasi' });
-districts.set('080912', { code: '080912', name: 'Villa Virgen' });
-districts.set('080913', { code: '080913', name: 'Villa Kintiarina' });
-// 0810 - Paruro
-districts.set('081001', { code: '081001', name: 'Paruro' });
-districts.set('081002', { code: '081002', name: 'Accha' });
-districts.set('081003', { code: '081003', name: 'Ccapi' });
-districts.set('081004', { code: '081004', name: 'Colcha' });
-districts.set('081005', { code: '081005', name: 'Huanoquite' });
-districts.set('081006', { code: '081006', name: 'Omacha' });
-districts.set('081007', { code: '081007', name: 'Paccaritambo' });
-districts.set('081008', { code: '081008', name: 'Pillpinto' });
-districts.set('081009', { code: '081009', name: 'Yaurisque' });
-// 0811 - Paucartambo
-districts.set('081101', { code: '081101', name: 'Paucartambo' });
-districts.set('081102', { code: '081102', name: 'Caicay' });
-districts.set('081103', { code: '081103', name: 'Challabamba' });
-districts.set('081104', { code: '081104', name: 'Colquepata' });
-districts.set('081105', { code: '081105', name: 'Huancarani' });
-districts.set('081106', { code: '081106', name: 'Kosñipata' });
-// 0812 - Quispicanchi
-districts.set('081201', { code: '081201', name: 'Urcos' });
-districts.set('081202', { code: '081202', name: 'Andahuaylillas' });
-districts.set('081203', { code: '081203', name: 'Camanti' });
-districts.set('081204', { code: '081204', name: 'Ccarhuayo' });
-districts.set('081205', { code: '081205', name: 'Ccatca' });
-districts.set('081206', { code: '081206', name: 'Cusipata' });
-districts.set('081207', { code: '081207', name: 'Huaro' });
-districts.set('081208', { code: '081208', name: 'Lucre' });
-districts.set('081209', { code: '081209', name: 'Marcapata' });
-districts.set('081210', { code: '081210', name: 'Ocongate' });
-districts.set('081211', { code: '081211', name: 'Oropesa' });
-districts.set('081212', { code: '081212', name: 'Quiquijana' });
-// 0813 - Urubamba
-districts.set('081301', { code: '081301', name: 'Urubamba' });
-districts.set('081302', { code: '081302', name: 'Chinchero' });
-districts.set('081303', { code: '081303', name: 'Huayllabamba' });
-districts.set('081304', { code: '081304', name: 'Machupicchu' });
-districts.set('081305', { code: '081305', name: 'Maras' });
-districts.set('081306', { code: '081306', name: 'Ollantaytambo' });
-districts.set('081307', { code: '081307', name: 'Yucay' });
-// 09 - Huancavelica
-// 0901 - Huancavelica
-districts.set('090101', { code: '090101', name: 'Huancavelica' });
-districts.set('090102', { code: '090102', name: 'Acobambilla' });
-districts.set('090103', { code: '090103', name: 'Acoria' });
-districts.set('090104', { code: '090104', name: 'Conayca' });
-districts.set('090105', { code: '090105', name: 'Cuenca' });
-districts.set('090106', { code: '090106', name: 'Huachocolpa' });
-districts.set('090107', { code: '090107', name: 'Huayllahuara' });
-districts.set('090108', { code: '090108', name: 'Izcuchaca' });
-districts.set('090109', { code: '090109', name: 'Laria' });
-districts.set('090110', { code: '090110', name: 'Manta' });
-districts.set('090111', { code: '090111', name: 'Mariscal Caceres' });
-districts.set('090112', { code: '090112', name: 'Moya' });
-districts.set('090113', { code: '090113', name: 'Nuevo Occoro' });
-districts.set('090114', { code: '090114', name: 'Palca' });
-districts.set('090115', { code: '090115', name: 'Pilchaca' });
-districts.set('090116', { code: '090116', name: 'Vilca' });
-districts.set('090117', { code: '090117', name: 'Yauli' });
-districts.set('090118', { code: '090118', name: 'Ascension' });
-districts.set('090119', { code: '090119', name: 'Huando' });
-// 0902 - Acobamba
-districts.set('090201', { code: '090201', name: 'Acobamba' });
-districts.set('090202', { code: '090202', name: 'Andabamba' });
-districts.set('090203', { code: '090203', name: 'Anta' });
-districts.set('090204', { code: '090204', name: 'Caja' });
-districts.set('090205', { code: '090205', name: 'Marcas' });
-districts.set('090206', { code: '090206', name: 'Paucara' });
-districts.set('090207', { code: '090207', name: 'Pomacocha' });
-districts.set('090208', { code: '090208', name: 'Rosario' });
-// 0903 - Angaraes
-districts.set('090301', { code: '090301', name: 'Lircay' });
-districts.set('090302', { code: '090302', name: 'Anchonga' });
-districts.set('090303', { code: '090303', name: 'Callanmarca' });
-districts.set('090304', { code: '090304', name: 'Ccochaccasa' });
-districts.set('090305', { code: '090305', name: 'Chincho' });
-districts.set('090306', { code: '090306', name: 'Congalla' });
-districts.set('090307', { code: '090307', name: 'Huanca-Huanca' });
-districts.set('090308', { code: '090308', name: 'Huayllay Grande' });
-districts.set('090309', { code: '090309', name: 'Julcamarca' });
-districts.set('090310', { code: '090310', name: 'San Antonio de Antaparco' });
-districts.set('090311', { code: '090311', name: 'Santo Tomas de Pata' });
-districts.set('090312', { code: '090312', name: 'Secclla' });
-// 0904 - Castrovirreyna
-districts.set('090401', { code: '090401', name: 'Castrovirreyna' });
-districts.set('090402', { code: '090402', name: 'Arma' });
-districts.set('090403', { code: '090403', name: 'Aurahua' });
-districts.set('090404', { code: '090404', name: 'Capillas' });
-districts.set('090405', { code: '090405', name: 'Chupamarca' });
-districts.set('090406', { code: '090406', name: 'Cocas' });
-districts.set('090407', { code: '090407', name: 'Huachos' });
-districts.set('090408', { code: '090408', name: 'Huamatambo' });
-districts.set('090409', { code: '090409', name: 'Mollepampa' });
-districts.set('090410', { code: '090410', name: 'San Juan' });
-districts.set('090411', { code: '090411', name: 'Santa Ana' });
-districts.set('090412', { code: '090412', name: 'Tantara' });
-districts.set('090413', { code: '090413', name: 'Ticrapo' });
-// 0905 - Churcampa
-districts.set('090501', { code: '090501', name: 'Churcampa' });
-districts.set('090502', { code: '090502', name: 'Anco' });
-districts.set('090503', { code: '090503', name: 'Chinchihuasi' });
-districts.set('090504', { code: '090504', name: 'El Carmen' });
-districts.set('090505', { code: '090505', name: 'La Merced' });
-districts.set('090506', { code: '090506', name: 'Locroja' });
-districts.set('090507', { code: '090507', name: 'Paucarbamba' });
-districts.set('090508', { code: '090508', name: 'San Miguel de Mayocc' });
-districts.set('090509', { code: '090509', name: 'San Pedro de Coris' });
-districts.set('090510', { code: '090510', name: 'Pachamarca' });
-districts.set('090511', { code: '090511', name: 'Cosme' });
-// 0906 - Huaytara
-districts.set('090601', { code: '090601', name: 'Huaytara' });
-districts.set('090602', { code: '090602', name: 'Ayavi' });
-districts.set('090603', { code: '090603', name: 'Cordova' });
-districts.set('090604', { code: '090604', name: 'Huayacundo Arma' });
-districts.set('090605', { code: '090605', name: 'Laramarca' });
-districts.set('090606', { code: '090606', name: 'Ocoyo' });
-districts.set('090607', { code: '090607', name: 'Pilpichaca' });
-districts.set('090608', { code: '090608', name: 'Querco' });
-districts.set('090609', { code: '090609', name: 'Quito-Arma' });
-districts.set('090610', { code: '090610', name: 'San Antonio de Cusicancha' });
-districts.set('090611', { code: '090611', name: 'San Francisco de Sangayaico' });
-districts.set('090612', { code: '090612', name: 'San Isidro' });
-districts.set('090613', { code: '090613', name: 'Santiago de Chocorvos' });
-districts.set('090614', { code: '090614', name: 'Santiago de Quirahuara' });
-districts.set('090615', { code: '090615', name: 'Santo Domingo de Capillas' });
-districts.set('090616', { code: '090616', name: 'Tambo' });
-// 0907 - Tayacaja
-districts.set('090701', { code: '090701', name: 'Pampas' });
-districts.set('090702', { code: '090702', name: 'Acostambo' });
-districts.set('090703', { code: '090703', name: 'Acraquia' });
-districts.set('090704', { code: '090704', name: 'Ahuaycha' });
-districts.set('090705', { code: '090705', name: 'Colcabamba' });
-districts.set('090706', { code: '090706', name: 'Daniel Hernandez' });
-districts.set('090707', { code: '090707', name: 'Huachocolpa' });
-districts.set('090709', { code: '090709', name: 'Huaribamba' });
-districts.set('090710', { code: '090710', name: 'Ñahuimpuquio' });
-districts.set('090711', { code: '090711', name: 'Pazos' });
-districts.set('090713', { code: '090713', name: 'Quishuar' });
-districts.set('090714', { code: '090714', name: 'Salcabamba' });
-districts.set('090715', { code: '090715', name: 'Salcahuasi' });
-districts.set('090716', { code: '090716', name: 'San Marcos de Rocchac' });
-districts.set('090717', { code: '090717', name: 'Surcubamba' });
-districts.set('090718', { code: '090718', name: 'Tintay Puncu' });
-districts.set('090719', { code: '090719', name: 'Quichuas' });
-districts.set('090720', { code: '090720', name: 'Andaymarca' });
-districts.set('090721', { code: '090721', name: 'Roble' });
-districts.set('090722', { code: '090722', name: 'Pichos' });
-// 10 - Huanuco
-// 1001 - Huanuco
-districts.set('100101', { code: '100101', name: 'Huanuco' });
-districts.set('100102', { code: '100102', name: 'Amarilis' });
-districts.set('100103', { code: '100103', name: 'Chinchao' });
-districts.set('100104', { code: '100104', name: 'Churubamba' });
-districts.set('100105', { code: '100105', name: 'Margos' });
-districts.set('100106', { code: '100106', name: 'Quisqui (Kichki)' });
-districts.set('100107', { code: '100107', name: 'San Francisco de Cayran' });
-districts.set('100108', { code: '100108', name: 'San Pedro de Chaulan' });
-districts.set('100109', { code: '100109', name: 'Santa Maria del Valle' });
-districts.set('100110', { code: '100110', name: 'Yarumayo' });
-districts.set('100111', { code: '100111', name: 'Pillco Marca' });
-districts.set('100112', { code: '100112', name: 'Yacus' });
-districts.set('100113', { code: '100113', name: 'San Pablo de Pillao' });
-// 1002 - Ambo
-districts.set('100201', { code: '100201', name: 'Ambo' });
-districts.set('100202', { code: '100202', name: 'Cayna' });
-districts.set('100203', { code: '100203', name: 'Colpas' });
-districts.set('100204', { code: '100204', name: 'Conchamarca' });
-districts.set('100205', { code: '100205', name: 'Huacar' });
-districts.set('100206', { code: '100206', name: 'San Francisco' });
-districts.set('100207', { code: '100207', name: 'San Rafael' });
-districts.set('100208', { code: '100208', name: 'Tomay Kichwa' });
-// 1003 - Dos de Mayo
-districts.set('100301', { code: '100301', name: 'La Union' });
-districts.set('100307', { code: '100307', name: 'Chuquis' });
-districts.set('100311', { code: '100311', name: 'Marias' });
-districts.set('100313', { code: '100313', name: 'Pachas' });
-districts.set('100316', { code: '100316', name: 'Quivilla' });
-districts.set('100317', { code: '100317', name: 'Ripan' });
-districts.set('100321', { code: '100321', name: 'Shunqui' });
-districts.set('100322', { code: '100322', name: 'Sillapata' });
-districts.set('100323', { code: '100323', name: 'Yanas' });
-// 1004 - Huacaybamba
-districts.set('100401', { code: '100401', name: 'Huacaybamba' });
-districts.set('100402', { code: '100402', name: 'Canchabamba' });
-districts.set('100403', { code: '100403', name: 'Cochabamba' });
-districts.set('100404', { code: '100404', name: 'Pinra' });
-// 1005 - Huamalies
-districts.set('100501', { code: '100501', name: 'Llata' });
-districts.set('100502', { code: '100502', name: 'Arancay' });
-districts.set('100503', { code: '100503', name: 'Chavin de Pariarca' });
-districts.set('100504', { code: '100504', name: 'Jacas Grande' });
-districts.set('100505', { code: '100505', name: 'Jircan' });
-districts.set('100506', { code: '100506', name: 'Miraflores' });
-districts.set('100507', { code: '100507', name: 'Monzon' });
-districts.set('100508', { code: '100508', name: 'Punchao' });
-districts.set('100509', { code: '100509', name: 'Puños' });
-districts.set('100510', { code: '100510', name: 'Singa' });
-districts.set('100511', { code: '100511', name: 'Tantamayo' });
-// 1006 - Leoncio Prado
-districts.set('100601', { code: '100601', name: 'Rupa-Rupa' });
-districts.set('100602', { code: '100602', name: 'Daniel Alomia Robles' });
-districts.set('100603', { code: '100603', name: 'Hermilio Valdizan' });
-districts.set('100604', { code: '100604', name: 'Jose Crespo y Castillo' });
-districts.set('100605', { code: '100605', name: 'Luyando' });
-districts.set('100606', { code: '100606', name: 'Mariano Damaso Beraun' });
-districts.set('100607', { code: '100607', name: 'Pucayacu' });
-districts.set('100608', { code: '100608', name: 'Castillo Grande' });
-// 1007 - Marañon
-districts.set('100701', { code: '100701', name: 'Huacrachuco' });
-districts.set('100702', { code: '100702', name: 'Cholon' });
-districts.set('100703', { code: '100703', name: 'San Buenaventura' });
-districts.set('100704', { code: '100704', name: 'La Morada' });
-districts.set('100705', {
-  code: '100705',
-  name: 'Santa Rosa de Alto Yanajanca',
-});
-// 1008 - Pachitea
-districts.set('100801', { code: '100801', name: 'Panao' });
-districts.set('100802', { code: '100802', name: 'Chaglla' });
-districts.set('100803', { code: '100803', name: 'Molino' });
-districts.set('100804', { code: '100804', name: 'Umari' });
-// 1009 - Puerto Inca
-districts.set('100901', { code: '100901', name: 'Puerto Inca' });
-districts.set('100902', { code: '100902', name: 'Codo del Pozuzo' });
-districts.set('100903', { code: '100903', name: 'Honoria' });
-districts.set('100904', { code: '100904', name: 'Tournavista' });
-districts.set('100905', { code: '100905', name: 'Yuyapichis' });
-// 1010 - Lauricocha
-districts.set('101001', { code: '101001', name: 'Jesus' });
-districts.set('101002', { code: '101002', name: 'Baños' });
-districts.set('101003', { code: '101003', name: 'Jivia' });
-districts.set('101004', { code: '101004', name: 'Queropalca' });
-districts.set('101005', { code: '101005', name: 'Rondos' });
-districts.set('101006', { code: '101006', name: 'San Francisco de Asis' });
-districts.set('101007', { code: '101007', name: 'San Miguel de Cauri' });
-// 1011 - Yarowilca
-districts.set('101101', { code: '101101', name: 'Chavinillo' });
-districts.set('101102', { code: '101102', name: 'Cahuac' });
-districts.set('101103', { code: '101103', name: 'Chacabamba' });
-districts.set('101104', { code: '101104', name: 'Aparicio Pomares' });
-districts.set('101105', { code: '101105', name: 'Jacas Chico' });
-districts.set('101106', { code: '101106', name: 'Obas' });
-districts.set('101107', { code: '101107', name: 'Pampamarca' });
-districts.set('101108', { code: '101108', name: 'Choras' });
-// 11 - Ica
-// 1101 - Ica
-districts.set('110101', { code: '110101', name: 'Ica' });
-districts.set('110102', { code: '110102', name: 'La Tinguiña' });
-districts.set('110103', { code: '110103', name: 'Los Aquijes' });
-districts.set('110104', { code: '110104', name: 'Ocucaje' });
-districts.set('110105', { code: '110105', name: 'Pachacutec' });
-districts.set('110106', { code: '110106', name: 'Parcona' });
-districts.set('110107', { code: '110107', name: 'Pueblo Nuevo' });
-districts.set('110108', { code: '110108', name: 'Salas' });
-districts.set('110109', { code: '110109', name: 'San Jose de Los Molinos' });
-districts.set('110110', { code: '110110', name: 'San Juan Bautista' });
-districts.set('110111', { code: '110111', name: 'Santiago' });
-districts.set('110112', { code: '110112', name: 'Subtanjalla' });
-districts.set('110113', { code: '110113', name: 'Tate' });
-districts.set('110114', { code: '110114', name: 'Yauca del Rosario' });
-// 1102 - Chincha
-districts.set('110201', { code: '110201', name: 'Chincha Alta' });
-districts.set('110202', { code: '110202', name: 'Alto Laran' });
-districts.set('110203', { code: '110203', name: 'Chavin' });
-districts.set('110204', { code: '110204', name: 'Chincha Baja' });
-districts.set('110205', { code: '110205', name: 'El Carmen' });
-districts.set('110206', { code: '110206', name: 'Grocio Prado' });
-districts.set('110207', { code: '110207', name: 'Pueblo Nuevo' });
-districts.set('110208', { code: '110208', name: 'San Juan de Yanac' });
-districts.set('110209', { code: '110209', name: 'San Pedro de Huacarpana' });
-districts.set('110210', { code: '110210', name: 'Sunampe' });
-districts.set('110211', { code: '110211', name: 'Tambo de Mora' });
-// 1103 - Nasca
-districts.set('110301', { code: '110301', name: 'Nasca' });
-districts.set('110302', { code: '110302', name: 'Changuillo' });
-districts.set('110303', { code: '110303', name: 'El Ingenio' });
-districts.set('110304', { code: '110304', name: 'Marcona' });
-districts.set('110305', { code: '110305', name: 'Vista Alegre' });
-// 1104 - Palpa
-districts.set('110401', { code: '110401', name: 'Palpa' });
-districts.set('110402', { code: '110402', name: 'Llipata' });
-districts.set('110403', { code: '110403', name: 'Rio Grande' });
-districts.set('110404', { code: '110404', name: 'Santa Cruz' });
-districts.set('110405', { code: '110405', name: 'Tibillo' });
-// 1105 - Pisco
-districts.set('110501', { code: '110501', name: 'Pisco' });
-districts.set('110502', { code: '110502', name: 'Huancano' });
-districts.set('110503', { code: '110503', name: 'Humay' });
-districts.set('110504', { code: '110504', name: 'Independencia' });
-districts.set('110505', { code: '110505', name: 'Paracas' });
-districts.set('110506', { code: '110506', name: 'San Andres' });
-districts.set('110507', { code: '110507', name: 'San Clemente' });
-districts.set('110508', { code: '110508', name: 'Tupac Amaru Inca' });
-// 12 - Junin
-// 1201 - Huancayo
-districts.set('120101', { code: '120101', name: 'Huancayo' });
-districts.set('120104', { code: '120104', name: 'Carhuacallanga' });
-districts.set('120105', { code: '120105', name: 'Chacapampa' });
-districts.set('120106', { code: '120106', name: 'Chicche' });
-districts.set('120107', { code: '120107', name: 'Chilca' });
-districts.set('120108', { code: '120108', name: 'Chongos Alto' });
-districts.set('120111', { code: '120111', name: 'Chupuro' });
-districts.set('120112', { code: '120112', name: 'Colca' });
-districts.set('120113', { code: '120113', name: 'Cullhuas' });
-districts.set('120114', { code: '120114', name: 'El Tambo' });
-districts.set('120116', { code: '120116', name: 'Huacrapuquio' });
-districts.set('120117', { code: '120117', name: 'Hualhuas' });
-districts.set('120119', { code: '120119', name: 'Huancan' });
-districts.set('120120', { code: '120120', name: 'Huasicancha' });
-districts.set('120121', { code: '120121', name: 'Huayucachi' });
-districts.set('120122', { code: '120122', name: 'Ingenio' });
-districts.set('120124', { code: '120124', name: 'Pariahuanca' });
-districts.set('120125', { code: '120125', name: 'Pilcomayo' });
-districts.set('120126', { code: '120126', name: 'Pucara' });
-districts.set('120127', { code: '120127', name: 'Quichuay' });
-districts.set('120128', { code: '120128', name: 'Quilcas' });
-districts.set('120129', { code: '120129', name: 'San Agustin' });
-districts.set('120130', { code: '120130', name: 'San Jeronimo de Tunan' });
-districts.set('120132', { code: '120132', name: 'Saño' });
-districts.set('120133', { code: '120133', name: 'Sapallanga' });
-districts.set('120134', { code: '120134', name: 'Sicaya' });
-districts.set('120135', { code: '120135', name: 'Santo Domingo de Acobamba' });
-districts.set('120136', { code: '120136', name: 'Viques' });
-// 1202 - Concepcion
-districts.set('120201', { code: '120201', name: 'Concepcion' });
-districts.set('120202', { code: '120202', name: 'Aco' });
-districts.set('120203', { code: '120203', name: 'Andamarca' });
-districts.set('120204', { code: '120204', name: 'Chambara' });
-districts.set('120205', { code: '120205', name: 'Cochas' });
-districts.set('120206', { code: '120206', name: 'Comas' });
-districts.set('120207', { code: '120207', name: 'Heroinas Toledo' });
-districts.set('120208', { code: '120208', name: 'Manzanares' });
-districts.set('120209', { code: '120209', name: 'Mariscal Castilla' });
-districts.set('120210', { code: '120210', name: 'Matahuasi' });
-districts.set('120211', { code: '120211', name: 'Mito' });
-districts.set('120212', { code: '120212', name: 'Nueve de Julio' });
-districts.set('120213', { code: '120213', name: 'Orcotuna' });
-districts.set('120214', { code: '120214', name: 'San Jose de Quero' });
-districts.set('120215', { code: '120215', name: 'Santa Rosa de Ocopa' });
-// 1203 - Chanchamayo
-districts.set('120301', { code: '120301', name: 'Chanchamayo' });
-districts.set('120302', { code: '120302', name: 'Perene' });
-districts.set('120303', { code: '120303', name: 'Pichanaqui' });
-districts.set('120304', { code: '120304', name: 'San Luis de Shuaro' });
-districts.set('120305', { code: '120305', name: 'San Ramon' });
-districts.set('120306', { code: '120306', name: 'Vitoc' });
-// 1204 - Jauja
-districts.set('120401', { code: '120401', name: 'Jauja' });
-districts.set('120402', { code: '120402', name: 'Acolla' });
-districts.set('120403', { code: '120403', name: 'Apata' });
-districts.set('120404', { code: '120404', name: 'Ataura' });
-districts.set('120405', { code: '120405', name: 'Canchayllo' });
-districts.set('120406', { code: '120406', name: 'Curicaca' });
-districts.set('120407', { code: '120407', name: 'El Mantaro' });
-districts.set('120408', { code: '120408', name: 'Huamali' });
-districts.set('120409', { code: '120409', name: 'Huaripampa' });
-districts.set('120410', { code: '120410', name: 'Huertas' });
-districts.set('120411', { code: '120411', name: 'Janjaillo' });
-districts.set('120412', { code: '120412', name: 'Julcan' });
-districts.set('120413', { code: '120413', name: 'Leonor Ordoñez' });
-districts.set('120414', { code: '120414', name: 'Llocllapampa' });
-districts.set('120415', { code: '120415', name: 'Marco' });
-districts.set('120416', { code: '120416', name: 'Masma' });
-districts.set('120417', { code: '120417', name: 'Masma Chicche' });
-districts.set('120418', { code: '120418', name: 'Molinos' });
-districts.set('120419', { code: '120419', name: 'Monobamba' });
-districts.set('120420', { code: '120420', name: 'Muqui' });
-districts.set('120421', { code: '120421', name: 'Muquiyauyo' });
-districts.set('120422', { code: '120422', name: 'Paca' });
-districts.set('120423', { code: '120423', name: 'Paccha' });
-districts.set('120424', { code: '120424', name: 'Pancan' });
-districts.set('120425', { code: '120425', name: 'Parco' });
-districts.set('120426', { code: '120426', name: 'Pomacancha' });
-districts.set('120427', { code: '120427', name: 'Ricran' });
-districts.set('120428', { code: '120428', name: 'San Lorenzo' });
-districts.set('120429', { code: '120429', name: 'San Pedro de Chunan' });
-districts.set('120430', { code: '120430', name: 'Sausa' });
-districts.set('120431', { code: '120431', name: 'Sincos' });
-districts.set('120432', { code: '120432', name: 'Tunan Marca' });
-districts.set('120433', { code: '120433', name: 'Yauli' });
-districts.set('120434', { code: '120434', name: 'Yauyos' });
-// 1205 - Junin
-districts.set('120501', { code: '120501', name: 'Junin' });
-districts.set('120502', { code: '120502', name: 'Carhuamayo' });
-districts.set('120503', { code: '120503', name: 'Ondores' });
-districts.set('120504', { code: '120504', name: 'Ulcumayo' });
-// 1206 - Satipo
-districts.set('120601', { code: '120601', name: 'Satipo' });
-districts.set('120602', { code: '120602', name: 'Coviriali' });
-districts.set('120603', { code: '120603', name: 'Llaylla' });
-districts.set('120604', { code: '120604', name: 'Mazamari' });
-districts.set('120605', { code: '120605', name: 'Pampa Hermosa' });
-districts.set('120606', { code: '120606', name: 'Pangoa' });
-districts.set('120607', { code: '120607', name: 'Rio Negro' });
-districts.set('120608', { code: '120608', name: 'Rio Tambo' });
-districts.set('120609', { code: '120609', name: 'Vizcatan del Ene' });
-// 1207 - Tarma
-districts.set('120701', { code: '120701', name: 'Tarma' });
-districts.set('120702', { code: '120702', name: 'Acobamba' });
-districts.set('120703', { code: '120703', name: 'Huaricolca' });
-districts.set('120704', { code: '120704', name: 'Huasahuasi' });
-districts.set('120705', { code: '120705', name: 'La Union' });
-districts.set('120706', { code: '120706', name: 'Palca' });
-districts.set('120707', { code: '120707', name: 'Palcamayo' });
-districts.set('120708', { code: '120708', name: 'San Pedro de Cajas' });
-districts.set('120709', { code: '120709', name: 'Tapo' });
-// 1208 - Yauli
-districts.set('120801', { code: '120801', name: 'La Oroya' });
-districts.set('120802', { code: '120802', name: 'Chacapalpa' });
-districts.set('120803', { code: '120803', name: 'Huay-Huay' });
-districts.set('120804', { code: '120804', name: 'Marcapomacocha' });
-districts.set('120805', { code: '120805', name: 'Morococha' });
-districts.set('120806', { code: '120806', name: 'Paccha' });
-districts.set('120807', {
-  code: '120807',
-  name: 'Santa Barbara de Carhuacayan',
-});
-districts.set('120808', { code: '120808', name: 'Santa Rosa de Sacco' });
-districts.set('120809', { code: '120809', name: 'Suitucancha' });
-districts.set('120810', { code: '120810', name: 'Yauli' });
-// 1209 - Chupaca
-districts.set('120901', { code: '120901', name: 'Chupaca' });
-districts.set('120902', { code: '120902', name: 'Ahuac' });
-districts.set('120903', { code: '120903', name: 'Chongos Bajo' });
-districts.set('120904', { code: '120904', name: 'Huachac' });
-districts.set('120905', { code: '120905', name: 'Huamancaca Chico' });
-districts.set('120906', { code: '120906', name: 'San Juan de Iscos' });
-districts.set('120907', { code: '120907', name: 'San Juan de Jarpa' });
-districts.set('120908', { code: '120908', name: 'Tres de Diciembre' });
-districts.set('120909', { code: '120909', name: 'Yanacancha' });
-// 13 - La Libertad
-// 1301 - Trujillo
-districts.set('130101', { code: '130101', name: 'Trujillo' });
-districts.set('130102', { code: '130102', name: 'El Porvenir' });
-districts.set('130103', { code: '130103', name: 'Florencia de Mora' });
-districts.set('130104', { code: '130104', name: 'Huanchaco' });
-districts.set('130105', { code: '130105', name: 'La Esperanza' });
-districts.set('130106', { code: '130106', name: 'Laredo' });
-districts.set('130107', { code: '130107', name: 'Moche' });
-districts.set('130108', { code: '130108', name: 'Poroto' });
-districts.set('130109', { code: '130109', name: 'Salaverry' });
-districts.set('130110', { code: '130110', name: 'Simbal' });
-districts.set('130111', { code: '130111', name: 'Victor Larco Herrera' });
-// 1302 - Ascope
-districts.set('130201', { code: '130201', name: 'Ascope' });
-districts.set('130202', { code: '130202', name: 'Chicama' });
-districts.set('130203', { code: '130203', name: 'Chocope' });
-districts.set('130204', { code: '130204', name: 'Magdalena de Cao' });
-districts.set('130205', { code: '130205', name: 'Paijan' });
-districts.set('130206', { code: '130206', name: 'Razuri' });
-districts.set('130207', { code: '130207', name: 'Santiago de Cao' });
-districts.set('130208', { code: '130208', name: 'Casa Grande' });
-// 1303 - Bolivar
-districts.set('130301', { code: '130301', name: 'Bolivar' });
-districts.set('130302', { code: '130302', name: 'Bambamarca' });
-districts.set('130303', { code: '130303', name: 'Condormarca' });
-districts.set('130304', { code: '130304', name: 'Longotea' });
-districts.set('130305', { code: '130305', name: 'Uchumarca' });
-districts.set('130306', { code: '130306', name: 'Ucuncha' });
-// 1304 - Chepen
-districts.set('130401', { code: '130401', name: 'Chepen' });
-districts.set('130402', { code: '130402', name: 'Pacanga' });
-districts.set('130403', { code: '130403', name: 'Pueblo Nuevo' });
-// 1305 - Julcan
-districts.set('130501', { code: '130501', name: 'Julcan' });
-districts.set('130502', { code: '130502', name: 'Calamarca' });
-districts.set('130503', { code: '130503', name: 'Carabamba' });
-districts.set('130504', { code: '130504', name: 'Huaso' });
-// 1306 - Otuzco
-districts.set('130601', { code: '130601', name: 'Otuzco' });
-districts.set('130602', { code: '130602', name: 'Agallpampa' });
-districts.set('130604', { code: '130604', name: 'Charat' });
-districts.set('130605', { code: '130605', name: 'Huaranchal' });
-districts.set('130606', { code: '130606', name: 'La Cuesta' });
-districts.set('130608', { code: '130608', name: 'Mache' });
-districts.set('130610', { code: '130610', name: 'Paranday' });
-districts.set('130611', { code: '130611', name: 'Salpo' });
-districts.set('130613', { code: '130613', name: 'Sinsicap' });
-districts.set('130614', { code: '130614', name: 'Usquil' });
-// 1307 - Pacasmayo
-districts.set('130701', { code: '130701', name: 'San Pedro de Lloc' });
-districts.set('130702', { code: '130702', name: 'Guadalupe' });
-districts.set('130703', { code: '130703', name: 'Jequetepeque' });
-districts.set('130704', { code: '130704', name: 'Pacasmayo' });
-districts.set('130705', { code: '130705', name: 'San Jose' });
-// 1308 - Pataz
-districts.set('130801', { code: '130801', name: 'Tayabamba' });
-districts.set('130802', { code: '130802', name: 'Buldibuyo' });
-districts.set('130803', { code: '130803', name: 'Chillia' });
-districts.set('130804', { code: '130804', name: 'Huancaspata' });
-districts.set('130805', { code: '130805', name: 'Huaylillas' });
-districts.set('130806', { code: '130806', name: 'Huayo' });
-districts.set('130807', { code: '130807', name: 'Ongon' });
-districts.set('130808', { code: '130808', name: 'Parcoy' });
-districts.set('130809', { code: '130809', name: 'Pataz' });
-districts.set('130810', { code: '130810', name: 'Pias' });
-districts.set('130811', { code: '130811', name: 'Santiago de Challas' });
-districts.set('130812', { code: '130812', name: 'Taurija' });
-districts.set('130813', { code: '130813', name: 'Urpay' });
-// 1309 - Sanchez Carr{code: chez Car, name:ion
-districts.set('130901', { code: '130901', name: 'Huamachuco' });
-districts.set('130902', { code: '130902', name: 'Chugay' });
-districts.set('130903', { code: '130903', name: 'Cochorco' });
-districts.set('130904', { code: '130904', name: 'Curgos' });
-districts.set('130905', { code: '130905', name: 'Marcabal' });
-districts.set('130906', { code: '130906', name: 'Sanagoran' });
-districts.set('130907', { code: '130907', name: 'Sarin' });
-districts.set('130908', { code: '130908', name: 'Sartimbamba' });
-// 1310 - Santiago de {code: tiago de, name:Chuco
-districts.set('131001', { code: '131001', name: 'Santiago de Chuco' });
-districts.set('131002', { code: '131002', name: 'Angasmarca' });
-districts.set('131003', { code: '131003', name: 'Cachicadan' });
-districts.set('131004', { code: '131004', name: 'Mollebamba' });
-districts.set('131005', { code: '131005', name: 'Mollepata' });
-districts.set('131006', { code: '131006', name: 'Quiruvilca' });
-districts.set('131007', { code: '131007', name: 'Santa Cruz de Chuca' });
-districts.set('131008', { code: '131008', name: 'Sitabamba' });
-// 1311 - Gran Chimu
-districts.set('131101', { code: '131101', name: 'Cascas' });
-districts.set('131102', { code: '131102', name: 'Lucma' });
-districts.set('131103', { code: '131103', name: 'Marmot' });
-districts.set('131104', { code: '131104', name: 'Sayapullo' });
-// 1312 - Viru
-districts.set('131201', { code: '131201', name: 'Viru' });
-districts.set('131202', { code: '131202', name: 'Chao' });
-districts.set('131203', { code: '131203', name: 'Guadalupito' });
-// 14 - Lambayeque
-// 1401 - Chiclayo
-districts.set('140101', { code: '140101', name: 'Chiclayo' });
-districts.set('140102', { code: '140102', name: 'Chongoyape' });
-districts.set('140103', { code: '140103', name: 'Eten' });
-districts.set('140104', { code: '140104', name: 'Eten Puerto' });
-districts.set('140105', { code: '140105', name: 'Jose Leonardo Ortiz' });
-districts.set('140106', { code: '140106', name: 'La Victoria' });
-districts.set('140107', { code: '140107', name: 'Lagunas' });
-districts.set('140108', { code: '140108', name: 'Monsefu' });
-districts.set('140109', { code: '140109', name: 'Nueva Arica' });
-districts.set('140110', { code: '140110', name: 'Oyotun' });
-districts.set('140111', { code: '140111', name: 'Picsi' });
-districts.set('140112', { code: '140112', name: 'Pimentel' });
-districts.set('140113', { code: '140113', name: 'Reque' });
-districts.set('140114', { code: '140114', name: 'Santa Rosa' });
-districts.set('140115', { code: '140115', name: 'Saña' });
-districts.set('140116', { code: '140116', name: 'Cayalti' });
-districts.set('140117', { code: '140117', name: 'Patapo' });
-districts.set('140118', { code: '140118', name: 'Pomalca' });
-districts.set('140119', { code: '140119', name: 'Pucala' });
-districts.set('140120', { code: '140120', name: 'Tuman' });
-// 1402 - Ferreñafe
-districts.set('140201', { code: '140201', name: 'Ferreñafe' });
-districts.set('140202', { code: '140202', name: 'Cañaris' });
-districts.set('140203', { code: '140203', name: 'Incahuasi' });
-districts.set('140204', { code: '140204', name: 'Manuel Antonio Mesones Muro' });
-districts.set('140205', { code: '140205', name: 'Pitipo' });
-districts.set('140206', { code: '140206', name: 'Pueblo Nuevo' });
-// 1403 - Lambayeque
-districts.set('140301', { code: '140301', name: 'Lambayeque' });
-districts.set('140302', { code: '140302', name: 'Chochope' });
-districts.set('140303', { code: '140303', name: 'Illimo' });
-districts.set('140304', { code: '140304', name: 'Jayanca' });
-districts.set('140305', { code: '140305', name: 'Mochumi' });
-districts.set('140306', { code: '140306', name: 'Morrope' });
-districts.set('140307', { code: '140307', name: 'Motupe' });
-districts.set('140308', { code: '140308', name: 'Olmos' });
-districts.set('140309', { code: '140309', name: 'Pacora' });
-districts.set('140310', { code: '140310', name: 'Salas' });
-districts.set('140311', { code: '140311', name: 'San Jose' });
-districts.set('140312', { code: '140312', name: 'Tucume' });
-// 15 - Lima
-// 1501 - Lima
-districts.set('150101', { code: '150101', name: 'Lima' });
-districts.set('150102', { code: '150102', name: 'Ancon' });
-districts.set('150103', { code: '150103', name: 'Ate' });
-districts.set('150104', { code: '150104', name: 'Barranco' });
-districts.set('150105', { code: '150105', name: 'Breña' });
-districts.set('150106', { code: '150106', name: 'Carabayllo' });
-districts.set('150107', { code: '150107', name: 'Chaclacayo' });
-districts.set('150108', { code: '150108', name: 'Chorrillos' });
-districts.set('150109', { code: '150109', name: 'Cieneguilla' });
-districts.set('150110', { code: '150110', name: 'Comas' });
-districts.set('150111', { code: '150111', name: 'El Agustino' });
-districts.set('150112', { code: '150112', name: 'Independencia' });
-districts.set('150113', { code: '150113', name: 'Jesus Maria' });
-districts.set('150114', { code: '150114', name: 'La Molina' });
-districts.set('150115', { code: '150115', name: 'La Victoria' });
-districts.set('150116', { code: '150116', name: 'Lince' });
-districts.set('150117', { code: '150117', name: 'Los Olivos' });
-districts.set('150118', { code: '150118', name: 'Lurigancho' });
-districts.set('150119', { code: '150119', name: 'Lurin' });
-districts.set('150120', { code: '150120', name: 'Magdalena del Mar' });
-districts.set('150121', { code: '150121', name: 'Pueblo Libre' });
-districts.set('150122', { code: '150122', name: 'Miraflores' });
-districts.set('150123', { code: '150123', name: 'Pachacamac' });
-districts.set('150124', { code: '150124', name: 'Pucusana' });
-districts.set('150125', { code: '150125', name: 'Puente Piedra' });
-districts.set('150126', { code: '150126', name: 'Punta Hermosa' });
-districts.set('150127', { code: '150127', name: 'Punta Negra' });
-districts.set('150128', { code: '150128', name: 'Rimac' });
-districts.set('150129', { code: '150129', name: 'San Bartolo' });
-districts.set('150130', { code: '150130', name: 'San Borja' });
-districts.set('150131', { code: '150131', name: 'San Isidro' });
-districts.set('150132', { code: '150132', name: 'San Juan de Lurigancho' });
-districts.set('150133', { code: '150133', name: 'San Juan de Miraflores' });
-districts.set('150134', { code: '150134', name: 'San Luis' });
-districts.set('150135', { code: '150135', name: 'San Martin de Porres' });
-districts.set('150136', { code: '150136', name: 'San Miguel' });
-districts.set('150137', { code: '150137', name: 'Santa Anita' });
-districts.set('150138', { code: '150138', name: 'Santa Maria del Mar' });
-districts.set('150139', { code: '150139', name: 'Santa Rosa' });
-districts.set('150140', { code: '150140', name: 'Santiago de Surco' });
-districts.set('150141', { code: '150141', name: 'Surquillo' });
-districts.set('150142', { code: '150142', name: 'Villa El Salvador' });
-districts.set('150143', { code: '150143', name: 'Villa Maria del Triunfo' });
-// 1502 - Barranca
-districts.set('150201', { code: '150201', name: 'Barranca' });
-districts.set('150202', { code: '150202', name: 'Paramonga' });
-districts.set('150203', { code: '150203', name: 'Pativilca' });
-districts.set('150204', { code: '150204', name: 'Supe' });
-districts.set('150205', { code: '150205', name: 'Supe Puerto' });
-// 1503 - Cajatambo
-districts.set('150301', { code: '150301', name: 'Cajatambo' });
-districts.set('150302', { code: '150302', name: 'Copa' });
-districts.set('150303', { code: '150303', name: 'Gorgor' });
-districts.set('150304', { code: '150304', name: 'Huancapon' });
-districts.set('150305', { code: '150305', name: 'Manas' });
-// 1504 - Canta
-districts.set('150401', { code: '150401', name: 'Canta' });
-districts.set('150402', { code: '150402', name: 'Arahuay' });
-districts.set('150403', { code: '150403', name: 'Huamantanga' });
-districts.set('150404', { code: '150404', name: 'Huaros' });
-districts.set('150405', { code: '150405', name: 'Lachaqui' });
-districts.set('150406', { code: '150406', name: 'San Buenaventura' });
-districts.set('150407', { code: '150407', name: 'Santa Rosa de Quives' });
-// 1505 - Cañete
-districts.set('150501', { code: '150501', name: 'San Vicente de Cañete' });
-districts.set('150502', { code: '150502', name: 'Asia' });
-districts.set('150503', { code: '150503', name: 'Calango' });
-districts.set('150504', { code: '150504', name: 'Cerro Azul' });
-districts.set('150505', { code: '150505', name: 'Chilca' });
-districts.set('150506', { code: '150506', name: 'Coayllo' });
-districts.set('150507', { code: '150507', name: 'Imperial' });
-districts.set('150508', { code: '150508', name: 'Lunahuana' });
-districts.set('150509', { code: '150509', name: 'Mala' });
-districts.set('150510', { code: '150510', name: 'Nuevo Imperial' });
-districts.set('150511', { code: '150511', name: 'Pacaran' });
-districts.set('150512', { code: '150512', name: 'Quilmana' });
-districts.set('150513', { code: '150513', name: 'San Antonio' });
-districts.set('150514', { code: '150514', name: 'San Luis' });
-districts.set('150515', { code: '150515', name: 'Santa Cruz de Flores' });
-districts.set('150516', { code: '150516', name: 'Zuñiga' });
-// 1506 - Huaral
-districts.set('150601', { code: '150601', name: 'Huaral' });
-districts.set('150602', { code: '150602', name: 'Atavillos Alto' });
-districts.set('150603', { code: '150603', name: 'Atavillos Bajo' });
-districts.set('150604', { code: '150604', name: 'Aucallama' });
-districts.set('150605', { code: '150605', name: 'Chancay' });
-districts.set('150606', { code: '150606', name: 'Ihuari' });
-districts.set('150607', { code: '150607', name: 'Lampian' });
-districts.set('150608', { code: '150608', name: 'Pacaraos' });
-districts.set('150609', { code: '150609', name: 'San Miguel de Acos' });
-districts.set('150610', { code: '150610', name: 'Santa Cruz de Andamarca' });
-districts.set('150611', { code: '150611', name: 'Sumbilca' });
-districts.set('150612', { code: '150612', name: 'Veintisiete de Noviembre' });
-// 1507 - Huarochiri
-districts.set('150701', { code: '150701', name: 'Matucana' });
-districts.set('150702', { code: '150702', name: 'Antioquia' });
-districts.set('150703', { code: '150703', name: 'Callahuanca' });
-districts.set('150704', { code: '150704', name: 'Carampoma' });
-districts.set('150705', { code: '150705', name: 'Chicla' });
-districts.set('150706', { code: '150706', name: 'Cuenca' });
-districts.set('150707', { code: '150707', name: 'Huachupampa' });
-districts.set('150708', { code: '150708', name: 'Huanza' });
-districts.set('150709', { code: '150709', name: 'Huarochiri' });
-districts.set('150710', { code: '150710', name: 'Lahuaytambo' });
-districts.set('150711', { code: '150711', name: 'Langa' });
-districts.set('150712', { code: '150712', name: 'Laraos' });
-districts.set('150713', { code: '150713', name: 'Mariatana' });
-districts.set('150714', { code: '150714', name: 'Ricardo Palma' });
-districts.set('150715', { code: '150715', name: 'San Andres de Tupicocha' });
-districts.set('150716', { code: '150716', name: 'San Antonio' });
-districts.set('150717', { code: '150717', name: 'San Bartolome' });
-districts.set('150718', { code: '150718', name: 'San Damian' });
-districts.set('150719', { code: '150719', name: 'San Juan de Iris' });
-districts.set('150720', { code: '150720', name: 'San Juan de Tantaranche' });
-districts.set('150721', { code: '150721', name: 'San Lorenzo de Quinti' });
-districts.set('150722', { code: '150722', name: 'San Mateo' });
-districts.set('150723', { code: '150723', name: 'San Mateo de Otao' });
-districts.set('150724', { code: '150724', name: 'San Pedro de Casta' });
-districts.set('150725', { code: '150725', name: 'San Pedro de Huancayre' });
-districts.set('150726', { code: '150726', name: 'Sangallaya' });
-districts.set('150727', { code: '150727', name: 'Santa Cruz de Cocachacra' });
-districts.set('150728', { code: '150728', name: 'Santa Eulalia' });
-districts.set('150729', { code: '150729', name: 'Santiago de Anchucaya' });
-districts.set('150730', { code: '150730', name: 'Santiago de Tuna' });
-districts.set('150731', {
-  code: '150731',
-  name: 'Santo Domingo de Los Olleros',
-});
-districts.set('150732', { code: '150732', name: 'Surco' });
-// 1508 - Huaura
-districts.set('150801', { code: '150801', name: 'Huacho' });
-districts.set('150802', { code: '150802', name: 'Ambar' });
-districts.set('150803', { code: '150803', name: 'Caleta de Carquin' });
-districts.set('150804', { code: '150804', name: 'Checras' });
-districts.set('150805', { code: '150805', name: 'Hualmay' });
-districts.set('150806', { code: '150806', name: 'Huaura' });
-districts.set('150807', { code: '150807', name: 'Leoncio Prado' });
-districts.set('150808', { code: '150808', name: 'Paccho' });
-districts.set('150809', { code: '150809', name: 'Santa Leonor' });
-districts.set('150810', { code: '150810', name: 'Santa Maria' });
-districts.set('150811', { code: '150811', name: 'Sayan' });
-districts.set('150812', { code: '150812', name: 'Vegueta' });
-// 1509 - Oyon
-districts.set('150901', { code: '150901', name: 'Oyon' });
-districts.set('150902', { code: '150902', name: 'Andajes' });
-districts.set('150903', { code: '150903', name: 'Caujul' });
-districts.set('150904', { code: '150904', name: 'Cochamarca' });
-districts.set('150905', { code: '150905', name: 'Navan' });
-districts.set('150906', { code: '150906', name: 'Pachangara' });
-// 1510 - Yauyos
-districts.set('151001', { code: '151001', name: 'Yauyos' });
-districts.set('151002', { code: '151002', name: 'Alis' });
-districts.set('151003', { code: '151003', name: 'Allauca' });
-districts.set('151004', { code: '151004', name: 'Ayaviri' });
-districts.set('151005', { code: '151005', name: 'Azangaro' });
-districts.set('151006', { code: '151006', name: 'Cacra' });
-districts.set('151007', { code: '151007', name: 'Carania' });
-districts.set('151008', { code: '151008', name: 'Catahuasi' });
-districts.set('151009', { code: '151009', name: 'Chocos' });
-districts.set('151010', { code: '151010', name: 'Cochas' });
-districts.set('151011', { code: '151011', name: 'Colonia' });
-districts.set('151012', { code: '151012', name: 'Hongos' });
-districts.set('151013', { code: '151013', name: 'Huampara' });
-districts.set('151014', { code: '151014', name: 'Huancaya' });
-districts.set('151015', { code: '151015', name: 'Huangascar' });
-districts.set('151016', { code: '151016', name: 'Huantan' });
-districts.set('151017', { code: '151017', name: 'Huañec' });
-districts.set('151018', { code: '151018', name: 'Laraos' });
-districts.set('151019', { code: '151019', name: 'Lincha' });
-districts.set('151020', { code: '151020', name: 'Madean' });
-districts.set('151021', { code: '151021', name: 'Miraflores' });
-districts.set('151022', { code: '151022', name: 'Omas' });
-districts.set('151023', { code: '151023', name: 'Putinza' });
-districts.set('151024', { code: '151024', name: 'Quinches' });
-districts.set('151025', { code: '151025', name: 'Quinocay' });
-districts.set('151026', { code: '151026', name: 'San Joaquin' });
-districts.set('151027', { code: '151027', name: 'San Pedro de Pilas' });
-districts.set('151028', { code: '151028', name: 'Tanta' });
-districts.set('151029', { code: '151029', name: 'Tauripampa' });
-districts.set('151030', { code: '151030', name: 'Tomas' });
-districts.set('151031', { code: '151031', name: 'Tupe' });
-districts.set('151032', { code: '151032', name: 'Viñac' });
-districts.set('151033', { code: '151033', name: 'Vitis' });
-// 16 - Loreto
-// 1601 - Maynas
-districts.set('160101', { code: '160101', name: 'Iquitos' });
-districts.set('160102', { code: '160102', name: 'Alto Nanay' });
-districts.set('160103', { code: '160103', name: 'Fernando Lores' });
-districts.set('160104', { code: '160104', name: 'Indiana' });
-districts.set('160105', { code: '160105', name: 'Las Amazonas' });
-districts.set('160106', { code: '160106', name: 'Mazan' });
-districts.set('160107', { code: '160107', name: 'Napo' });
-districts.set('160108', { code: '160108', name: 'Punchana' });
-districts.set('160110', { code: '160110', name: 'Torres Causana' });
-districts.set('160112', { code: '160112', name: 'Belen' });
-districts.set('160113', { code: '160113', name: 'San Juan Bautista' });
-// 1602 - Alto Amazonas
-districts.set('160201', { code: '160201', name: 'Yurimaguas' });
-districts.set('160202', { code: '160202', name: 'Balsapuerto' });
-districts.set('160205', { code: '160205', name: 'Jeberos' });
-districts.set('160206', { code: '160206', name: 'Lagunas' });
-districts.set('160210', { code: '160210', name: 'Santa Cruz' });
-districts.set('160211', { code: '160211', name: 'Teniente Cesar Lopez Rojas' });
-// 1603 - Loreto
-districts.set('160301', { code: '160301', name: 'Nauta' });
-districts.set('160302', { code: '160302', name: 'Parinari' });
-districts.set('160303', { code: '160303', name: 'Tigre' });
-districts.set('160304', { code: '160304', name: 'Trompeteros' });
-districts.set('160305', { code: '160305', name: 'Urarinas' });
-// 1604 - Mariscal Ramon Castilla
-districts.set('160401', { code: '160401', name: 'Ramon Castilla' });
-districts.set('160402', { code: '160402', name: 'Pebas' });
-districts.set('160403', { code: '160403', name: 'Yavari' });
-districts.set('160404', { code: '160404', name: 'San Pablo' });
-// 1605 - Requena
-districts.set('160501', { code: '160501', name: 'Requena' });
-districts.set('160502', { code: '160502', name: 'Alto Tapiche' });
-districts.set('160503', { code: '160503', name: 'Capelo' });
-districts.set('160504', { code: '160504', name: 'Emilio San Martin' });
-districts.set('160505', { code: '160505', name: 'Maquia' });
-districts.set('160506', { code: '160506', name: 'Puinahua' });
-districts.set('160507', { code: '160507', name: 'Saquena' });
-districts.set('160508', { code: '160508', name: 'Soplin' });
-districts.set('160509', { code: '160509', name: 'Tapiche' });
-districts.set('160510', { code: '160510', name: 'Jenaro Herrera' });
-districts.set('160511', { code: '160511', name: 'Yaquerana' });
-// 1606 - Ucayali
-districts.set('160601', { code: '160601', name: 'Contamana' });
-districts.set('160602', { code: '160602', name: 'Inahuaya' });
-districts.set('160603', { code: '160603', name: 'Padre Marquez' });
-districts.set('160604', { code: '160604', name: 'Pampa Hermosa' });
-districts.set('160605', { code: '160605', name: 'Sarayacu' });
-districts.set('160606', { code: '160606', name: 'Vargas Guerra' });
-// 1607 - Datem del Marañon
-districts.set('160701', { code: '160701', name: 'Barranca' });
-districts.set('160702', { code: '160702', name: 'Cahuapanas' });
-districts.set('160703', { code: '160703', name: 'Manseriche' });
-districts.set('160704', { code: '160704', name: 'Morona' });
-districts.set('160705', { code: '160705', name: 'Pastaza' });
-districts.set('160706', { code: '160706', name: 'Andoas' });
-// 1608 - Putumayo
-districts.set('160801', { code: '160801', name: 'Putumayo' });
-districts.set('160802', { code: '160802', name: 'Rosa Panduro' });
-districts.set('160803', { code: '160803', name: 'Teniente Manuel Clavero' });
-districts.set('160804', { code: '160804', name: 'Yaguas' });
-// 17 - Madre de Dios
-// 1701 - Tambopata
-districts.set('170101', { code: '170101', name: 'Tambopata' });
-districts.set('170102', { code: '170102', name: 'Inambari' });
-districts.set('170103', { code: '170103', name: 'Las Piedras' });
-districts.set('170104', { code: '170104', name: 'Laberinto' });
-// 1702 - Manu
-districts.set('170201', { code: '170201', name: 'Manu' });
-districts.set('170202', { code: '170202', name: 'Fitzcarrald' });
-districts.set('170203', { code: '170203', name: 'Madre de Dios' });
-districts.set('170204', { code: '170204', name: 'Huepetuhe' });
-// 1703 - Tahuamanu
-districts.set('170301', { code: '170301', name: 'Iñapari' });
-districts.set('170302', { code: '170302', name: 'Iberia' });
-districts.set('170303', { code: '170303', name: 'Tahuamanu' });
-// 18 - Moquegua
-// 1801 - Mariscal Nieto
-districts.set('180101', { code: '180101', name: 'Moquegua' });
-districts.set('180102', { code: '180102', name: 'Carumas' });
-districts.set('180103', { code: '180103', name: 'Cuchumbaya' });
-districts.set('180104', { code: '180104', name: 'Samegua' });
-districts.set('180105', { code: '180105', name: 'San Cristobal' });
-districts.set('180106', { code: '180106', name: 'Torata' });
-// 1802 - General Sanchez Cerro
-districts.set('180201', { code: '180201', name: 'Omate' });
-districts.set('180202', { code: '180202', name: 'Chojata' });
-districts.set('180203', { code: '180203', name: 'Coalaque' });
-districts.set('180204', { code: '180204', name: 'Ichuña' });
-districts.set('180205', { code: '180205', name: 'La Capilla' });
-districts.set('180206', { code: '180206', name: 'Lloque' });
-districts.set('180207', { code: '180207', name: 'Matalaque' });
-districts.set('180208', { code: '180208', name: 'Puquina' });
-districts.set('180209', { code: '180209', name: 'Quinistaquillas' });
-districts.set('180210', { code: '180210', name: 'Ubinas' });
-districts.set('180211', { code: '180211', name: 'Yunga' });
-// 1803 - Ilo
-districts.set('180301', { code: '180301', name: 'Ilo' });
-districts.set('180302', { code: '180302', name: 'El Algarrobal' });
-districts.set('180303', { code: '180303', name: 'Pacocha' });
-// 19 - Pasco
-// 1901 - Pasco
-districts.set('190101', { code: '190101', name: 'Chaupimarca' });
-districts.set('190102', { code: '190102', name: 'Huachon' });
-districts.set('190103', { code: '190103', name: 'Huariaca' });
-districts.set('190104', { code: '190104', name: 'Huayllay' });
-districts.set('190105', { code: '190105', name: 'Ninacaca' });
-districts.set('190106', { code: '190106', name: 'Pallanchacra' });
-districts.set('190107', { code: '190107', name: 'Paucartambo' });
-districts.set('190108', {
-  code: '190108',
-  name: 'San Francisco de Asis de Yarusyacan',
-});
-districts.set('190109', { code: '190109', name: 'Simon Bolivar' });
-districts.set('190110', { code: '190110', name: 'Ticlacayan' });
-districts.set('190111', { code: '190111', name: 'Tinyahuarco' });
-districts.set('190112', { code: '190112', name: 'Vicco' });
-districts.set('190113', { code: '190113', name: 'Yanacancha' });
-// 1902 - Daniel Alcides Carrion
-districts.set('190201', { code: '190201', name: 'Yanahuanca' });
-districts.set('190202', { code: '190202', name: 'Chacayan' });
-districts.set('190203', { code: '190203', name: 'Goyllarisquizga' });
-districts.set('190204', { code: '190204', name: 'Paucar' });
-districts.set('190205', { code: '190205', name: 'San Pedro de Pillao' });
-districts.set('190206', { code: '190206', name: 'Santa Ana de Tusi' });
-districts.set('190207', { code: '190207', name: 'Tapuc' });
-districts.set('190208', { code: '190208', name: 'Vilcabamba' });
-// 1903 - Oxapampa
-districts.set('190301', { code: '190301', name: 'Oxapampa' });
-districts.set('190302', { code: '190302', name: 'Chontabamba' });
-districts.set('190303', { code: '190303', name: 'Huancabamba' });
-districts.set('190304', { code: '190304', name: 'Palcazu' });
-districts.set('190305', { code: '190305', name: 'Pozuzo' });
-districts.set('190306', { code: '190306', name: 'Puerto Bermudez' });
-districts.set('190307', { code: '190307', name: 'Villa Rica' });
-districts.set('190308', { code: '190308', name: 'Constitucion' });
-// 20 - Piura
-// 2001 - Piura
-districts.set('200101', { code: '200101', name: 'Piura' });
-districts.set('200104', { code: '200104', name: 'Castilla' });
-districts.set('200105', { code: '200105', name: 'Catacaos' });
-districts.set('200107', { code: '200107', name: 'Cura Mori' });
-districts.set('200108', { code: '200108', name: 'El Tallan' });
-districts.set('200109', { code: '200109', name: 'La Arena' });
-districts.set('200110', { code: '200110', name: 'La Union' });
-districts.set('200111', { code: '200111', name: 'Las Lomas' });
-districts.set('200114', { code: '200114', name: 'Tambo Grande' });
-districts.set('200115', { code: '200115', name: 'Veintiseis de Octubre' });
-// 2002 - Ayabaca
-districts.set('200201', { code: '200201', name: 'Ayabaca' });
-districts.set('200202', { code: '200202', name: 'Frias' });
-districts.set('200203', { code: '200203', name: 'Jilili' });
-districts.set('200204', { code: '200204', name: 'Lagunas' });
-districts.set('200205', { code: '200205', name: 'Montero' });
-districts.set('200206', { code: '200206', name: 'Pacaipampa' });
-districts.set('200207', { code: '200207', name: 'Paimas' });
-districts.set('200208', { code: '200208', name: 'Sapillica' });
-districts.set('200209', { code: '200209', name: 'Sicchez' });
-districts.set('200210', { code: '200210', name: 'Suyo' });
-// 2003 - Huancabamba
-districts.set('200301', { code: '200301', name: 'Huancabamba' });
-districts.set('200302', { code: '200302', name: 'Canchaque' });
-districts.set('200303', { code: '200303', name: 'El Carmen de la Frontera' });
-districts.set('200304', { code: '200304', name: 'Huarmaca' });
-districts.set('200305', { code: '200305', name: 'Lalaquiz' });
-districts.set('200306', { code: '200306', name: 'San Miguel de El Faique' });
-districts.set('200307', { code: '200307', name: 'Sondor' });
-districts.set('200308', { code: '200308', name: 'Sondorillo' });
-// 2004 - Morropon
-districts.set('200401', { code: '200401', name: 'Chulucanas' });
-districts.set('200402', { code: '200402', name: 'Buenos Aires' });
-districts.set('200403', { code: '200403', name: 'Chalaco' });
-districts.set('200404', { code: '200404', name: 'La Matanza' });
-districts.set('200405', { code: '200405', name: 'Morropon' });
-districts.set('200406', { code: '200406', name: 'Salitral' });
-districts.set('200407', { code: '200407', name: 'San Juan de Bigote' });
-districts.set('200408', { code: '200408', name: 'Santa Catalina de Mossa' });
-districts.set('200409', { code: '200409', name: 'Santo Domingo' });
-districts.set('200410', { code: '200410', name: 'Yamango' });
-// 2005 - Paita
-districts.set('200501', { code: '200501', name: 'Paita' });
-districts.set('200502', { code: '200502', name: 'Amotape' });
-districts.set('200503', { code: '200503', name: 'Arenal' });
-districts.set('200504', { code: '200504', name: 'Colan' });
-districts.set('200505', { code: '200505', name: 'La Huaca' });
-districts.set('200506', { code: '200506', name: 'Tamarindo' });
-districts.set('200507', { code: '200507', name: 'Vichayal' });
-// 2006 - Sullana
-districts.set('200601', { code: '200601', name: 'Sullana' });
-districts.set('200602', { code: '200602', name: 'Bellavista' });
-districts.set('200603', { code: '200603', name: 'Ignacio Escudero' });
-districts.set('200604', { code: '200604', name: 'Lancones' });
-districts.set('200605', { code: '200605', name: 'Marcavelica' });
-districts.set('200606', { code: '200606', name: 'Miguel Checa' });
-districts.set('200607', { code: '200607', name: 'Querecotillo' });
-districts.set('200608', { code: '200608', name: 'Salitral' });
-// 2007 - Talara
-districts.set('200701', { code: '200701', name: 'Pariñas' });
-districts.set('200702', { code: '200702', name: 'El Alto' });
-districts.set('200703', { code: '200703', name: 'La Brea' });
-districts.set('200704', { code: '200704', name: 'Lobitos' });
-districts.set('200705', { code: '200705', name: 'Los Organos' });
-districts.set('200706', { code: '200706', name: 'Mancora' });
-// 2008 - Sechura
-districts.set('200801', { code: '200801', name: 'Sechura' });
-districts.set('200802', { code: '200802', name: 'Bellavista de la Union' });
-districts.set('200803', { code: '200803', name: 'Bernal' });
-districts.set('200804', { code: '200804', name: 'Cristo Nos Valga' });
-districts.set('200805', { code: '200805', name: 'Vice' });
-districts.set('200806', { code: '200806', name: 'Rinconada Llicuar' });
-// 21 - Puno
-// 2101 - Puno
-districts.set('210101', { code: '210101', name: 'Puno' });
-districts.set('210102', { code: '210102', name: 'Acora' });
-districts.set('210103', { code: '210103', name: 'Amantani' });
-districts.set('210104', { code: '210104', name: 'Atuncolla' });
-districts.set('210105', { code: '210105', name: 'Capachica' });
-districts.set('210106', { code: '210106', name: 'Chucuito' });
-districts.set('210107', { code: '210107', name: 'Coata' });
-districts.set('210108', { code: '210108', name: 'Huata' });
-districts.set('210109', { code: '210109', name: 'Mañazo' });
-districts.set('210110', { code: '210110', name: 'Paucarcolla' });
-districts.set('210111', { code: '210111', name: 'Pichacani' });
-districts.set('210112', { code: '210112', name: 'Plateria' });
-districts.set('210113', { code: '210113', name: 'San Antonio' });
-districts.set('210114', { code: '210114', name: 'Tiquillaca' });
-districts.set('210115', { code: '210115', name: 'Vilque' });
-// 2102 - Azangaro
-districts.set('210201', { code: '210201', name: 'Azangaro' });
-districts.set('210202', { code: '210202', name: 'Achaya' });
-districts.set('210203', { code: '210203', name: 'Arapa' });
-districts.set('210204', { code: '210204', name: 'Asillo' });
-districts.set('210205', { code: '210205', name: 'Caminaca' });
-districts.set('210206', { code: '210206', name: 'Chupa' });
-districts.set('210207', { code: '210207', name: 'Jose Domingo Choquehuanca' });
-districts.set('210208', { code: '210208', name: 'Muñani' });
-districts.set('210209', { code: '210209', name: 'Potoni' });
-districts.set('210210', { code: '210210', name: 'Saman' });
-districts.set('210211', { code: '210211', name: 'San Anton' });
-districts.set('210212', { code: '210212', name: 'San Jose' });
-districts.set('210213', { code: '210213', name: 'San Juan de Salinas' });
-districts.set('210214', { code: '210214', name: 'Santiago de Pupuja' });
-districts.set('210215', { code: '210215', name: 'Tirapata' });
-// 2103 - Carabaya
-districts.set('210301', { code: '210301', name: 'Macusani' });
-districts.set('210302', { code: '210302', name: 'Ajoyani' });
-districts.set('210303', { code: '210303', name: 'Ayapata' });
-districts.set('210304', { code: '210304', name: 'Coasa' });
-districts.set('210305', { code: '210305', name: 'Corani' });
-districts.set('210306', { code: '210306', name: 'Crucero' });
-districts.set('210307', { code: '210307', name: 'Ituata' });
-districts.set('210308', { code: '210308', name: 'Ollachea' });
-districts.set('210309', { code: '210309', name: 'San Gaban' });
-districts.set('210310', { code: '210310', name: 'Usicayos' });
-// 2104 - Chucuito
-districts.set('210401', { code: '210401', name: 'Juli' });
-districts.set('210402', { code: '210402', name: 'Desaguadero' });
-districts.set('210403', { code: '210403', name: 'Huacullani' });
-districts.set('210404', { code: '210404', name: 'Kelluyo' });
-districts.set('210405', { code: '210405', name: 'Pisacoma' });
-districts.set('210406', { code: '210406', name: 'Pomata' });
-districts.set('210407', { code: '210407', name: 'Zepita' });
-// 2105 - El Collao
-districts.set('210501', { code: '210501', name: 'Ilave' });
-districts.set('210502', { code: '210502', name: 'Capazo' });
-districts.set('210503', { code: '210503', name: 'Pilcuyo' });
-districts.set('210504', { code: '210504', name: 'Santa Rosa' });
-districts.set('210505', { code: '210505', name: 'Conduriri' });
-// 2106 - Huancane
-districts.set('210601', { code: '210601', name: 'Huancane' });
-districts.set('210602', { code: '210602', name: 'Cojata' });
-districts.set('210603', { code: '210603', name: 'Huatasani' });
-districts.set('210604', { code: '210604', name: 'Inchupalla' });
-districts.set('210605', { code: '210605', name: 'Pusi' });
-districts.set('210606', { code: '210606', name: 'Rosaspata' });
-districts.set('210607', { code: '210607', name: 'Taraco' });
-districts.set('210608', { code: '210608', name: 'Vilque Chico' });
-// 2107 - Lampa
-districts.set('210701', { code: '210701', name: 'Lampa' });
-districts.set('210702', { code: '210702', name: 'Cabanilla' });
-districts.set('210703', { code: '210703', name: 'Calapuja' });
-districts.set('210704', { code: '210704', name: 'Nicasio' });
-districts.set('210705', { code: '210705', name: 'Ocuviri' });
-districts.set('210706', { code: '210706', name: 'Palca' });
-districts.set('210707', { code: '210707', name: 'Paratia' });
-districts.set('210708', { code: '210708', name: 'Pucara' });
-districts.set('210709', { code: '210709', name: 'Santa Lucia' });
-districts.set('210710', { code: '210710', name: 'Vilavila' });
-// 2108 - Melgar
-districts.set('210801', { code: '210801', name: 'Ayaviri' });
-districts.set('210802', { code: '210802', name: 'Antauta' });
-districts.set('210803', { code: '210803', name: 'Cupi' });
-districts.set('210804', { code: '210804', name: 'Llalli' });
-districts.set('210805', { code: '210805', name: 'Macari' });
-districts.set('210806', { code: '210806', name: 'Nuñoa' });
-districts.set('210807', { code: '210807', name: 'Orurillo' });
-districts.set('210808', { code: '210808', name: 'Santa Rosa' });
-districts.set('210809', { code: '210809', name: 'Umachiri' });
-// 2109 - Moho
-districts.set('210901', { code: '210901', name: 'Moho' });
-districts.set('210902', { code: '210902', name: 'Conima' });
-districts.set('210903', { code: '210903', name: 'Huayrapata' });
-districts.set('210904', { code: '210904', name: 'Tilali' });
-// 2110 - San Antonio de Putina
-districts.set('211001', { code: '211001', name: 'Putina' });
-districts.set('211002', { code: '211002', name: 'Ananea' });
-districts.set('211003', { code: '211003', name: 'Pedro Vilca Apaza' });
-districts.set('211004', { code: '211004', name: 'Quilcapuncu' });
-districts.set('211005', { code: '211005', name: 'Sina' });
-// 2111 - San Roman
-districts.set('211101', { code: '211101', name: 'Juliaca' });
-districts.set('211102', { code: '211102', name: 'Cabana' });
-districts.set('211103', { code: '211103', name: 'Cabanillas' });
-districts.set('211104', { code: '211104', name: 'Caracoto' });
-// 2112 - Sandia
-districts.set('211201', { code: '211201', name: 'Sandia' });
-districts.set('211202', { code: '211202', name: 'Cuyocuyo' });
-districts.set('211203', { code: '211203', name: 'Limbani' });
-districts.set('211204', { code: '211204', name: 'Patambuco' });
-districts.set('211205', { code: '211205', name: 'Phara' });
-districts.set('211206', { code: '211206', name: 'Quiaca' });
-districts.set('211207', { code: '211207', name: 'San Juan del Oro' });
-districts.set('211208', { code: '211208', name: 'Yanahuaya' });
-districts.set('211209', { code: '211209', name: 'Alto Inambari' });
-districts.set('211210', { code: '211210', name: 'San Pedro de Putina Punco' });
-// 2113 - Yunguyo
-districts.set('211301', { code: '211301', name: 'Yunguyo' });
-districts.set('211302', { code: '211302', name: 'Anapia' });
-districts.set('211303', { code: '211303', name: 'Copani' });
-districts.set('211304', { code: '211304', name: 'Cuturapi' });
-districts.set('211305', { code: '211305', name: 'Ollaraya' });
-districts.set('211306', { code: '211306', name: 'Tinicachi' });
-districts.set('211307', { code: '211307', name: 'Unicachi' });
-// 22 - San Martin
-// 2201 - Moyobamba
-districts.set('220101', { code: '220101', name: 'Moyobamba' });
-districts.set('220102', { code: '220102', name: 'Calzada' });
-districts.set('220103', { code: '220103', name: 'Habana' });
-districts.set('220104', { code: '220104', name: 'Jepelacio' });
-districts.set('220105', { code: '220105', name: 'Soritor' });
-districts.set('220106', { code: '220106', name: 'Yantalo' });
-// 2202 - Bellavista
-districts.set('220201', { code: '220201', name: 'Bellavista' });
-districts.set('220202', { code: '220202', name: 'Alto Biavo' });
-districts.set('220203', { code: '220203', name: 'Bajo Biavo' });
-districts.set('220204', { code: '220204', name: 'Huallaga' });
-districts.set('220205', { code: '220205', name: 'San Pablo' });
-districts.set('220206', { code: '220206', name: 'San Rafael' });
-// 2203 - El Dorado
-districts.set('220301', { code: '220301', name: 'San Jose de Sisa' });
-districts.set('220302', { code: '220302', name: 'Agua Blanca' });
-districts.set('220303', { code: '220303', name: 'San Martin' });
-districts.set('220304', { code: '220304', name: 'Santa Rosa' });
-districts.set('220305', { code: '220305', name: 'Shatoja' });
-// 2204 - Huallaga
-districts.set('220401', { code: '220401', name: 'Saposoa' });
-districts.set('220402', { code: '220402', name: 'Alto Saposoa' });
-districts.set('220403', { code: '220403', name: 'El Eslabon' });
-districts.set('220404', { code: '220404', name: 'Piscoyacu' });
-districts.set('220405', { code: '220405', name: 'Sacanche' });
-districts.set('220406', { code: '220406', name: 'Tingo de Saposoa' });
-// 2205 - Lamas
-districts.set('220501', { code: '220501', name: 'Lamas' });
-districts.set('220502', { code: '220502', name: 'Alonso de Alvarado' });
-districts.set('220503', { code: '220503', name: 'Barranquita' });
-districts.set('220504', { code: '220504', name: 'Caynarachi' });
-districts.set('220505', { code: '220505', name: 'Cuñumbuqui' });
-districts.set('220506', { code: '220506', name: 'Pinto Recodo' });
-districts.set('220507', { code: '220507', name: 'Rumisapa' });
-districts.set('220508', { code: '220508', name: 'San Roque de Cumbaza' });
-districts.set('220509', { code: '220509', name: 'Shanao' });
-districts.set('220510', { code: '220510', name: 'Tabalosos' });
-districts.set('220511', { code: '220511', name: 'Zapatero' });
-// 2206 - Mariscal Caceres
-districts.set('220601', { code: '220601', name: 'Juanjui' });
-districts.set('220602', { code: '220602', name: 'Campanilla' });
-districts.set('220603', { code: '220603', name: 'Huicungo' });
-districts.set('220604', { code: '220604', name: 'Pachiza' });
-districts.set('220605', { code: '220605', name: 'Pajarillo' });
-// 2207 - Picota
-districts.set('220701', { code: '220701', name: 'Picota' });
-districts.set('220702', { code: '220702', name: 'Buenos Aires' });
-districts.set('220703', { code: '220703', name: 'Caspisapa' });
-districts.set('220704', { code: '220704', name: 'Pilluana' });
-districts.set('220705', { code: '220705', name: 'Pucacaca' });
-districts.set('220706', { code: '220706', name: 'San Cristobal' });
-districts.set('220707', { code: '220707', name: 'San Hilarion' });
-districts.set('220708', { code: '220708', name: 'Shamboyacu' });
-districts.set('220709', { code: '220709', name: 'Tingo de Ponasa' });
-districts.set('220710', { code: '220710', name: 'Tres Unidos' });
-// 2208 - Rioja
-districts.set('220801', { code: '220801', name: 'Rioja' });
-districts.set('220802', { code: '220802', name: 'Awajun' });
-districts.set('220803', { code: '220803', name: 'Elias Soplin Vargas' });
-districts.set('220804', { code: '220804', name: 'Nueva Cajamarca' });
-districts.set('220805', { code: '220805', name: 'Pardo Miguel' });
-districts.set('220806', { code: '220806', name: 'Posic' });
-districts.set('220807', { code: '220807', name: 'San Fernando' });
-districts.set('220808', { code: '220808', name: 'Yorongos' });
-districts.set('220809', { code: '220809', name: 'Yuracyacu' });
-// 2209 - San Martin
-districts.set('220901', { code: '220901', name: 'Tarapoto' });
-districts.set('220902', { code: '220902', name: 'Alberto Leveau' });
-districts.set('220903', { code: '220903', name: 'Cacatachi' });
-districts.set('220904', { code: '220904', name: 'Chazuta' });
-districts.set('220905', { code: '220905', name: 'Chipurana' });
-districts.set('220906', { code: '220906', name: 'El Porvenir' });
-districts.set('220907', { code: '220907', name: 'Huimbayoc' });
-districts.set('220908', { code: '220908', name: 'Juan Guerra' });
-districts.set('220909', { code: '220909', name: 'La Banda de Shilcayo' });
-districts.set('220910', { code: '220910', name: 'Morales' });
-districts.set('220911', { code: '220911', name: 'Papaplaya' });
-districts.set('220912', { code: '220912', name: 'San Antonio' });
-districts.set('220913', { code: '220913', name: 'Sauce' });
-districts.set('220914', { code: '220914', name: 'Shapaja' });
-// 2210 - Tocache
-districts.set('221001', { code: '221001', name: 'Tocache' });
-districts.set('221002', { code: '221002', name: 'Nuevo Progreso' });
-districts.set('221003', { code: '221003', name: 'Polvora' });
-districts.set('221004', { code: '221004', name: 'Shunte' });
-districts.set('221005', { code: '221005', name: 'Uchiza' });
-// 23 - Tacna
-// 2301 - Tacna
-districts.set('230101', { code: '230101', name: 'Tacna' });
-districts.set('230102', { code: '230102', name: 'Alto de la Alianza' });
-districts.set('230103', { code: '230103', name: 'Calana' });
-districts.set('230104', { code: '230104', name: 'Ciudad Nueva' });
-districts.set('230105', { code: '230105', name: 'Inclan' });
-districts.set('230106', { code: '230106', name: 'Pachia' });
-districts.set('230107', { code: '230107', name: 'Palca' });
-districts.set('230108', { code: '230108', name: 'Pocollay' });
-districts.set('230109', { code: '230109', name: 'Sama' });
-districts.set('230110', {
-  code: '230110',
-  name: 'Coronel Gregorio Albarracin Lanchipa',
-});
-districts.set('230111', { code: '230111', name: 'La Yarada los Palos' });
-// 2302 - Candarave
-districts.set('230201', { code: '230201', name: 'Candarave' });
-districts.set('230202', { code: '230202', name: 'Cairani' });
-districts.set('230203', { code: '230203', name: 'Camilaca' });
-districts.set('230204', { code: '230204', name: 'Curibaya' });
-districts.set('230205', { code: '230205', name: 'Huanuara' });
-districts.set('230206', { code: '230206', name: 'Quilahuani' });
-// 2303 - Jorge Basadre
-districts.set('230301', { code: '230301', name: 'Locumba' });
-districts.set('230302', { code: '230302', name: 'Ilabaya' });
-districts.set('230303', { code: '230303', name: 'Ite' });
-// 2304 - Tarata
-districts.set('230401', { code: '230401', name: 'Tarata' });
-districts.set('230402', { code: '230402', name: 'Heroes Albarracin' });
-districts.set('230403', { code: '230403', name: 'Estique' });
-districts.set('230404', { code: '230404', name: 'Estique-Pampa' });
-districts.set('230405', { code: '230405', name: 'Sitajara' });
-districts.set('230406', { code: '230406', name: 'Susapaya' });
-districts.set('230407', { code: '230407', name: 'Tarucachi' });
-districts.set('230408', { code: '230408', name: 'Ticaco' });
-// 24 - Tumbes
-// 2401 - Tumbes
-districts.set('240101', { code: '240101', name: 'Tumbes' });
-districts.set('240102', { code: '240102', name: 'Corrales' });
-districts.set('240103', { code: '240103', name: 'La Cruz' });
-districts.set('240104', { code: '240104', name: 'Pampas de Hospital' });
-districts.set('240105', { code: '240105', name: 'San Jacinto' });
-districts.set('240106', { code: '240106', name: 'San Juan de la Virgen' });
-// 2402 - Contralmirante Villar
-districts.set('240201', { code: '240201', name: 'Zorritos' });
-districts.set('240202', { code: '240202', name: 'Casitas' });
-districts.set('240203', { code: '240203', name: 'Canoas de Punta Sal' });
-// 2403 - Zarumilla
-districts.set('240301', { code: '240301', name: 'Zarumilla' });
-districts.set('240302', { code: '240302', name: 'Aguas Verdes' });
-districts.set('240303', { code: '240303', name: 'Matapalo' });
-districts.set('240304', { code: '240304', name: 'Papayal' });
 // 25 - Ucayali
 // 2501 - Coronel Portillo
 districts.set('250101', { code: '250101', name: 'Calleria' });

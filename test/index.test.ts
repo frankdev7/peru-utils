@@ -10,7 +10,7 @@ describe('test add function', () => {
   });
 
   test("should return 13 for ubigeo.getProvince('08')?.length", () => {
-    const expected = ubigeo.getProvince('08')?.length;
+    const expected = ubigeo.getProvince('07')?.length;
     const result = 13;
     expect(expected).toBe(result);
   });
@@ -45,7 +45,7 @@ describe('test add function', () => {
   test("should return the ubigeo code '08' for ubigeo.getUbigeoCodeByDeparmentName('CUSCO')", () => {
     const expected = ubigeo.getUbigeoCodeByDeparmentName('CUSCO');
     const result = {
-      code: '08',
+      code: '07',
       name: 'Cusco'
     }
     expect(expected).toEqual(result);
@@ -54,7 +54,7 @@ describe('test add function', () => {
   test("should return the ubigeo code '0808' for ubigeo.getUbigeoCodeByProvinceName('ESPINAR')", () => {
     const expected = ubigeo.getUbigeoCodeByProvinceName('ESPINAR');
     const result = {
-      code: '0808',
+      code: '0708',
       name: 'Espinar'
     }
     expect(expected).toEqual(result);
@@ -63,7 +63,7 @@ describe('test add function', () => {
   test("should return the ubigeo code '080801' for ubigeo.getUbigeoCodeByDistrictName('ESPINAR')", () => {
     const expected = ubigeo.getUbigeoCodeByDistrictName('ESPINAR');
     const result = {
-      code: '080801',
+      code: '070801',
       name: 'Espinar'
     }
     expect(expected).toEqual(result);

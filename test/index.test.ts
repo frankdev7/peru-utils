@@ -26,4 +26,39 @@ describe('test add function', () => {
     const result = [{ code: '010101', name: 'Chachapoyas' }];
     expect(expected).toEqual(expect.arrayContaining(result));
   });
+
+  test("should return { deparment: 'Amazonas', province: 'Chachapoyas', district: 'Chachapoyas' } for ubigeo.getUbigeoDetails('010101')", () => {
+    const expected = ubigeo.getUbigeoDetails('010101');
+    const result = {
+      deparment: 'Amazonas',
+      province: 'Chachapoyas',
+      district: 'Chachapoyas'
+    }
+    expect(expected).toEqual(result);
+  });
+
+  test("should return undefined for ubigeo.getUbigeoDetails('999999')", () => {
+    const expected = ubigeo.getUbigeoDetails('999999');
+    expect(expected).toEqual(undefined);
+  });
+
+  test("should return the ubigeo code '08' for ubigeo.getUbigeoCodeByDeparmentName('CUSCO')", () => {
+    const expected = ubigeo.getUbigeoCodeByDeparmentName('CUSCO');
+    expect(expected).toEqual('08');
+  });
+
+  test("should return the ubigeo code '0808' for ubigeo.getUbigeoCodeByProvinceName('ESPINAR')", () => {
+    const expected = ubigeo.getUbigeoCodeByProvinceName('ESPINAR');
+    expect(expected).toEqual('0808');
+  });
+
+  test("should return the ubigeo code '080801' for ubigeo.getUbigeoCodeByDistrictName('ESPINAR')", () => {
+    const expected = ubigeo.getUbigeoCodeByDistrictName('ESPINAR');
+    expect(expected).toEqual('080801');
+  });
+
+  test("should return undefined for ubigeo.getUbigeoCodeByDistrictName('MORDOR')", () => {
+    const expected = ubigeo.getUbigeoCodeByDistrictName('MORDOR');
+    expect(expected).toEqual(undefined);
+  });
 });

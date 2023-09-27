@@ -1,3 +1,3 @@
 export * from './departments';
-export * from './district';
-export * from './province';
+export * from './districts';
+export * from './provinces';

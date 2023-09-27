@@ -46,10 +46,13 @@ const findByFullUbigeoCode = (
 
 const findUbigeoCodeByDeparmentName = (
   name: string
-): string | undefined => {
+): IUbigeo | undefined => {
   for (const [code, department] of departments.entries()) {
     if (department.name.toUpperCase() === name.toUpperCase()) {
-      return code;
+      return {
+        code,
+        name: department.name
+      };
     }
   }
   return undefined;
@@ -57,10 +60,13 @@ const findUbigeoCodeByDeparmentName = (
 
 const findUbigeoCodeByProvinceName = (
   name: string
-): string | undefined => {
+): IUbigeo | undefined => {
   for (const [code, province] of provinces.entries()) {
     if (province.name.toUpperCase() === name.toUpperCase()) {
-      return code;
+      return {
+        code,
+        name: province.name
+      };
     }
   }
   return undefined;
@@ -68,10 +74,13 @@ const findUbigeoCodeByProvinceName = (
 
 const findUbigeoCodeByDistrictName = (
   name: string
-): string | undefined => {
+): IUbigeo | undefined => {
   for (const [code, district] of districts.entries()) {
     if (district.name.toUpperCase() === name.toUpperCase()) {
-      return code;
+      return {
+        code,
+        name: district.name
+      };
     }
   }
   return undefined;

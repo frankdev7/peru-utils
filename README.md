@@ -1,17 +1,19 @@
-# PeruUse
+# Peru-Utils 🇵🇪
 
-## Getting Started
+Peru-Utils is a comprehensive npm library designed to simplify and enhance the way you work with Peru's Ubigeo codes
 
 ### Installation
 
-```console
-npm install peruuse --save
+To install this library, you can use the following command:
+
+```bash
+npm install peru-utils --save
 ```
 
 ### Use in **Browser**
 
 ```html
-<script src="https://unpkg.com/peruuse@1.2.0/dist/browser/index.min.js"></script>
+<script src="https://unpkg.com/peru-utils@2.0.0/dist/browser/index.min.js"></script>
 <script>
   console.log(ubigeo.getDepartments());
   console.log(ubigeo.getProvince('01'));
@@ -22,15 +24,15 @@ npm install peruuse --save
 ### Use in **ESM-compatible**
 
 ```js
-import { ubigeo } from 'https://unpkg.com/peruuse@1.2.0/dist/index.mjs';
-import { ubigeo } from 'peruuse';
+import { ubigeo } from 'https://unpkg.com/peru-utils@2.0.0/dist/index.mjs';
+import { ubigeo } from 'peru-utils';
 ```
 
 ### Use in **CommonJS**
 
 ```js
-const ubigeo = require('peruuse').ubigeo;
-const { ubigeo } = require('peruuse');
+const ubigeo = require('peru-utils').ubigeo;
+const { ubigeo } = require('peru-utils');
 ```
 
 ### API
@@ -56,9 +58,60 @@ ubigeo.getProvince(code);
  *@return [{ code: '010101', name: 'Chachapoyas' } ...]
  *------------------------**/
 ubigeo.getDistrict(code);
+
+/**----------------------
+ * Ubigeo Details
+ *@param code string '150101'
+ *@return 
+    { 
+      deparment: 'Lima',
+      province: 'Lima',
+      district: 'Lima'
+    }
+ *------------------------**/
+ubigeo.getUbigeoDetails(code);
+
+/**----------------------
+ * Ubigeo code by Department name
+ *@param deparment string 'Lima'
+ *@return
+  {
+    code: '01',
+    name: 'Lima'
+  }
+ *------------------------**/
+ubigeo.getUbigeoCodeByDeparmentName(deparment);
+
+/**----------------------
+ * Ubigeo code by Province name
+ *@param province string 'Lima'
+ *@return
+  {
+    code: '1501',
+    name: 'Lima'
+  }
+ *------------------------**/
+ubigeo.getUbigeoCodeByProvinceName(province);
+
+/**----------------------
+ * Ubigeo code by District name
+ *@param district string 'Lima'
+ *@return
+  {
+    code: '150101',
+    name: 'Lima'
+  }
+ *------------------------**/
+ubigeo.getUbigeoCodeByDistrictName(district);
+
 ```
 
-### ROADMAP
+## Contributing
 
-- [ ] List departments and include provinces
-- [ ] List provinces and include their districts
+Contributions to this project are welcome. Please open an issue or pull request on GitHub.
+
+## License
+
+This project is licensed under the ISC license.
+
+This library is inspired by [ediaz2's peruuse](https://github.com/ediaz2/peruuse#readme)".

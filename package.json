@@ -1,6 +1,6 @@
 {
   "name": "peruuse",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Library Peru utils",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,19 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ediaz2/peruuse.git"
+    "url": "git+https://github.com/frankdev7/peru-utils.git"
   },
   "keywords": [
     "peru",
     "ubigeo",
-    "reniec"
+    "reniec",
+    "geolocation",
+    "deparment",
+    "province",
+    "district",
+    "coordinate"
   ],
-  "author": "Eduardo Diaz",
+  "author": "Franklyn Ccahuana Rojas",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ediaz2/peruuse/issues"
-  },
-  "homepage": "https://github.com/ediaz2/peruuse#readme",
+  "homepage": "https://github.com/frankdev7/peru-utils#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",

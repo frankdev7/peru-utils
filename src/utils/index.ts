@@ -45,10 +45,10 @@ const findByFullUbigeoCode = (
 }
 
 const findUbigeoCodeByDeparmentName = (
-  name: string
+  departmentName: string
 ): IUbigeo | undefined => {
   for (const [code, department] of departments.entries()) {
-    if (department.name.toUpperCase() === name.toUpperCase()) {
+    if (department.name.toUpperCase() === departmentName.toUpperCase()) {
       return {
         code,
         name: department.name
@@ -59,30 +59,43 @@ const findUbigeoCodeByDeparmentName = (
 }
 
 const findUbigeoCodeByProvinceName = (
-  name: string
+  departmentName: string,
+  provinceName: string
 ): IUbigeo | undefined => {
-  for (const [code, province] of provinces.entries()) {
-    if (province.name.toUpperCase() === name.toUpperCase()) {
-      return {
-        code,
-        name: province.name
-      };
+  const department = findUbigeoCodeByDeparmentName(departmentName);
+
+  if (department) {
+    for (const [code, province] of provinces.entries()) {
+      if (province.name.toUpperCase() === provinceName.toUpperCase() && code.includes(department.code)) {
+        return {
+          code,
+          name: province.name
+        };
+      }
     }
   }
+
   return undefined;
 }
 
 const findUbigeoCodeByDistrictName = (
-  name: string
+  departmentName: string,
+  provinceName: string,
+  districtName: string
 ): IUbigeo | undefined => {
-  for (const [code, district] of districts.entries()) {
-    if (district.name.toUpperCase() === name.toUpperCase()) {
-      return {
-        code,
-        name: district.name
-      };
+  const province = findUbigeoCodeByProvinceName(departmentName, provinceName);
+
+  if (province) {
+    for (const [code, district] of districts.entries()) {
+      if (district.name.toUpperCase() === districtName.toUpperCase() && code.includes(province.code)) {
+        return {
+          code,
+          name: district.name
+        };
+      }
     }
   }
+
   return undefined;
 }
 

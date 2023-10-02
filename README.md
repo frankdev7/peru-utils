@@ -84,25 +84,28 @@ ubigeo.getUbigeoCodeByDeparmentName(deparment);
 
 /**----------------------
  * Ubigeo code by Province name
- *@param province string 'Lima'
+ *@param deparment string 'ICA'
+ *@param province string 'PISCO'
  *@return
   {
-    code: '1501',
-    name: 'Lima'
+    code: '1005',
+    name: 'PISCO'
   }
  *------------------------**/
-ubigeo.getUbigeoCodeByProvinceName(province);
+ubigeo.getUbigeoCodeByProvinceName(deparment, province);
 
 /**----------------------
  * Ubigeo code by District name
- *@param district string 'Lima'
+ *@param deparment string 'ICA'
+ *@param province string 'PISCO'
+ *@param district string 'INDEPENDENCIA'
  *@return
   {
-    code: '150101',
-    name: 'Lima'
+    code: '100504',
+    name: 'Independencia'
   }
  *------------------------**/
-ubigeo.getUbigeoCodeByDistrictName(district);
+ubigeo.getUbigeoCodeByDistrictName(deparment, province, district);
 
 ```
 

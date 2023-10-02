@@ -18,15 +18,15 @@ export const ubigeo = {
     return findByFullUbigeoCode(code);
   },
 
-  getUbigeoCodeByDeparmentName(name: string) {
-    return findUbigeoCodeByDeparmentName(name);
+  getUbigeoCodeByDeparmentName(departmentName: string) {
+    return findUbigeoCodeByDeparmentName(departmentName);
   },
 
-  getUbigeoCodeByProvinceName(name: string) {
-    return findUbigeoCodeByProvinceName(name);
+  getUbigeoCodeByProvinceName(departmentName: string, provinceName: string) {
+    return findUbigeoCodeByProvinceName(departmentName, provinceName);
   },
 
-  getUbigeoCodeByDistrictName(name: string) {
-    return findUbigeoCodeByDistrictName(name);
+  getUbigeoCodeByDistrictName(departmentName: string, provinceName: string, districtName: string) {
+    return findUbigeoCodeByDistrictName(departmentName, provinceName, districtName);
   },
 };

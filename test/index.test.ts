@@ -52,7 +52,7 @@ describe('test add function', () => {
   });
 
   test("should return the ubigeo code '0808' for ubigeo.getUbigeoCodeByProvinceName('ESPINAR')", () => {
-    const expected = ubigeo.getUbigeoCodeByProvinceName('ESPINAR');
+    const expected = ubigeo.getUbigeoCodeByProvinceName('CUSCO', 'ESPINAR');
     const result = {
       code: '0708',
       name: 'Espinar'
@@ -61,16 +61,16 @@ describe('test add function', () => {
   });
 
   test("should return the ubigeo code '080801' for ubigeo.getUbigeoCodeByDistrictName('ESPINAR')", () => {
-    const expected = ubigeo.getUbigeoCodeByDistrictName('ESPINAR');
+    const expected = ubigeo.getUbigeoCodeByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA');
     const result = {
-      code: '070801',
-      name: 'Espinar'
+      code: '100504',
+      name: 'Independencia'
     }
     expect(expected).toEqual(result);
   });
 
   test("should return undefined for ubigeo.getUbigeoCodeByDistrictName('MORDOR')", () => {
-    const expected = ubigeo.getUbigeoCodeByDistrictName('MORDOR');
+    const expected = ubigeo.getUbigeoCodeByDistrictName('MORDOR', 'MORDOR', 'MORDOR');
     expect(expected).toEqual(undefined);
   });
 });

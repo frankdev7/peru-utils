@@ -1,4 +1,4 @@
-import { IUbigeo, IUbigeoDetails } from '../@types';
+import { IUbigeo, IUbigeoDetails, IUbigeoFullDetails } from '../@types';
 import { departments, districts, provinces } from '../data';
 
 const findByCode = (
@@ -18,29 +18,60 @@ const findByCode = (
   return arr;
 };
 
-const findByFullUbigeoCode = (
+const findDetailsByUbigeoCode = (
   code: string
 ): IUbigeoDetails | undefined => {
   if (code.length !== 6) {
     return undefined;
   }
 
-  const deparmentCode = code.substring(0, 2);
+  const departmentCode = code.substring(0, 2);
   const provinceCode = code.substring(0, 4);
   const districtCode = code;
 
-  const deparment = departments.get(deparmentCode);
+  const department = departments.get(departmentCode);
   const province = provinces.get(provinceCode);
   const district = districts.get(districtCode);
 
-  if (!deparment || !province || !district) {
+  if (!department || !province || !district) {
     return undefined;
   }
 
   return {
-    deparment: deparment.name,
+    code: district.code,
+    department: department.name,
     province: province.name,
-    district: district.name
+    district: district.name,
+  }
+}
+
+const findFullDetailsByUbigeoCode = (
+  code: string
+): IUbigeoFullDetails | undefined => {
+  if (code.length !== 6) {
+    return undefined;
+  }
+
+  const departmentCode = code.substring(0, 2);
+  const provinceCode = code.substring(0, 4);
+  const districtCode = code;
+
+  const department = departments.get(departmentCode);
+  const province = provinces.get(provinceCode);
+  const district = districts.get(districtCode);
+
+  if (!department || !province || !district) {
+    return undefined;
+  }
+
+  return {
+    code: district.code,
+    department: department.name,
+    province: province.name,
+    district: district.name,
+    surfaceArea: district.surfaceArea,
+    latitude: district.latitude,
+    longitude: district.longitude
   }
 }
 
@@ -99,4 +130,31 @@ const findUbigeoCodeByDistrictName = (
   return undefined;
 }
 
-export { findByCode, findByFullUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName };
+const findUbigeoFullDetailsByDistrictName = (
+  departmentName: string,
+  provinceName: string,
+  districtName: string
+): IUbigeoFullDetails | undefined => {
+  const department = findUbigeoCodeByDeparmentName(departmentName);
+  const province = findUbigeoCodeByProvinceName(departmentName, provinceName);
+
+  if (department && province) {
+    for (const [code, district] of districts.entries()) {
+      if (district.name.toUpperCase() === districtName.toUpperCase() && code.includes(province.code)) {
+        return {
+          code,
+          department: department.name,
+          province: province.name,
+          district: district.name,
+          surfaceArea: district.surfaceArea,
+          latitude: district.latitude,
+          longitude: district.longitude
+        };
+      }
+    }
+  }
+
+  return undefined;
+}
+
+export { findByCode, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName };

@@ -4,7 +4,20 @@ export interface IUbigeo {
 }
 
 export interface IUbigeoDetails {
-  deparment: string;
+  code: string;
+  department: string;
   province: string;
   district: string;
+}
+
+export interface IUbigeoFullDetails extends IUbigeoDetails {
+  surfaceArea: string;
+  latitude: string;
+  longitude: string;
+}
+
+export interface IUbigeoFullDetailsData extends IUbigeo {
+  surfaceArea: string;
+  latitude: string;
+  longitude: string;
 }

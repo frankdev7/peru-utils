@@ -15,24 +15,24 @@ npm install peru-utils --save
 ```html
 <script src="https://unpkg.com/peru-utils@2.0.0/dist/browser/index.min.js"></script>
 <script>
-  console.log(ubigeo.getDepartments());
-  console.log(ubigeo.getProvince('01'));
-  console.log(ubigeo.getDistrict('0101'));
+  console.log(ubigeoINEI.getDepartments());
+  console.log(ubigeoINEI.getProvince('01'));
+  console.log(ubigeoINEI.getDistrict('0101'));
 </script>
 ```
 
 ### Use in **ESM-compatible**
 
 ```js
-import { ubigeo } from 'https://unpkg.com/peru-utils@2.0.0/dist/index.mjs';
-import { ubigeo } from 'peru-utils';
+import { ubigeoINEI } from 'https://unpkg.com/peru-utils@2.0.0/dist/index.mjs';
+import { ubigeoINEI } from 'peru-utils';
 ```
 
 ### Use in **CommonJS**
 
 ```js
-const ubigeo = require('peru-utils').ubigeo;
-const { ubigeo } = require('peru-utils');
+const ubigeoINEI = require('peru-utils').ubigeoINEI;
+const { ubigeoINEI } = require('peru-utils');
 ```
 
 ### API
@@ -42,7 +42,7 @@ const { ubigeo } = require('peru-utils');
  * Array of departments
  *@return [{ code: '01', name: 'Amazonas' } ...]
  *------------------------**/
-ubigeo.getDepartments();
+ubigeoINEI.getDepartments();
 
 /**----------------------
  * Array of provinces by code.department
@@ -50,41 +50,60 @@ ubigeo.getDepartments();
  *@return [{ code: '0101', name: 'Chachapoyas' } ...]
  *------------------------**/
 
-ubigeo.getProvince(code);
+ubigeoINEI.getProvince(code);
 
 /**----------------------
  * Array of districts by code.province
  *@param code string
  *@return [{ code: '010101', name: 'Chachapoyas' } ...]
  *------------------------**/
-ubigeo.getDistrict(code);
+ubigeoINEI.getDistrict(code);
 
 /**----------------------
  * Ubigeo Details
  *@param code string '150101'
  *@return 
     { 
-      deparment: 'Lima',
+      code: '150101',
+      department: 'Lima',
       province: 'Lima',
       district: 'Lima'
     }
  *------------------------**/
-ubigeo.getUbigeoDetails(code);
+ubigeoINEI.getUbigeoDetails(code);
+
+/**----------------------
+ * Ubigeo code by District name
+ *@param department string 'ICA'
+ *@param province string 'PISCO'
+ *@param district string 'INDEPENDENCIA'
+ *@return
+  {
+    code: '110504',
+    department: 'Ica',
+    province: 'Pisco',
+    district: 'Independencia',
+    surfaceArea: '272.34',
+    latitude: '-13.6939',
+    longitude: '-76.0256'
+  }
+ *------------------------**/
+ubigeoINEI.getUbigeoFullDetailsByDistrictName(department, province, district);
 
 /**----------------------
  * Ubigeo code by Department name
- *@param deparment string 'Lima'
+ *@param department string 'Lima'
  *@return
   {
     code: '01',
     name: 'Lima'
   }
  *------------------------**/
-ubigeo.getUbigeoCodeByDeparmentName(deparment);
+ubigeoINEI.getUbigeoCodeByDeparmentName(department);
 
 /**----------------------
  * Ubigeo code by Province name
- *@param deparment string 'ICA'
+ *@param department string 'ICA'
  *@param province string 'PISCO'
  *@return
   {
@@ -92,11 +111,11 @@ ubigeo.getUbigeoCodeByDeparmentName(deparment);
     name: 'PISCO'
   }
  *------------------------**/
-ubigeo.getUbigeoCodeByProvinceName(deparment, province);
+ubigeoINEI.getUbigeoCodeByProvinceName(department, province);
 
 /**----------------------
  * Ubigeo code by District name
- *@param deparment string 'ICA'
+ *@param department string 'ICA'
  *@param province string 'PISCO'
  *@param district string 'INDEPENDENCIA'
  *@return
@@ -105,7 +124,7 @@ ubigeo.getUbigeoCodeByProvinceName(deparment, province);
     name: 'Independencia'
   }
  *------------------------**/
-ubigeo.getUbigeoCodeByDistrictName(deparment, province, district);
+ubigeoINEI.getUbigeoCodeByDistrictName(department, province, district);
 
 ```
 

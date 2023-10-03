@@ -1,36 +1,31 @@
 import { describe, expect, test } from 'vitest';
 
-import { ubigeo } from '../dist';
+import { ubigeoINEI } from '../dist';
 
-describe('test add function', () => {
+describe('test functions for ubigeoINEI', () => {
   test('should return 25 for ubigeo.getDepartments().length', () => {
-    const expected = ubigeo.getDepartments().length;
+    const expected = ubigeoINEI.getDepartments().length;
     const result = 25;
     expect(expected).toBe(result);
   });
 
   test("should return 13 for ubigeo.getProvince('08')?.length", () => {
-    const expected = ubigeo.getProvince('07')?.length;
+    const expected = ubigeoINEI.getProvince('08')?.length;
     const result = 13;
     expect(expected).toBe(result);
   });
 
   test("should return 21 for ubigeo.getProvince('01')?.length", () => {
-    const expected = ubigeo.getDistrict('0101')?.length;
+    const expected = ubigeoINEI.getDistrict('0101')?.length;
     const result = 21;
     expect(expected).toBe(result);
   });
 
-  test("should include [{ code: '010101', name: 'Chachapoyas' }] for ubigeo.getProvince('0101')", () => {
-    const expected = ubigeo.getDistrict('0101');
-    const result = [{ code: '010101', name: 'Chachapoyas' }];
-    expect(expected).toEqual(expect.arrayContaining(result));
-  });
-
-  test("should return { deparment: 'Amazonas', province: 'Chachapoyas', district: 'Chachapoyas' } for ubigeo.getUbigeoDetails('010101')", () => {
-    const expected = ubigeo.getUbigeoDetails('010101');
+  test("should return { department: 'Amazonas', province: 'Chachapoyas', district: 'Chachapoyas' } for ubigeo.getUbigeoDetails('010101')", () => {
+    const expected = ubigeoINEI.getUbigeoDetails('010101');
     const result = {
-      deparment: 'Amazonas',
+      code: '010101',
+      department: 'Amazonas',
       province: 'Chachapoyas',
       district: 'Chachapoyas'
     }
@@ -38,39 +33,53 @@ describe('test add function', () => {
   });
 
   test("should return undefined for ubigeo.getUbigeoDetails('999999')", () => {
-    const expected = ubigeo.getUbigeoDetails('999999');
+    const expected = ubigeoINEI.getUbigeoDetails('999999');
     expect(expected).toEqual(undefined);
   });
 
   test("should return the ubigeo code '08' for ubigeo.getUbigeoCodeByDeparmentName('CUSCO')", () => {
-    const expected = ubigeo.getUbigeoCodeByDeparmentName('CUSCO');
+    const expected = ubigeoINEI.getUbigeoCodeByDeparmentName('CUSCO');
     const result = {
-      code: '07',
+      code: '08',
       name: 'Cusco'
     }
     expect(expected).toEqual(result);
   });
 
   test("should return the ubigeo code '0808' for ubigeo.getUbigeoCodeByProvinceName('ESPINAR')", () => {
-    const expected = ubigeo.getUbigeoCodeByProvinceName('CUSCO', 'ESPINAR');
+    const expected = ubigeoINEI.getUbigeoCodeByProvinceName('CUSCO', 'ESPINAR');
     const result = {
-      code: '0708',
+      code: '0808',
       name: 'Espinar'
     }
     expect(expected).toEqual(result);
   });
 
-  test("should return the ubigeo code '080801' for ubigeo.getUbigeoCodeByDistrictName('ESPINAR')", () => {
-    const expected = ubigeo.getUbigeoCodeByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA');
+  test("should return the ubigeo code '080801' for ubigeo.getUbigeoCodeByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA')", () => {
+    const expected = ubigeoINEI.getUbigeoCodeByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA');
     const result = {
-      code: '100504',
+      code: '110504',
       name: 'Independencia'
     }
     expect(expected).toEqual(result);
   });
 
+  test("should return the ubigeo details for ubigeo.getUbigeoCodeByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA')", () => {
+    const expected = ubigeoINEI.getUbigeoFullDetailsByDistrictName('ICA', 'PISCO', 'INDEPENDENCIA');
+    const result = {
+      code: '110504',
+      department: 'Ica',
+      province: 'Pisco',
+      district: 'Independencia',
+      surfaceArea: '272.34',
+      latitude: '-13.6939',
+      longitude: '-76.0256'
+    }
+    expect(expected).toEqual(result);
+  });
+
   test("should return undefined for ubigeo.getUbigeoCodeByDistrictName('MORDOR')", () => {
-    const expected = ubigeo.getUbigeoCodeByDistrictName('MORDOR', 'MORDOR', 'MORDOR');
+    const expected = ubigeoINEI.getUbigeoCodeByDistrictName('MORDOR', 'MORDOR', 'MORDOR');
     expect(expected).toEqual(undefined);
   });
 });

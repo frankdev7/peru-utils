@@ -1,5 +1,14 @@
-import { IUbigeo, IUbigeoDetails, IUbigeoFullDetails } from '../@types';
-import { departments, districts, provinces } from '../data';
+import { IdUbigeo, IUbigeo, IUbigeoDetails, IUbigeoFullDetails } from '../@types';
+import { departments, districts, provinces, ubigeos } from '../data';
+
+const findById = (
+  id: string
+): IdUbigeo | undefined => {
+  if (ubigeos.has(id)) {
+    return ubigeos.get(id);
+  }
+  return undefined;
+};
 
 const findByCode = (
   code: string,
@@ -157,4 +166,4 @@ const findUbigeoFullDetailsByDistrictName = (
   return undefined;
 }
 
-export { findByCode, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName };
+export { findByCode, findById, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName };

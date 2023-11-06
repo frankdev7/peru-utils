@@ -1,6 +1,18 @@
 import { describe, expect, test } from 'vitest';
 
-import { ubigeoINEI } from '../dist';
+import { ubigeo, ubigeoINEI } from '../dist';
+
+describe('test functions for ubigeo', () => {
+  test('should return inei ubigeo by id using ubigeo.findByIdUbigeo()', () => {
+    const expected = ubigeo.findByIdUbigeo('1');
+    const result = {
+      id: '1',
+      inei: '010101',
+      reniec: '010101',
+    };
+    expect(expected).toEqual(result);
+  });
+});
 
 describe('test functions for ubigeoINEI', () => {
   test('should return 25 for ubigeo.getDepartments().length', () => {

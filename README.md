@@ -25,19 +25,31 @@ npm install peru-utils --save
 
 ```js
 import { ubigeoINEI } from 'https://unpkg.com/peru-utils@2.0.0/dist/index.mjs';
-import { ubigeoINEI } from 'peru-utils';
+import { ubigeo, ubigeoINEI } from 'peru-utils';
 ```
 
 ### Use in **CommonJS**
 
 ```js
 const ubigeoINEI = require('peru-utils').ubigeoINEI;
-const { ubigeoINEI } = require('peru-utils');
+const { ubigeo, ubigeoINEI } = require('peru-utils');
 ```
 
 ### API
 
 ```js
+/**----------------------
+ * Ubigeo code by ID
+ *@param code string '1'
+ *@return 
+    { 
+      id: '1',
+      inei: '010101',
+      reniec: '010101',
+    }
+ *------------------------**/
+ubigeo.findByIdUbigeo(code);
+
 /**----------------------
  * Array of departments
  *@return [{ code: '01', name: 'Amazonas' } ...]

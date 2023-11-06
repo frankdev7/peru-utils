@@ -1,7 +1,8 @@
 import { departments, districts, provinces } from './data';
-import { findByCode, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName } from './utils';
+import { findByCode, findById, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName } from './utils';
 
 export const ubigeoINEI = {
+
   getDepartments() {
     return [...departments.values()];
   },
@@ -38,3 +39,9 @@ export const ubigeoINEI = {
     return findUbigeoFullDetailsByDistrictName(departmentName, provinceName, districtName);
   },
 };
+
+export const ubigeo = {
+  findByIdUbigeo(id: string) {
+    return findById(id);
+  },
+}

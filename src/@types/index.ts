@@ -21,3 +21,9 @@ export interface IUbigeoFullDetailsData extends IUbigeo {
   latitude: string;
   longitude: string;
 }
+
+export interface IdUbigeo {
+  id: string;
+  reniec: string;
+  inei: string;
+}

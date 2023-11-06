@@ -1,5 +1,9 @@
 import { departments, districts, provinces } from './data';
-import { findByCode, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName } from './utils';
+import { findByCode, findById, findDetailsByUbigeoCode, findFullDetailsByUbigeoCode, findUbigeoCodeByDeparmentName, findUbigeoCodeByDistrictName, findUbigeoCodeByProvinceName, findUbigeoFullDetailsByDistrictName } from './utils';
+
+export const findByIdUbigeo = (id: string) => {
+  return findById(id);
+}
 
 export const getDepartments = () => {
   return [...departments.values()];
